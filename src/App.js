@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, useNavigate } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { AboutMe } from "./pages/AboutMe"
 import { Project } from "./pages/Project"
@@ -7,6 +7,8 @@ import Footer from "./components/Footer"
 
 function App() {
   
+const navigate = useNavigate();
+
   return (
   <>
   <Header />

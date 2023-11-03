@@ -10,7 +10,6 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       {/* <BrowserRouter> */}
-
       <App />
       {/* </BrowserRouter> */}
     </HashRouter>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useMediaQuery } from "@mui/material";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,6 +18,8 @@ function Header() {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const isSmallScreen = useMediaQuery("(max-width:600px)");
+
+  const navigate = useNavigate();
 
   const menuItems = [
     {
@@ -97,7 +99,7 @@ function Header() {
         <ul>
           {menuItems.map((items, index) => (
             <li key={index} className="menuItem">
-              <Link to={items.href} >{items.title}</Link>
+              <Link to={navigate(items.href)} >{items.title}</Link>
             </li>
           ))}
           <li className="menuItemPortfolio"  onClick={scroll}>
@@ -109,8 +111,6 @@ function Header() {
         {isSmallScreen ? null : <Modal/>} 
 
         {/*         RESPONSIVE          */}
-
-        {/* <button className="contactButtonResponsive">CONTACT ME</button> */}
 
         {isSmallScreen && <Modal/>} 
 

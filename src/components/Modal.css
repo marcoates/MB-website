@@ -294,6 +294,18 @@
         gap: 15px;
         padding: 25px;
         align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
     }
 
+    .bodySendMsg {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bodySendMsg p{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

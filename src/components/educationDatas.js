@@ -341,7 +341,7 @@ export const educationDatas = [
       />
     ),
     date: "As soon as possible",
-    location: "Undefined",
+    location: "🔒",
     institute: "",
     // tools: [
     //   <img
@@ -375,8 +375,8 @@ export const educationDatas = [
     //     src={require("../assets/Git-logo.svg").default}
     //   ></img>,
     // ],
-    graphicTools: ["HTML", "CSS"],
-    codingTools: ["HTML", "CSS"],
+    graphicTools: ["🔒"],
+    codingTools: ["🔒"],
     content: [
       "From my early days, I’ve been on a quest for knowledge and creativity.",
       <br key={0} />,
@@ -406,7 +406,7 @@ export const educationDatas = [
       />
     ),
     date: "As soon as possible",
-    location: "Undefined",
+    location: "🔒",
     institute: "",
     // tools: [
     //   <img
@@ -440,8 +440,8 @@ export const educationDatas = [
     //     src={require("../assets/Git-logo.svg").default}
     //   ></img>,
     // ],
-    graphicTools: ["HTML", "CSS"],
-    codingTools: ["HTML", "CSS"],
+    graphicTools: ["🔒"],
+    codingTools: ["🔒"],
     content: [
       "Embarking on my educational journey from the canvas of childhood dreams, I've woven a tapestry of curiosity and innovation.",
       <br key={0} />,

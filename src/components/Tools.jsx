@@ -92,7 +92,7 @@ function Tools() {
       <div className="AboutMeSkillsAndTools-BoxTitle2-Wrapper">
     {isSmallScreen && <img alt="character" className="AboutMeSkillsAndTools-BoxTitle1-Img" src={require("../assets/Education-Icon_5.svg").default}></img>}
         <p className="AboutMeSkillsAndTools-BoxTitle2">CODING TOOLS</p>
-        {isSmallScreen ? null : <img alt="character" className="AboutMeSkillsAndTools-BoxTitle1-Img" src={require("../assets/Education-Icon_5.svg").default}></img>}
+        {isSmallScreen ? null : <img alt="character" className="AboutMeSkillsAndTools-BoxTitle1-Img" src={require("../assets/Education-Icon_6.svg").default}></img>}
       </div>
         <ul className="AboutMeSkillsAndTools-BoxList">
           {codingTools.map((item, index) => (

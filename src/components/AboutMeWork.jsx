@@ -215,6 +215,7 @@ function AboutMeWork() {
                           : "AboutMeWorkitemTitle AboutMeWorkitemTitle" + index
                       }
                     >
+                    <div className="AboutMeLogoTitleWrapper">
                       <div className="CompanyLogosContainer">
                         <img
                           alt="work-logo-img"
@@ -225,8 +226,9 @@ function AboutMeWork() {
                       <div className="AboutMeWorkitemTitleTextsContainer">
                         <p className="AboutMeWorkitemTitleText">{item.title}</p>
                       </div>
+                    </div>
                       <div className="AboutMeWorkopenCloseIconContainer">
-                        {item.position === undefined ? null : (
+                        {item.position === "" ? null : (
                           <p className="position">{item.position}</p>
                         )}
                         <ArrowBackIosIcon
@@ -360,10 +362,11 @@ function AboutMeWork() {
                   >
                     <div className="AboutMeWorkopenCloseIconContainer">
                       <ArrowBackIosIcon fontSize="1rem" />
-                      {item.position === undefined ? null : (
+                      {item.position === "" ? null : (
                         <p className="position">{item.position}</p>
                       )}
                     </div>
+                    <div className="AboutMeLogoTitleWrapper">
                     <p className="AboutMeWorkitemTitleText">{item.title}</p>
                     <div className="CompanyLogosContainer">
                       <img
@@ -371,6 +374,7 @@ function AboutMeWork() {
                         className="AboutMeWorkitemTitleIcon"
                         src={item.icon}
                       />
+                    </div>
                     </div>
                   </div>
                 </motion.li>

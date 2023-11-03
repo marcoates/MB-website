@@ -31,6 +31,14 @@
     position: relative;
 }
 
+.AboutMeLogoTitleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    gap: 15px;
+}
+
 .AboutMeWorkitemTitle {
     width: 100%;
     padding: 15px 20px;
@@ -120,7 +128,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     font-weight: 300;
 }
 

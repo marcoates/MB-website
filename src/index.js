@@ -7,7 +7,7 @@ import "./styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <BrowserRouter basename={"/MB-website"}>
+      <BrowserRouter basename={"http://marcoates.github.io/MB-website"}>
       <App />
       </BrowserRouter>
   </React.StrictMode>

@@ -1,0 +1,54 @@
+/* Intro Slide */
+
+.introContainer {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    margin: 0px 25px 50px 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.intro img{
+    width: 300px;
+}
+
+.intro h1{
+    font-size: 12em;
+    text-shadow: .05em .05em var(--lightRed);
+    color: var(--gray);
+    font-weight: 900;
+}
+
+.intro h2{
+    text-shadow: .05em .05em var(--lightRed);
+    font-size: 3em;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+/* Intro Slide [[[[[[[[[[Responsive]]]]]]]]]] */
+
+@media only screen and (max-width: 1000px) {
+
+    .intro {
+        margin: 0px 25px 50px 25px;
+        text-align: center;
+        gap: 7%;
+    }
+
+    .intro h1 {
+        font-size: 8em;
+    }
+
+    .intro img {
+        width: 175px;
+    }
+
+}

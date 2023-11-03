@@ -1,0 +1,123 @@
+.LanguagesContainer {
+    background-image: linear-gradient(to bottom, #3c3c3c, #252525);
+    padding: 50px 100px;
+    display: flex;
+    box-shadow: 0 15px 35px var(--lightGray);
+}
+
+.LanguagesTitle {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 3px 3px rgba(255, 0, 0, 0.237);
+}
+
+.LanguagesTitle:active {
+    color: white;
+}
+
+.LanguagesList {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.LanguagesItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.LanguageIcon {
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid var(--lightRed);
+    box-shadow: 0px 5px 10px var(--gray);
+}
+
+.LanguageName {
+    font-weight: 500;
+    color: var(--lightRed);
+    font-size: 2rem;
+}
+
+.LanguageContent {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    color: var(--gray);
+    box-shadow: 0px 5px 10px var(--gray);
+}
+
+.LanguageScore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrowRight {
+    display: none;
+}
+
+.arrowLeft {
+display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+.LanguagesItem2 {
+    display: none;
+}
+
+.LanguagesItem3 {
+    display: none;
+}
+
+.arrowRight {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 50px;  
+    z-index: 1;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff4e;
+}
+
+.arrowLeft {
+    rotate: 180deg;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center; 
+    align-items: center;
+    background-color: #ffffff4e;
+}
+
+.LanguagesContainer{
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
+.LanguagesTitle {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+  
+  }

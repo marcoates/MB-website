@@ -1,0 +1,261 @@
+/* InstagramFeed */
+
+.redBox {
+    position: relative;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    background-image: radial-gradient(circle at center center, #000000, #790000), repeating-radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
+
+/* .magicianContainer {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle at center center, #00000059, #00f7ff52 ), radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.magician {
+    width: 100px;
+} */
+
+.halfBox1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}   
+
+.halfBox1 h1 {
+    padding: 5px 10px;
+    font-size: 5rem;
+    border-radius: 5px;
+    color: #00f7ff;
+
+}
+
+.InstagramFeedDescription {
+    color: white ;
+    padding: 25px 25px;
+    /* border: 1px solid #00f7ffad; */
+    background-color: #00f7ff3d;
+    border-radius: 5px;
+}
+
+.halfBox1 p:active {
+    color: white;
+}
+
+.halfBox1 p a{
+    color: #00f7ff;
+}
+
+.halfBox1 p a:hover{
+    color: var(--red);
+}
+
+.druidContainer {
+    text-align: left;
+    line-height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.druidContainer img {
+    width: 100px;
+}
+
+.druidContainer img svg {
+    filter: drop-shadow(3px 5px 2px rgba(255, 255, 255, 0.4));
+}
+
+.halfBox2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 1px solid #00f7ffad; */
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0px 5px 50px #000000;
+    position: relative;
+}
+
+.slideShown {
+    display: block;
+}
+
+.slideHidden {
+    display: none;
+}
+
+.SlideshowArrowLeft {
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    padding: 10px;
+    background-color: black; 
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 180deg;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+
+.SlideshowArrowLeft:hover  .SlideShowIcon{
+    color: var(--gray);
+}
+
+.SlideshowArrowLeft:hover {
+    background-color: #00f7ff; 
+}
+
+.SlideshowArrowLeft:active {
+    background-color: var(--red);
+    color: white;
+    scale: 0.9;
+}
+
+
+.SlideshowArrowLeft:active  .SlideShowIcon{
+    color: white;
+    scale: 0.9;
+}
+
+.SlideshowArrowRight {
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    padding: 10px;
+    background-color: black; 
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+.SlideshowArrowRight:hover {
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    padding: 10px;
+    background-color: #00f7ff;   
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SlideshowArrowRight:hover  .SlideShowIcon{
+    color: var(--gray);
+}
+
+
+.SlideshowArrowRight:active {
+    background-color: var(--red);
+    color: white;
+    scale: 0.9;
+}
+
+.SlideshowArrowRight:active  .SlideShowIcon{
+    color: white;
+    scale: 0.9;
+}
+
+.SlideShowIcon {
+    color: white;
+    transition: 0.3s;
+}
+
+.slideShowImgContainer {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.slideShowImgContainer img {
+    width: 100%;
+    border-radius: 15px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.seeItonIG {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeItonIGIcon {
+    color: var(--red);
+    rotate: 270deg;
+}
+
+/* InstagramFeed [[[[[[[[[[Responsive]]]]]]]]]] */
+
+@media only screen and (max-width: 1250px) {
+    .redBox {
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .redBox {
+        padding: 50px 25px 50px 25px;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 0px;
+    }
+
+    .halfBox1 h1 {
+        padding: 5px 10px;
+        font-size: 4rem;
+        border-radius: 5px;
+        color: #00f7ff;
+    }
+
+    .druidContainer img {
+        width: 100px;
+    }
+
+    .halfBox1 {
+        gap: 50px;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .halfBox2{
+        width: 100%;
+    }
+
+    .magicianContainer {
+        bottom: 25px;
+        right: 25px;
+    }
+}

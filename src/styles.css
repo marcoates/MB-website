@@ -1,0 +1,142 @@
+/* ---------------------------------------> GLOBAL */
+
+:root {
+  --white: #ffffff;
+  --gray: #3c3c3c;
+  --midGray: #7e7e7e;
+  --lightGray: #3c3c3c16;
+  --lighterGray: #3c3c3c0b;
+  --red: #ff0000;
+  --darkRed: #b30000;
+  --midLightRed: #ffdbdb;
+  --lightRed: #ffe8e8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding-top: 100px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  color: var(--gray);
+}
+
+a:visited {
+  color: var(--gray);
+}
+
+a:hover,
+:focus,
+:active {
+  color: var(--red);
+}
+
+h1:active {
+  color: var(--gray);
+}
+
+p:active,
+span:active {
+  color: var(--gray);
+}
+
+.title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--gray);
+  text-shadow: .05em .05em var(--lightRed);
+  text-wrap: nowrap;
+}
+
+input[type='checkbox'] {
+  accent-color: var(--gray);
+}
+
+/* ---------------------------------------> Home */
+
+.HomePatternDivision {
+  height: 25px;
+  width: 100%;
+  background-image: url(./assets/Patten_Tavola\ disegno\ 1.svg);
+  background-size: 25%;
+  background-repeat: repeat-x;
+  border: none;
+}
+
+/* ---------------------------------------> Project */
+
+.projectContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.75rem;
+    padding: 100px 50px;
+}
+
+.projectInfoBarTitle {
+    color: var(--gray);
+    padding: 100px 25px 0px 25px;
+    text-shadow: .1em .1em var(--lightRed);
+}
+
+.projectInfoBarDescription {
+  padding: 0px 25px;
+  color: var(--gray);
+}
+
+/* GLOBAL [[[[[[[[[[Responsive]]]]]]]]]] */
+
+
+@media only screen and (max-width: 1000px) {
+
+  .title {
+    font-size: 2rem;
+}
+
+.projectContainer {
+  gap: 0.25rem;
+  padding: 25px;
+}
+
+.projectInfoBarTitle {
+  color: var(--gray);
+  padding: 50px 0px 0px 0px;
+  text-shadow: .1em .1em var(--lightRed);
+}
+
+.projectInfoBarDescription {
+padding: 0px;
+color: var(--gray);
+}
+
+.projectInfoBarDescription a{
+  padding: 0px;
+  color: var(--red);
+  }
+
+.projectInfoBarDescription a:focus{
+  padding: 0px;
+  color: var(--red);
+  }
+
+}

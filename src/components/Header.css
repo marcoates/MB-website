@@ -1,0 +1,236 @@
+/* ---------------------------------------> HEADER */
+
+
+
+.headerContentContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.headerShow {
+    width: 100%;
+    height: 75px;
+    color: var(--gray);
+    padding: 20px 10%;
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    inset: 0px;
+    background-image: linear-gradient(to bottom, var(--lightRed), var(--midLightRed));
+    box-shadow: 0px 5px 10px var(--lightGray);
+    z-index: 5000;
+    transition: 0.3s;
+  }
+
+  .headerHide {
+    top: -100%;
+    transition: 0.3s;
+  }
+
+.hidden {
+    display: none;
+}
+
+header img {
+    padding: 0.5rem;
+   float: left;
+   width: 3em;
+   border-radius: 5px;
+}
+
+header ul {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.menuItem {
+    display: inline;
+    text-decoration: none;
+    font-size: 0.85em;
+    color: var(--gray);
+    transition: 0.3s;
+}
+
+.menuItemPortfolio {
+    background-color: var(--lighterGray);
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--gray);
+        font-size: 0.85em;
+}
+
+.menuItemPortfolioIcon {
+    color: var(--red);
+}
+
+.menuItemPortfolio:hover {
+    background-color: var(--gray);
+    color: white;
+}
+
+.menuItem:visited{
+    color: var(--gray);
+}
+
+.menuItem:hover{
+    color: var(--red);
+}
+
+.menuItem:focus, :active{
+    color: var(--red);
+}
+
+.contactButton {
+    float: right;
+    font-family: 'Dosis', sans-serif;
+    color: var(--red);
+    padding: 10px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+    transform: scale(1.1);
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.hamburgerButton {
+    display: none;
+}
+
+.menuResponsive {
+    display: none;
+}
+
+.contactButtonResponsive {
+    display: none;
+}
+
+
+/* HEADER [[[[[[[[[[Responsive]]]]]]]]]] */
+
+
+@media only screen and (max-width: 768px) {
+
+header {
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+    header ul {
+    display: none;
+}
+
+.contactButton {
+
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--red);
+    transition: 0.3s;
+    }
+/* 
+.contactButtonResponsive {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--red);
+    transition: 0.3s;
+} */
+
+.contactButtonResponsive:active {
+    transform: scale(0.9);
+    color: var(--white);
+}
+
+.contactButtonResponsive:focus {
+    color: var(--white);
+}
+
+.hamburgerButton {
+    background-color: var(--lightGray);
+    display: flex;
+    align-items: center;
+    float: right;
+    color: var(--red);
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hamburgerButton:active {
+    transition: background-color 0.5s linear;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.menuResponsive {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1002;
+    top: 10%;
+}
+
+.menuResponsive ul {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menuItemResponsive {
+    background-color: var(--gray);
+    opacity: .9;
+    width: 100%;
+    color: var(--white);
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    font-size: 0.85em;
+}   
+
+.menuItemLink {
+    color: var(--white);
+}
+
+.menuItemLink:hover {
+    color: var(--red);
+}
+
+.menuItemLink:visited {
+    color: var(--white);
+}
+
+}

@@ -1,0 +1,124 @@
+/* ---------------------------------------> FOOTER */
+
+.itemText {
+    color: var(--gray);
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoListContainer {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.infoList {
+    padding: 10px;
+    background-color: var(--lightRed);
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+.info {
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.socialListContainer {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.socialList{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+.footerItemIcon {
+    color: var(--red);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    transition: 0.3s;
+    color: var(--gray);
+}
+
+.social:hover {
+    color: var(--red);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .footer {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .footerContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .infoListContainer {
+        justify-content: center;
+    }
+
+    .infoList {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        gap: 10px;
+    }
+
+    .info {
+        padding: 10px;
+    background-color: var(--lightRed);
+    border-radius: 5px;
+    }
+
+    .socialListContainer {
+        justify-content: center;
+    }
+
+}

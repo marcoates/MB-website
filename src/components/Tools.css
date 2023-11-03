@@ -1,0 +1,258 @@
+.AboutMeSkillsAndTools-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.AboutMeSkillsAndTools-Box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.AboutMeSkillsAndTools-BoxTitle1-Wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, #ff5656, #ff0000);
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-between;
+}
+
+.AboutMeSkillsAndTools-BoxTitle1 {
+    display: flex;
+    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.AboutMeSkillsAndTools-BoxTitle1-Img {
+    display: flex;
+    width: 50px;
+}
+
+.AboutMeSkillsAndTools-BoxTitle1:active {
+    color: var(--gray);
+}
+
+.AboutMeSkillsAndTools-BoxTitle2-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, #3c3c3c, #252525);
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.AboutMeSkillsAndTools-BoxTitle2 {
+    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.AboutMeSkillsAndTools-BoxTitle2:active {
+    color: var(--gray);
+}
+
+.AboutMeSkillsAndTools-BoxList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 15px var(--lightGray);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.AboutMeSkillsAndTools-Item {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.GraphicTools-ItemIcon {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: right;
+    background-color: var(--lightRed);
+}
+
+.CodingTools-ItemIcon {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: right;
+    background-color: var(--lightGray);
+}
+
+.loadBar1 {
+    position: relative;
+    width: 100%;
+    background-color: var(--lightRed);
+    border-radius: 15px;
+    height: 20px;
+    border: 3px solid var(--lightRed);
+}
+
+.loadBar2 {
+    position: relative;
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    height: 20px;
+    border: 3px solid #ebebeb;
+}
+
+.AboutMeSkillsAndTools-toolIcon1 {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    max-width: 45px;
+    padding: 5px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+.AboutMeSkillsAndTools-toolIcon2 {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    max-width: 55px;
+    padding: 5px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+.highScore {
+    font-size: 1.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 20;
+    z-index: 1001;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 5px 10px var(--lightGray);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .AboutMeSkillsAndTools-Box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutMeSkillsAndTools-BoxList {
+        width: 100%;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    .AboutMeSkillsAndTools-BoxTitle1-Wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .AboutMeSkillsAndTools-BoxTitle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .AboutMeSkillsAndTools-BoxTitle1-Wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, #ff5656, #ff0000);
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-between;
+}
+
+.AboutMeSkillsAndTools-BoxTitle2-Wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, #3c3c3c, #252525);
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+    .AboutMeSkillsAndTools-BoxTitle2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutMeSkillsAndTools-Container {
+        display: flex;
+        grid-template-columns: none;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .AboutMeSkillsAndTools-Item {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loadBar1 {
+        height: 15px;
+        display: flex;
+        position: relative;
+        width: 100%;
+        background-color: var(--lightRed);
+        border-radius: 15px;
+        height: 25px;
+        border: 3px solid var(--lightRed);
+    }
+    
+    .loadBar2 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        background-color: #ebebeb;
+        border-radius: 15px;
+        height: 25px;
+        border: 3px solid #ebebeb;
+    }
+
+    .seeItonIGIcon {
+        rotate: 0deg;
+    }
+
+    .GraphicTools-ItemIcon {
+        width: 135px;
+    }
+
+    .CodingTools-ItemIcon {
+        width: 135px;
+    }
+
+}

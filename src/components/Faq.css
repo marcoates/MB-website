@@ -1,0 +1,133 @@
+.FaqContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 25px 50px 50px 50px;
+    width: 100%;
+    gap: 25px;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+}
+
+.FaqTitleIcon {
+    color: red;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.FaqList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-weight: 500;
+    color: var(--gray);
+    width: 100%;
+    transition: 0.3s;
+    border: 1px solid var(--lightRed);
+    border-radius: 10px;
+
+}
+
+.FaqItem {
+    padding: 15px;
+    border-bottom: 1px solid var(--lightRed);
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--gray);
+}
+
+.FaqItemClicked {
+    padding: 15px;
+    border-bottom: 1px solid var(--lightRed);
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--gray);
+    background-image: linear-gradient(to bottom, var(--lightRed), var(--midLightRed));
+}
+
+.FaqItemClicked:first-child {
+border-radius: 5px 5px 0px 0px;
+}
+
+.FaqItemClicked:last-child {
+    border-radius: 0px 0px 5px 5px;
+    }
+
+.FaqItem:hover {
+    background-color: var(--lightRed);
+}
+
+.FaqItem:active {
+    background-color: var(--lightRed);
+}
+
+.FaqItem:focus {
+    background-color: var(--lightRed);
+}
+
+.FaqItem:first-child {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.FaqItem:last-child {
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: none;
+}
+
+.FaqTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+}
+
+.FaqTitle:active{
+    color: var(--gray);
+}
+
+.FaqContentShow {
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-weight: 300;
+    color: var(--gray);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px var(--lightGray);
+    margin-right: auto;
+}
+
+.FaqContentShow:active {
+    color: var(--gray);
+}
+
+.FaqContentHide {
+    display: none;
+}
+
+.IconOpenClose {
+    rotate: 270deg;
+    transition: 0.3s;
+}
+
+.IconOpenOpen {
+    rotate: 90deg;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .FaqTitleIcon {
+        color: red;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+}

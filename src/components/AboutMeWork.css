@@ -1,0 +1,315 @@
+.AboutMeWorkcontainer {
+    display: flex;
+    padding: 0px 100px 100px 100px;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.AboutMeWorktitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.AboutMeWorklistsContainer {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    border-radius: 10px;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.AboutMeWorklist {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.AboutMeWorkitem {
+    display: flex;
+    font-size: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.AboutMeWorkitemTitle {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 15px;
+    color: var(--gray);
+    transition: 0.3s;
+    cursor: pointer;
+    border-bottom: 1px solid var(--red);
+    border-radius: 10px;
+}
+
+.AboutMeWorkitemTitle:hover{
+    background-color: var(--lightRed);
+    border-radius: 10px;
+}
+
+.AboutMeWorkitemTitle:hover .AboutMeWorkopenCloseIconContainer .position{
+    background-color: var(--lightGray);
+    color: var(--red);
+}
+
+.AboutMeWorkitemTitle:hover .CompanyLogosContainer {
+    background-color: var(--lightRed);
+}
+
+.AboutMeWorkitemTitleClicked {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #ff5656, #ff0000) ;
+    color: white;
+    box-shadow: 0px 1px 3px var(--lightGray);
+    border-radius: 10px;
+}
+
+.AboutMeWorkitemTitleClicked .AboutMeWorkopenCloseIconContainer .position{
+    color: white;
+    background-color: var(--lightGray);
+}
+
+.AboutMeWorkitemTitleClicked .CompanyLogosContainer{
+    background-color: white;
+}
+
+.AboutMeWorkitemTitle:hover .AboutMeWorkopenCloseIconContainer{
+    transition: 0.3s;
+}
+
+.AboutMeWorkitemTitleIcon {
+    object-fit: cover;
+    width: 35px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.CompanyLogosContainer {
+    display: flex;
+    aspect-ratio: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.AboutMeWorkitemTitleInnerIcon {
+    object-fit: cover;
+    width: 55px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.AboutMeWorkopenCloseIconContainer {
+    padding: 5px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    font-weight: 300;
+}
+
+.position {
+    color: var(--red);
+    font-size: 0.75rem;
+    padding: 5px;
+    background-color: var(--lighterGray);
+    border-radius: 5px;
+    text-align: right;
+}
+
+.AboutMeWorkmessageContainer {
+    height: 100%;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    gap: 50px;
+    font-size: 2rem;
+}
+
+.AboutMeWorkitemContentContainer {
+    padding: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px var(--lightGray);
+}
+
+.AboutMeWorkitemContentList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.AboutMeWorkitemContentTitleList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AboutMeWorkitemContentTitleList .AboutMeWorkitemTitleIcon{
+    background-color: var(--lightRed);
+    font-size: 3rem;
+}
+
+.AboutMeWorkitemContentTitleItem {
+    display: flex;
+    text-shadow: 2px 2px var(--lightRed);
+    color: var(--gray);
+}
+
+.AboutMeWorkitemContentItemList{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.AboutMeWorkitemContentItemListContent {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--gray);
+}
+
+.AboutMeWorkitemContentItemListContent:nth-of-type(3) {
+    align-items: flex-start;
+}
+
+.AboutMeWorktoolList {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.AboutMeWorktoolIcon {
+    display: flex;
+    height: 35px;
+    max-width: 40px;
+    align-items: center;
+}
+
+.AboutMeWorkdescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: var(--gray);
+}
+
+.AboutMeWorkdescriptionContainer:active {
+    color: var(--gray);
+}
+
+.AboutMeWorkdescriptionTitle {
+    font-weight: 500;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: var(--lightGray);
+    margin-right: auto;
+    color: var(--gray);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .AboutMeWorkcontainer {
+        padding: 50px;
+        gap: 25px;
+    }
+
+    .AboutMeWorklistsContainer {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        border-radius: 10px;
+    }
+
+    .AboutMeWorklist {
+        width: 100%;
+    }
+
+    .AboutMeWorkitem {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .AboutMeWorkitem {
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        font-size: 1rem;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .AboutMeWorkitemTitle {
+        width: 100%;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        gap: 15px;
+        color: var(--gray);
+        transition: 0.3s;
+        cursor: pointer;
+        border-bottom: 1px solid var(--red);
+        border-radius: 10px;
+    }
+
+    .AboutMeWorkitemTitleTextsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: flex-start;
+        text-align: left;
+        text-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .position {
+        text-wrap: nowrap;
+        margin-left: auto;
+        color: var(--red);
+        font-size: 0.75rem;
+        padding: 5px;
+        background-color: var(--lighterGray);
+        border-radius: 5px;
+        text-align: right;
+    }
+
+    .AboutMeWorkopenCloseIconContainer {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .AboutMeWorkitemContentContainer {
+        padding: 25px;
+        display: flex;
+        background-color: white;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 0 5px 10px var(--lightGray);
+    }
+
+.AboutMeWorkitemTitleClicked {
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.3s;
+}
+}

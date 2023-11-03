@@ -1,0 +1,56 @@
+.AboutMeSkillsAndTools-MainContainer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.AniContainer {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.AniWrapper {
+    position: absolute;
+    display: flex;
+    width: 260px;
+    background-image: linear-gradient(to right, #ff0000, #252525);
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: 0px 5px 10px var(--lightGray);
+    aspect-ratio: 1;
+    opacity: 0.25;
+}
+
+.druidAnimation {
+    display: flex;
+    width: 250px;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .AboutMeSkillsAndTools-MainContainer {
+        padding: 50px 25px;
+        gap: 25px;
+    }
+
+    .AniContainer {
+        padding: 0px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+}

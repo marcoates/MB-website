@@ -1,0 +1,924 @@
+.projectImagesContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.projectImages {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.projectImagesItem {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px var(--lightGray);
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .projectImages {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  .projectImagesItem {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px var(--lightGray);
+  }
+}
+
+/* ABKC American Bully Kennel Club: Pitbull Mascots Illustrations id 16 */
+
+.projectImagesItem15:first-child {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  box-shadow: none;
+}
+
+.projectImagesItem15:nth-child(2) {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  box-shadow: none;
+}
+
+.projectImagesItem15:nth-child(3) {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.projectImagesItem15:nth-child(4) {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.projectImagesItem15:nth-child(5) {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.projectImagesItem15:nth-child(6) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.projectImagesItem15:nth-child(7) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem15:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: none;
+  }
+
+  .projectImagesItem15:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: none;
+  }
+
+  .projectImagesItem15:nth-child(3) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .projectImagesItem15:nth-child(4) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem15:nth-child(5) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .projectImagesItem15:nth-child(6) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem15:nth-child(7) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+/* Dupli-Color Il Ritocco Muri: Product Label id 15 */
+
+.projectImagesItem14:first-child {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  box-shadow: none;
+}
+
+.projectImagesItem14:nth-child(2) {
+  grid-column: span 4;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem14:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    box-shadow: none;
+  }
+  .projectImagesItem14:nth-child(2) {
+    grid-column: span 9;
+  }
+}
+
+/* ToDoList App: Web Application id 14 */
+
+.projectImagesItem13:first-child {
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem13:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Dupli-Color Il Copri Macchie: Product Label id 13 */
+
+.projectImagesItem12:first-child {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  box-shadow: none;
+}
+
+.projectImagesItem12:nth-child(2) {
+  grid-column: span 4;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem12:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    box-shadow: none;
+  }
+
+  .projectImagesItem12:nth-child(2) {
+    grid-column: span 9;
+  }
+}
+
+/* Breis Beats: Logo id 12 */
+
+.projectImagesItem11:first-child {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  box-shadow: none;
+}
+
+.projectImagesItem11:nth-child(2) {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.projectImagesItem11:nth-child(3) {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem11:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    box-shadow: none;
+  }
+
+  .projectImagesItem11:nth-child(2) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem11:nth-child(3) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Green Magic: CBD Packaging Illustrations id 11 */
+
+.projectImagesItem10:first-child {
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+.projectImagesItem10:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.projectImagesItem10:nth-child(3) {
+  grid-column: span 2;
+}
+
+.projectImagesItem10:nth-child(4) {
+  grid-column: span 2;
+}
+
+.projectImagesItem10:nth-child(5) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.projectImagesItem10:nth-child(6) {
+  grid-column: span 2;
+}
+
+.projectImagesItem10:nth-child(7) {
+  grid-column: span 2;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem10:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem10:nth-child(2) {
+    grid-column: span 4;
+  }
+
+  .projectImagesItem10:nth-child(3) {
+    grid-column: span 4;
+  }
+
+  .projectImagesItem10:nth-child(4) {
+    grid-column: span 4;
+  }
+
+  .projectImagesItem10:nth-child(5) {
+    grid-column: span 4;
+  }
+
+  .projectImagesItem10:nth-child(6) {
+    grid-column: span 4;
+  }
+
+  .projectImagesItem10:nth-child(7) {
+    grid-column: span 4;
+  }
+}
+
+/* Zampa Store: Graphic Design Projects id 10 */
+
+.projectImagesItem9:first-child {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.projectImagesItem9:nth-child(2) {
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.projectImagesItem9:nth-child(3) {
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.projectImagesItem9:nth-child(4) {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.projectImagesItem9:nth-child(5) {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.projectImagesItem9:nth-child(6) {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem9:first-child {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem9:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem9:nth-child(3) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem9:nth-child(4) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem9:nth-child(5) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem9:nth-child(6) {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* DRV: Logo id 8 */
+
+.projectImagesItem8:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.projectImagesItem8:nth-child(2) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  box-shadow: none;
+}
+
+.projectImagesItem8:nth-child(3) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  box-shadow: none;
+}
+
+.projectImagesItem8:nth-child(4) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem8:nth-child(5) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.projectImagesItem8:nth-child(6) {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem8:first-child {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem8:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    box-shadow: none;
+  }
+
+  .projectImagesItem8:nth-child(3) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    box-shadow: none;
+  }
+
+  .projectImagesItem8:nth-child(4) {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem8:nth-child(5) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem8:nth-child(6) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Dupli-Color: All Season Spray Leaflet id 7 */
+
+.projectImagesItem7 {
+  box-shadow: inset 0px 50px var(--gray);
+}
+
+.projectImagesItem7:first-child {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem7:nth-child(2) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.projectImagesItem7:nth-child(3) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem7:nth-child(4) {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  box-shadow: none;
+}
+
+.projectImagesItem7:nth-child(5) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  box-shadow: 0px 0px 50px var(--lightGray);
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem7 {
+    box-shadow: inset 0px 50px var(--gray);
+  }
+
+  .projectImagesItem7:first-child {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem7:nth-child(2) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem7:nth-child(3) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem7:nth-child(4) {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: none;
+  }
+
+  .projectImagesItem7:nth-child(5) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 9;
+    box-shadow: 0px 0px 50px var(--lightGray);
+  }
+}
+
+/* Dupli-Color: Pricing List Catalog id 6 */
+
+.projectImagesItem6:first-child {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+.projectImagesItem6:nth-child(2) {
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem6:nth-child(3) {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem6:first-child {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem6:nth-child(2) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+
+  .projectImagesItem6:nth-child(3) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Dupli-Color: Products Catalog id 5 */
+
+.projectImagesItem5:first-child {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+.projectImagesItem5:nth-child(2) {
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem5:nth-child(3) {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem5:first-child {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem5:nth-child(2) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem5:nth-child(3) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Settimo Tricot Club: Logo id 4 */
+
+.projectImages4 {
+  object-fit: fill;
+}
+
+.projectImagesItem4:first-child {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  z-index: 1;
+  padding: 10px;
+  background-color: white;
+  box-shadow: none;
+}
+
+.projectImagesItem4:nth-child(2) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem4:nth-child(3) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem4:nth-child(4) {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImages4 {
+    object-fit: fill;
+  }
+  
+  .projectImagesItem4:first-child {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    z-index: 1;
+    padding: 10px;
+    background-color: white;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem4:nth-child(2) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem4:nth-child(3) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem4:nth-child(4) {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 9; 
+    box-shadow: none;
+  }
+}
+
+/* Urmet: Iuvs Plus App id 3 */
+
+.projectImagesItem3:first-child {
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem3:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Pixxa: Challenge Blackboard and Instructions Flyer id 2 */
+
+.projectImagesItem2:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+.projectImagesItem2:nth-child(2) {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.projectImagesItem2:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.projectImagesItem2:nth-child(4) {
+  grid-row-start: 3;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.projectImagesItem2:nth-child(5) {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem2:first-child {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem2:nth-child(2) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem2:nth-child(3) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem2:nth-child(4) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem2:nth-child(5) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* Pixxa: Journey Blackboard id 1 */
+
+.projectImagesItem1:first-child {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.projectImagesItem1:nth-child(2) {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem1:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.projectImagesItem1:nth-child(4) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem1:first-child {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem1:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem1:nth-child(3) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  
+  .projectImagesItem1:nth-child(4) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+}
+
+/* 
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.projectImagesBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.projectLogoImagesBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 350px;
+}
+
+.projectBiggerImagesBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+.projectImages{
+    object-fit: cover;
+    border-radius: 15px;
+    max-height: 100%;  
+}
+
+.projectBiggerImages{
+    object-fit: cover;
+    border-radius: 15px;
+    max-width: 100%;  
+} */

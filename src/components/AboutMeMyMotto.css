@@ -1,0 +1,152 @@
+.AboutMeMyMottoContainer {
+  display: flex;
+  background-image: linear-gradient(to bottom, #3c3c3c, #252525);
+  align-items: center;
+  color: white;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.MyMottoImg {
+  width: 200px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid var(--lightRed);
+  box-shadow: 0px 5px 10px var(--gray);
+}
+
+.AboutMeMyMottoTitle {
+  display: flex;
+  gap: 15px;
+}
+
+.AboutMeMyMottoTitleText {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 3px 3px rgba(255, 0, 0, 0.237);
+}
+
+.AboutMeMyMottoTitleText:active {
+  color: white;
+}
+
+.AboutMeMyMottoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMeMyMottoQuote {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--lightRed);
+}
+
+.AboutMeMyMottoQuote:active {
+  color: var(--lightRed);
+}
+
+.AboutMeMyMottoAuthorContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.AboutMeMyMottoAuthor {
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 500;
+  color: var(--gray);
+  box-shadow: 0px 5px 10px var(--gray);
+}
+
+.AboutMeMyMottoAuthorPic {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .AboutMeMyMottoContainer {
+    padding: 50px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .MyMottoImg {
+    width: 200px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid var(--lightRed);
+    box-shadow: 0px 5px 10px var(--gray);
+  }
+
+  .AboutMeMyMottoTitle {
+    display: flex;
+    gap: 5px;
+  }
+
+  .AboutMeMyMottoTitleText {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 3px 3px rgba(255, 0, 0, 0.237);
+  }
+
+  .AboutMeMyMottoTitleText:active {
+    color: white;
+  }
+
+  .AboutMeMyMottoContent:nth-of-type(1) {
+    order: 2;
+  }
+  .AboutMeMyMottoContent:nth-of-type(2) {
+    order: 1;
+  }
+  .AboutMeMyMottoContent:nth-of-type(3) {
+    order: 2;
+  }
+
+  .AboutMeMyMottoQuote {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--lightRed);
+  }
+
+  .AboutMeMyMottoQuote:active {
+    color: var(--lightRed);
+  }
+
+  .AboutMeMyMottoAuthorContainer {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .AboutMeMyMottoAuthor {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    color: var(--gray);
+    box-shadow: 0px 5px 10px var(--gray);
+  }
+
+  .AboutMeMyMottoAuthorPic {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,126 @@
+.projectsInfoBarContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px 50px;
+    padding: 25px;
+}
+
+.projectInfoBarElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 5px 7px;
+    background-color: var(--lightRed);
+}
+
+.projectInfoBarTools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projectInfoBarToolsTitle {
+    display: flex;
+    padding: 10px;
+    background-color: var(--lightRed);
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.projectInfoBarToolsTitle h3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-weight: 400;
+    text-wrap: nowrap;
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+.projectInfoBarElementIcon {
+color: var(--red);
+}
+
+.projectInfoBarElement h3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-weight: 400;
+    text-wrap: nowrap;
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+.projectInfoBarList {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start of the container */
+    max-width: 100%; /* Limit the maximum width to the container width */
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.toolImg {
+    height: 25px;
+    display: flex;
+    max-width: 40px;
+    align-items: center;
+}
+
+.projectInfoBarGraphicListElement {
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    padding: 5px 10px;
+    background-color: var(--red);
+    border-radius: 5px;
+}
+
+.projectInfoBarCodingListElement {
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    padding: 5x;
+    background-color: var(--gray);
+    border-radius: 5px;
+}
+
+.projectInfoBarListElement span {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    color: var(--gray);
+}
+
+.ProjectBasicInfos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+    .projectsInfoBarContainer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px 50px;
+        padding: 25px 0px;
+    }
+  }

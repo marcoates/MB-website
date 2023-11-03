@@ -11,7 +11,7 @@ function App() {
   <>
   <Header />
   <Routes>
-    <Route exact path="/" element={<Home/>}/>
+    <Route path="/" element={<Home/>}/>
     <Route path="/about-me" element={<AboutMe />}/>
     <Route path="/project/:name" element={<Project />}/>
   </Routes>

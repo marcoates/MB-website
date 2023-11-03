@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MB-website/static/css/main.7f50d7ae.css",
+    "main.css": "/MB-website/static/css/main.1096bda1.css",
     "main.js": "/MB-website/static/js/main.eafdace3.js",
     "static/media/Laptop-Run.gif": "/MB-website/static/media/Laptop-Run.e5c07688240a9f0fe86d.gif",
     "static/media/Meditation.gif": "/MB-website/static/media/Meditation.07db29e8a5ff9fb519b8.gif",
@@ -109,11 +109,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/MB-website/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/MB-website/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/MB-website/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.7f50d7ae.css.map": "/MB-website/static/css/main.7f50d7ae.css.map",
+    "main.1096bda1.css.map": "/MB-website/static/css/main.1096bda1.css.map",
     "main.eafdace3.js.map": "/MB-website/static/js/main.eafdace3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f50d7ae.css",
+    "static/css/main.1096bda1.css",
     "static/js/main.eafdace3.js"
   ]
 }

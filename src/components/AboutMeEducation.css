@@ -301,11 +301,6 @@
   border-radius: 5px;
 }
 
-.itemContentItemListContentTools {
-  display: flex;
-  flex-direction: row;
-}
-
 .itemContentItemListContent p{
   color: var(--gray);
   padding: 5px 10px;
@@ -320,7 +315,7 @@
 .itemContentItemListContentTools {
   display: flex;
   gap: 10px;
-  align-items: flex-start;
+  align-items: center;
   color: var(--gray);
   border-radius: 5px;
   justify-content: center;

@@ -7,7 +7,7 @@ import "./styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <HashRouter basename="/MB-website">
+      <HashRouter>
       <App />
       </HashRouter>
   </React.StrictMode>

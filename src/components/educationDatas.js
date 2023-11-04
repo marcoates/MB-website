@@ -20,7 +20,6 @@ export const educationDatas = [
     location: "Milan, Italy",
     school: "Primary School",
     institute: "",
-    // tools: ["✏️"],
     graphicTools: ["Drawing"],
     codingTools: [],
     content: [
@@ -55,7 +54,6 @@ export const educationDatas = [
     location: "Milan, Italy",
     school: "High School",
     institute: "Liceo Artistico Umberto Boccioni",
-    // tools: ["🎨", "💻"],
     graphicTools: ["Drawing", "Painting", "First sight of Graphic Design Computer Tools"],
     codingTools: [],
     content: [
@@ -90,33 +88,6 @@ export const educationDatas = [
     location: "Milan, Italy",
     school: "Diploma",
     institute: "Scuola Civica Arte & Messaggio, Milan, Italy",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/HTML5_logo_and_wordmark.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/CSS3_logo_and_wordmark.png")}
-    //   ></img>,
-    // ],
     graphicTools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects",],
     codingTools: [],
     content: [
@@ -151,33 +122,6 @@ export const educationDatas = [
     location: "London, UK",
     school: "Experience Abroad",
     institute: "",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Procreate-icon.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Sketch_Logo.svg").default}
-    //   ></img>,
-    // ],
     graphicTools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Sketch"],
     codingTools: [],
     content: [
@@ -212,33 +156,6 @@ export const educationDatas = [
     location: "Milan, Italy",
     school: "Working Experience",
     institute: "",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Procreate-icon.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Sketch_Logo.svg").default}
-    //   ></img>,
-    // ],
     graphicTools: ["Procreate", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Sketch", "WordPress", "Elementor"],
     codingTools: ["HTML", "CSS"],
     content: [
@@ -273,43 +190,6 @@ export const educationDatas = [
     location: "Milan, Italy",
     school: "Online Courses",
     institute: "",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/HTML5_logo_and_wordmark.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/CSS3_logo_and_wordmark.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Js.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Node.js_logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Express_Logo.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/MongoDB_Logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Git-logo.svg").default}
-    //   ></img>,
-    // ],
     graphicTools: [],
     codingTools: ["HTML", "CSS", "Javascript", "React", "NodeJS", "Express", "MongoDB", "Git"],
     content: [
@@ -343,38 +223,6 @@ export const educationDatas = [
     date: "As soon as possible",
     location: "🔒",
     institute: "",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/HTML5_logo_and_wordmark.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/CSS3_logo_and_wordmark.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Js.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Node.js_logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/MongoDB_Logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Git-logo.svg").default}
-    //   ></img>,
-    // ],
     graphicTools: ["🔒"],
     codingTools: ["🔒"],
     content: [
@@ -408,38 +256,6 @@ export const educationDatas = [
     date: "As soon as possible",
     location: "🔒",
     institute: "",
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/HTML5_logo_and_wordmark.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/CSS3_logo_and_wordmark.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Js.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Node.js_logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/MongoDB_Logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Git-logo.svg").default}
-    //   ></img>,
-    // ],
     graphicTools: ["🔒"],
     codingTools: ["🔒"],
     content: [

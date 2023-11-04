@@ -11,25 +11,25 @@ function Faq() {
       id: 0,
       title: "Tell me something about yourself...",
       content:
-        "I'm a very quiet guy who loves to workout and be in the nature. My passions outside the job sphere are sports and music. I also love Football, I'm a Juventus fan! In my free time, I enjoy deep conversations, I value quiet moments over loud parties even if I love dancing. Of course I love food and travel around, but I'm not ossesionate about it.",
+        "I am a reserved individual with a deep love for fitness and nature. Beyond my professional pursuits, my passions include sports and music, with a special affinity for football, particularly as a devoted Juventus fan. During my leisure hours, I cherish meaningful conversations and tranquil moments, preferring quiet gatherings to noisy parties, although I do enjoy dancing. While I appreciate good food and the opportunity to travel, I maintain a balanced approach, finding joy in these experiences without becoming overly fixated on them.",
     },
     {
       id: 1,
       title: "Which are you goals?",
       content:
-        "My goals are to succeed, in every aspect of life I value. I am a very ambitious person I don't settle for pieces or slices... I want the whole thing!",
+        "I am driven by a deep-rooted ambition to achieve success in all facets of life that matter to me. Settling for a fraction is not in my nature; I aim for the entirety, striving for comprehensive excellence in my endeavors.",
     },
     {
       id: 2,
       title: "How do you see yourself within 5 years?",
       content:
-        "Right now I am very focused on starting my career path in the world of Development. This is why I can clearly say that in 5 years I see myself working as a Front End Developer or even Full-Stack.",
+        "In the next 5 years, I envision myself firmly established in the field of Development. My focus lies in becoming a proficient Front End Developer, with aspirations to expand my skills into Full-Stack Development, marking significant growth in my career trajectory.",
     },
     {
       id: 3,
       title: "Which kind of work environment suits best with you?",
       content:
-        "I am always for flexibility, sustainability and respect. I will always look for a good balance between work and life, I want to work remotely to be able to live and work from where I want. Growth is also a very important aspect for me, I want to work with people which are better than me and from whom I can learn.",
+        "I champion flexibility, sustainability, and respect within my professional ethos, striving for a harmonious work-life balance that embraces remote work — allowing me the freedom to live and work from any location. Personal growth is paramount; I seek to collaborate with individuals who inspire excellence and offer opportunities for learning and advancement.",
     },
   ];
 
@@ -41,29 +41,27 @@ function Faq() {
           FAQ
         </div>
         <motion.ul className="FaqList">
-            <AnimatePresence>
+          <AnimatePresence>
             <LayoutGroup>
-          {faqs.map((item, index) => (
-              <motion.li
-                className={
-                (isShown) === index ? "FaqItemClicked" : "FaqItem"
-              }
-                key={index}
-                onClick={() => setIsShown(index === isShown ? null : index)}
-                transition={{ duration: 0.3 }}
-              >
-                <div className="FaqTitle">
-                  {item.title}{" "}
-                  <ArrowBackIosIcon
-                    fontSize="1rem"
-                    className={
-                      (isShown) === index ? "IconOpenOpen" : "IconOpenClose"
-                    }
-                  />
-                </div>
+              {faqs.map((item, index) => (
+                <motion.li
+                  className={isShown === index ? "FaqItemClicked" : "FaqItem"}
+                  key={index}
+                  onClick={() => setIsShown(index === isShown ? null : index)}
+                  transition={{ duration: 0.3 }}
+                >
+                  <div className="FaqTitle">
+                    {item.title}{" "}
+                    <ArrowBackIosIcon
+                      fontSize="1rem"
+                      className={
+                        isShown === index ? "IconOpenOpen" : "IconOpenClose"
+                      }
+                    />
+                  </div>
                   <motion.div
                     className={
-                      (isShown) === item.id ? "FaqContentShow" : "FaqContentHide"
+                      isShown === item.id ? "FaqContentShow" : "FaqContentHide"
                     }
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -72,10 +70,10 @@ function Faq() {
                   >
                     {item.content}
                   </motion.div>
-              </motion.li>
-          ))}
-          </LayoutGroup>
-            </AnimatePresence>
+                </motion.li>
+              ))}
+            </LayoutGroup>
+          </AnimatePresence>
         </motion.ul>
       </div>
     </>

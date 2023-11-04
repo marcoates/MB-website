@@ -62,12 +62,15 @@ color: var(--red);
 
 .projectInfoBarList {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    flex-wrap: wrap;
     list-style-type: none;
     align-items: center;
-    justify-content: flex-start; /* Align items to the start of the container */
-    max-width: 100%; /* Limit the maximum width to the container width */
+    justify-content: flex-start;
+    max-width: 100%;
     gap: 10px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
     border-radius: 5px;
 }
 

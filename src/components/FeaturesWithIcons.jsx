@@ -15,7 +15,7 @@ function FeaturesWithIcons() {
     {
       id: "features0",
       // icon: "👔",
-      icon: <DiamondIcon fontSize="medium" width="none" sx={{ color: "var(--red)" }} />,
+      icon: <DiamondIcon fontSize="medium" sx={{ color: "var(--red)" }} />,
       title: "BRANDING",
       content: [
         "Do you need a new logo?",

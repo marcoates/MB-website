@@ -14,69 +14,15 @@ export const workDatas = [
     ],
     codingTools: [
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    // ],
     content: [
-      "During my six-month internship at Royal Time, a prominent advertising agency, I collaborate closely with a senior designer and the copywriters team, I immersed myself in creating compelling visuals for various advertising campaigns, ranging from club nights to local events in Varese county.",
-      <br key={0} />,
-      <br key={1} />,
-      "I took charge of managing multiple Facebook accounts, crafting snappy ad graphics and maintaining consistent posting schedules to enhance customer engagement. This experience not only honed my design skills but also provided me with invaluable insights into the advertising industry.",
+      "Cut my teeth in graphic design with a six-month internship at Royal Time, a dynamic advertising agency. Contributed to high-energy advertising campaigns for regional entertainment events, honing social media management skills by maintaining engaging online narratives for multiple Facebook accounts.",
+      <br key={0} />, <br key={1} />,
+      "This formative period was crucial in sharpening my design capabilities and deepening my understanding of the ad industry, all while collaborating with a seasoned team to deliver client success.",
     ],
   },
 
   {
     id: 1,
-    client: "Overmind",
-    title: "Graphic Designer",
-    icon: require("../assets/Overmind_Logo.png"),
-    position: "Overmind",
-    date: "2016",
-    location: "Milan, Italy",
-    graphicTools: [
-      "Adobe Illustrator",
-      "Adobe InDesign",
-      "Adobe Photoshop",
-    ],
-    codingTools: [
-    ],
-    // tools:[ 
-    // <img
-    //   alt="tool-icon-img"
-    //   className="AboutMeWorktoolIcon"
-    //   src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    // ></img>,
-    // <img
-    //   alt="tool-icon-img"
-    //   className="AboutMeWorktoolIcon"
-    //   src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    // ></img>,
-    // <img
-    //   alt="tool-icon-img"
-    //   className="AboutMeWorktoolIcon"
-    //   src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    // ></img>],
-    content:[
-      "At Overmind, I played a pivotal role in enhancing the marketing and graphic design aspects of their party night events. I meticulously designed logos, flyers, and promotional items, capturing the essence of each event. Collaborating closely with the team, I transformed their vision into visually captivating designs, focusing on both print and digital mediums.",
-      <br key={0} />, <br key={1} />,
-      "My creative approach, attention to detail, and dedication to meeting client objectives led to elevated branding and marketing efforts for Overmind's party nights. The result? Increased attendance and engagement from their audience. Working with this dynamic team honed my skills as a graphic designer and marketer, and I'm proud to have contributed significantly to their success."
-  ]},
-  {
-    id: 2,
     client: "Pixxa Ltd",
     title: "Product Designer",
     icon: require("../assets/Pixxa_Logo.svg").default,
@@ -90,30 +36,34 @@ export const workDatas = [
     ],
     codingTools: [
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    // ],
     content: [
-      "As the Product Designer at Pixxa Ltd, a bustling Italian pizza chain in the heart of London, I curated the company's visual identity. My role involved crafting diverse print and digital materials, from banners to menus, ensuring a consistent aesthetic. I also managed the brand's social media presence, fostering an engaged online community.",
-      <br key={0} />,
-      <br key={1} />,
-      "Additionally, I designed interior elements such as posters and labels, contributing to the cohesive atmosphere of the shops. Through my efforts, Pixxa Ltd achieved a robust brand identity, enhancing customer engagement and loyalty. Being part of this dynamic business was both thrilling and rewarding, and I take pride in my significant contribution to their success.",
+      "As the lead Product Designer for Pixxa Ltd in London, I shaped and upheld their visual identity, producing a suite of print and digital assets from banners to business cards. I also spearheaded their social media, growing a lively online community with engaging content and promotions. My design finesse extended to in-shop aesthetics, with custom posters and vinyl stickers that enhanced the customer experience.",
+      <br key={0}/>, <br key={1}/>, 
+      "My efforts fortified Pixxa's brand, boosting engagement and fostering loyalty.",
     ],
   },
+
+  {
+    id: 2,
+    client: "Overmind",
+    title: "Graphic Designer",
+    icon: require("../assets/Overmind_Logo.png"),
+    position: "Overmind",
+    date: "2016",
+    location: "Milan, Italy",
+    graphicTools: [
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe Photoshop",
+    ],
+    codingTools: [
+    ],
+    content:[
+      "At Overmind, I enhanced their party night events with expert marketing and graphic design, crafting logos, flyers, and gadgets that resonated with each event's vibe.",
+      <br key={0} />, <br key={1} />,
+      "I tuned into the team's vision to deliver captivating designs, ensuring client goals were met with creativity and precision. My efforts helped bolster Overmind's brand, drawing greater attendance and engagement. Proudly, my role there refined my graphic design and marketing prowess within a vibrant team setting."
+  ]},
+
   {
     id: 3,
     client: "Bymark",
@@ -129,27 +79,10 @@ export const workDatas = [
     ],
     codingTools: [
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Sketch_Logo.svg").default}
-    //   ></img>,
-    // ],
     content:[
-      "As a UI Designer at Bymark, I crafted layouts and graphic interfaces for diverse devices and functions, prioritizing user experience and visual aesthetics. Collaborating closely with the Bymark team, I tailored my designs to meet their specific project needs and goals.",
+      "Collaborated with Bymark as a designer, creating visually appealing and user-friendly layouts, interfaces, and elements for diverse devices and functions. Focused on enhancing user experience, I closely collaborated with the Bymark team to meet unique project needs.",
       <br key={0} />, <br key={1} />,
-      "This experience sharpened my design skills, enabling me to create impactful interfaces for various home automation applications."
+      "My expertise spans desktop and mobile applications, showcasing creativity and attention to detail. Grateful for the opportunity, my work with Bymark enriched my portfolio, sharpened my design skills, and deepened my expertise in UI/UX Design."
   ]},
   {
     id: 4,
@@ -171,42 +104,8 @@ export const workDatas = [
       "HTML",
       "CSS"
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_After_Effects_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Procreate-icon.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Sketch_Logo.svg").default}
-    //   ></img>,
-    // ],
     content:[
-      "As a Product Designer at European Aerosols, a prominent spray can production company in Germany and the Netherlands, I curated the company's image across Italy and Europe.",
-      <br key={0} />, <br key={1} />,
-      "My tasks ranged from crafting product labels, newsletters and catalogues to designing marketing materials for exhibitions. I ensured print materials' top quality, collaborating closely with printers. Additionally, I influenced product displays in shops and contributed to interior designs at the headquarters."
+      "Experienced Product Designer at European Aerosols, a leading spray can production company in Germany and the Netherlands. Managed company image across Europe, handling diverse tasks such as designing product labels, catalogues, and marketing materials. Ensured high-quality printed materials, collaborated with printers, and contributed to store displays and interior designs. Maintained corporate consistency, adhered to marketing guidelines, and enhanced brand recognition throughout South-Europe Area."
     ]},
   {
     id: 5,
@@ -219,29 +118,14 @@ export const workDatas = [
     institute: "",
     graphicTools: [
       "Adobe Photoshop",
-      "Adobe Illustrator",
     ],
     codingTools: [
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_Lightroom_CC_logo.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="AboutMeWorktoolIcon"
-    //     src={require("../assets/Adobe_Photoshop_Lightroom_Classic_CC_icon.png")}
-    //   ></img>,
-    // ],
-    content:
-      "As a Photo Retoucher at 2000 Network, I meticulously retouched images for the website, ensuring impeccable lighting and capturing the essence of our most vital products. Our customers were thrilled with the photos, seamlessly integrating them into their e-commerce platforms to boost sales. This innovative approach elevated 2000 Network above competitors, setting new standards in the industry.",
+    content:[
+      "As a Photo Retoucher at 2000 Network, I meticulously enhanced images for our website, focusing on perfect lighting and highlighting the essence of our key products. The result? Delighted customers seamlessly integrating these images into their e-commerce platforms, driving significant sales.",
+      <br key={0}/>, <br key={0}/>,
+      "Our innovative approach not only satisfied but surpassed customer expectations, positioning 2000 Network as an industry leader, setting new standards.",
+    ]
   },
   {
     id: 6,
@@ -255,79 +139,10 @@ export const workDatas = [
     ],
     codingTools: [
     ],
-    // tools: [
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
-    //   ></img>,
-    //         <img
-    //         alt="tool-icon-img"
-    //         className="toolIcon"
-    //         src={require("../assets/Adobe_Photoshop_Lightroom_CC_logo.png")}
-    //       ></img>,
-    //             <img
-    //             alt="tool-icon-img"
-    //             className="toolIcon"
-    //             src={require("../assets/Adobe_Photoshop_Lightroom_Classic_CC_icon.png")}
-    //           ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Procreate-icon.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Sketch_Logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/HTML5_logo_and_wordmark.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/CSS3_logo_and_wordmark.png")}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Js.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Node.js_logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/MongoDB_Logo.svg").default}
-    //   ></img>,
-    //   <img
-    //     alt="tool-icon-img"
-    //     className="toolIcon"
-    //     src={require("../assets/Git-logo.svg").default}
-    //   ></img>,
-    // ],
     content:[
-      "During my career I always worked at projects as Freelance.",
+      "Passionate Freelance Graphic Designer turned aspiring Web Developer. With a background in Graphic Design, I've honed my creativity and eye for detail.",
       <br key={0} />, <br key={1} />,
-      "Until now I always offered my expertise as a Graphic Designer, but now, I can't wait to challenge myself into Web Development, with all the new Front-End skills and tolls I've learned.",
-      <br key={2} />, <br key={3} />,
-      "I don't really know what settling means, I will always push myself on the strongest growth direction in order to do my best in leading the fields where I space."
+      "Now, I'm diving headfirst into the world of Web Development, equipped with newfound Front-End skills and tools. I thrive on challenges and constant growth, refusing to settle. My journey is fueled by the desire to lead and excel in every space I explore. Let's innovate and create together!"
     ]
   },
 ];

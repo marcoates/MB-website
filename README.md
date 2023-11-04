@@ -34,4 +34,5 @@ I would like to express my gratitude to all the open-source plugins and librarie
 
 I'm always open to connecting with fellow developers, designers, and tech enthusiasts. If you'd like to chat or collaborate on a project, reach out to me on [LinkedIn](https://linkedin.com/in/marco-braggion).
 
+
 Thank you for visiting my portfolio!

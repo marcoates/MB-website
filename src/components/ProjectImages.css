@@ -36,6 +36,7 @@
   object-fit: cover;
   min-height: 100%;
   border-radius: 15px;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 900px) {

@@ -50,21 +50,27 @@
 }
 
 .filter {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--lightGray);
     position: relative;
     font-size: 0.85em;
-    color: #c7c7c7;
+    color: var(--gray);
     transition: all 0.2s linear;
     cursor: pointer;
+    font-weight: 300;
 }
 
 .filter:hover{
     transition: all 0.2s linear;
-    color: var(--gray);
+    color: white;
+    background-color: var(--red);
 
 }
 
 .filter:focus{
-    color: var(--red);
+    color: white;
+    background-color: var(--red);
 }
 
 .filterSelected {
@@ -124,6 +130,12 @@
 .project p:hover{
     opacity: 1;
     transition: opacity 0.5s linear;
+}
+
+.project p:active{
+    opacity: 1;
+    transition: opacity 0.5s linear;
+    color: white;
 }
 
 .project img{

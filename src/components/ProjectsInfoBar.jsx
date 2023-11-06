@@ -6,8 +6,6 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 
-// Fix item tags displaying without spaces
-
 function ProjectsInfoBar(props) {
 
   useEffect(() => {

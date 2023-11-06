@@ -94,6 +94,7 @@
   color: var(--gray);
   border-radius: 10px;
   background-color: var(--lightRed);
+  font-weight: 500;
 }
 
 .aboutMeIntro-Box2-ListItemText1:active {
@@ -106,6 +107,7 @@
   color: white;
   border-radius: 10px;
   background-color: var(--red);
+  font-weight: 500;
 }
 
 .aboutMeIntro-Box2-ListItemText2:active {
@@ -118,6 +120,7 @@
   color: white;
   border-radius: 10px;
   background-color: var(--gray);
+  font-weight: 500;
 }
 
 .aboutMeIntro-Box2-ListItemText3:active {

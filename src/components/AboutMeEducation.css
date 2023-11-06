@@ -353,14 +353,16 @@
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: var(--red);
+  background-image: linear-gradient(to bottom, #ff5656, #ff0000);
+  font-weight: 300;
 }
 
 .CodingTool {
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: var(--gray);
+  background-image: linear-gradient(to bottom, #3c3c3c, #252525);
+  font-weight: 300;
 }
 
 .descriptionContainer {

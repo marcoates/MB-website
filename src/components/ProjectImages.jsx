@@ -9,11 +9,31 @@ function ProjectImages(props) {
       {projects.map((item, index) =>
 
         item.url === props.name
+
           ? 
+
           props.name === "urmet-iuvs-plus-app" ?
-          <div className={"projectImagesItem projectImagesItem"+item.id} key={index}>
+
+          <div className={"projectImagesItemSafari projectImagesItemSafari"+item.id} key={index}>
               <YoutubeEmbed/>
               </div> 
+
+              :
+
+              props.name === "todolist-app-web-application" ?
+          
+              item.images.map((img, i) => (
+              <div
+              key={i} 
+              className={"projectImagesItemSafari projectImagesItemSafari"+item.id}
+              id="imageMod">
+                <img
+                  alt="proj-logo-img"
+                  src={img}
+                  className={"projectImagesSafari projectImagesSafari"+item.id}
+                ></img>
+              </div>
+            ))
 
               :
 
@@ -30,6 +50,7 @@ function ProjectImages(props) {
               </div>
             ))
           : null
+          
       )}
 
     </div>

@@ -93,8 +93,9 @@ color: var(--red);
     gap: 10px;
     color: white;
     padding: 5px 10px;
-    background-color: var(--red);
+    background-image: linear-gradient(to bottom, #ff5656, #ff0000);
     border-radius: 5px;
+    font-weight: 300;
 }
 
 .projectInfoBarCodingListElement {
@@ -104,8 +105,9 @@ color: var(--red);
     gap: 10px;
     color: white;
     padding: 5px 10px;
-    background-color: var(--gray);
+    background-image: linear-gradient(to bottom, #3c3c3c, #252525);
     border-radius: 5px;
+    font-weight: 300;
 }
 
 .projectInfoBarListElement span {

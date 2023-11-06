@@ -21,7 +21,7 @@
 
 .projectInfoBarTools {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 10px;
 }
@@ -74,6 +74,11 @@ color: var(--red);
     border-radius: 5px;
 }
 
+
+.projectInfoBarTools ul {
+    background-color: transparent;
+}
+
 .toolImg {
     height: 25px;
     display: flex;
@@ -98,7 +103,7 @@ color: var(--red);
     justify-content: flex-start;
     gap: 10px;
     color: white;
-    padding: 5x;
+    padding: 5px 10px;
     background-color: var(--gray);
     border-radius: 5px;
 }
@@ -126,4 +131,6 @@ color: var(--red);
         gap: 25px 50px;
         padding: 25px 0px;
     }
+
+    
   }

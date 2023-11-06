@@ -104,23 +104,11 @@ function ProjectsInfoBar(props) {
                   {item.graphicToolsUsed.map((tool, i) => (
                     <li key={i} className="projectInfoBarGraphicListElement">
                     {tool}
-                      {/* <img
-                        alt="tool-img"
-                        src={tool.icon}
-                        className="toolImg"
-                      ></img> */}
-                      {/* <span>{tool.name}</span> */}
                     </li>
                   ))}
                   {item.codingToolsUsed.map((tool, i) => (
                     <li key={i} className="projectInfoBarCodingListElement">
                     {tool}
-                      {/* <img
-                        alt="tool-img"
-                        src={tool.icon}
-                        className="toolImg"
-                      ></img> */}
-                      {/* <span>{tool.name}</span> */}
                     </li>
                   ))}
                 </ul>

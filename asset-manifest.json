@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9351a02a.css",
+    "main.css": "/static/css/main.0c75af23.css",
     "main.js": "/static/js/main.691592da.js",
     "static/media/Laptop-Run.gif": "/static/media/Laptop-Run.e5c07688240a9f0fe86d.gif",
     "static/media/Meditation.gif": "/static/media/Meditation.07db29e8a5ff9fb519b8.gif",
@@ -109,11 +109,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.9351a02a.css.map": "/static/css/main.9351a02a.css.map",
+    "main.0c75af23.css.map": "/static/css/main.0c75af23.css.map",
     "main.691592da.js.map": "/static/js/main.691592da.js.map"
   },
   "entrypoints": [
-    "static/css/main.9351a02a.css",
+    "static/css/main.0c75af23.css",
     "static/js/main.691592da.js"
   ]
 }

@@ -7,9 +7,6 @@ import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrow
 import { illustrations } from "./illustrations";
 import { Link } from "react-router-dom";
 
-// STILL TO DO
-// - Not sure about this area...
-
 function InstagramFeed() {
   const [illuShown, setIlluShown] = useState(0);
   const isSmallScreen = useMediaQuery("(max-width:1000px)");
@@ -26,13 +23,6 @@ function InstagramFeed() {
   return (
     <div>
       <div className="redBox">
-        {/* <div className="magicianContainer">
-          <img
-            className="magician"
-            alt="magician-animation"
-            src={require("../assets/druid.gif")}
-          ></img>
-        </div> */}
         <motion.div className="halfBox1">
           <div className="druidContainer">
             <motion.h1

@@ -149,20 +149,9 @@ header {
     padding: 10px;
     border-radius: 5px;
     border: 0;
-    background-color: var(--red);
+    background-image: linear-gradient(to bottom, #ff5656, #ff0000);
     transition: 0.3s;
     }
-/* 
-.contactButtonResponsive {
-    display: block;
-    font-family: 'Dosis', sans-serif;
-    color: var(--white);
-    padding: 10px;
-    border-radius: 5px;
-    border: 0;
-    background-color: var(--red);
-    transition: 0.3s;
-} */
 
 .contactButtonResponsive:active {
     transform: scale(0.9);

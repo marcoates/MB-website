@@ -15,7 +15,7 @@ function ProjectImages(props) {
           props.name === "urmet-iuvs-plus-app" ?
 
           <div className={"projectImagesItemSafari projectImagesItemSafari"+item.id} key={index}>
-              <YoutubeEmbed/>
+              <YoutubeEmbed key={item.id}/>
               </div> 
 
               :

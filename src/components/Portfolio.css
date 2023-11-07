@@ -52,7 +52,7 @@
 .filter {
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--lightGray);
+    background-color: var(--lighterGray);
     position: relative;
     font-size: 0.85em;
     color: var(--gray);

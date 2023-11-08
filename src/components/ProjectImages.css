@@ -71,7 +71,7 @@
   }
 }
 
-/* ABKC American Bully Kennel Club: Pitbull Mascots Illustrations id 16 */
+/* ABKC American Bully Kennel Club: Pitbull Mascots Illustrations id 15 */
 
 .projectImagesItem15:first-child {
   grid-column-start: 2;
@@ -176,7 +176,7 @@
     grid-column-end: 9;
   }
 }
-/* Dupli-Color Il Ritocco Muri: Product Label id 15 */
+/* Dupli-Color Il Ritocco Muri: Product Label id 14 */
 
 .projectImagesItem14:first-child {
   grid-column-start: 2;
@@ -199,13 +199,26 @@
   }
 }
 
-/* ToDoList App: Web Application id 14 */
+/* ToDoList App: Web Application id 13 */
+
+.projectImagesItem13:first-child {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .projectImagesItem13:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+  }
+}
 
 .projectImagesItemSafari13:first-child {
   grid-column-start: 2;
   grid-column-end: 8;
   grid-row-start: 1;
-  grid-row-end: 2;
 }
 
 @media only screen and (max-width: 900px) {
@@ -213,11 +226,10 @@
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 2;
   }
 }
 
-/* Dupli-Color Il Copri Macchie: Product Label id 13 */
+/* Dupli-Color Il Copri Macchie: Product Label id 12 */
 
 .projectImagesItem12:first-child {
   grid-column-start: 2;
@@ -241,7 +253,7 @@
   }
 }
 
-/* Breis Beats: Logo id 12 */
+/* Breis Beats: Logo id 11 */
 
 .projectImagesItem11:first-child {
   grid-column-start: 3;
@@ -280,7 +292,7 @@
   }
 }
 
-/* Green Magic: CBD Packaging Illustrations id 11 */
+/* Green Magic: CBD Packaging Illustrations id 10 */
 
 .projectImagesItem10:first-child {
   grid-column-start: 2;
@@ -344,7 +356,7 @@
   }
 }
 
-/* Zampa Store: Graphic Design Projects id 10 */
+/* Zampa Store: Graphic Design Projects id 9 */
 
 .projectImagesItem9:first-child {
   grid-row-start: 1;

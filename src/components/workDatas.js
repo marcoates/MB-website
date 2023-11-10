@@ -135,10 +135,8 @@ export const workDatas = [
     position: "",
     date: "2023 - Now",
     location: "Milan, Italy",
-    graphicTools: [
-    ],
-    codingTools: [
-    ],
+    graphicTools: "",
+    codingTools: "",
     content:[
       "Passionate Freelance Graphic Designer turned aspiring Web Developer. With a background in Graphic Design, I've honed my creativity and eye for detail.",
       <br key={0} />, <br key={1} />,

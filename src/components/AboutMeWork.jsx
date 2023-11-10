@@ -146,7 +146,7 @@ function AboutMeWork() {
                         <p>{workDatas[isVisible].location}</p>
                       </li>
                     )}
-                    {workDatas[isVisible].tools === "" ? null : (
+                    {workDatas[isVisible].graphicTools === "" ? null : (
                       <li className="itemContentItemListContentTools">
                         <AutoFixHighIcon
                           fontSize="none"

@@ -47,7 +47,7 @@ const variantsResponsive = {
 
   exit: {
     opacity: 0,
-    y: 100,
+    y: 10,
     transition: {
       ease: "easeIn",
       duration: 0.3,
@@ -55,8 +55,12 @@ const variantsResponsive = {
   },
 
   hide: {
-    y: 100,
     opacity: 0,
+    y: 10,
+    transition: {
+      ease: "easeIn",
+      duration: 0.3,
+    },
   },
 };
 
@@ -70,7 +74,7 @@ function AboutMeEducation() {
   };
 
   return (
-    <div className="container">
+    <motion.div layout key={0 + "-container"} className="container">
       <div className="AboutMeEducationtitleContainer">
         <h1 className="title">
           <SchoolIcon fontSize="2rem" style={{ color: "var(--red)" }} />
@@ -78,188 +82,221 @@ function AboutMeEducation() {
         </h1>
       </div>
 
-      <div className="listsContainer">
+      <motion.div key={0 + "-listsContainer"} className="listsContainer">
         <ul className="list">
           <div className="bornContainer">
             <p className="bornIcon">🎈</p>
             <p className="bornText">In 1992 I was born, and then...</p>
           </div>
-          {educationDatas.map((item, index) => (
-            <div key={index}>
-              <AnimatePresence mode="wait">
-                <motion.li
-                  layout
-                  variants={variantsResponsive}
-                  whileHover={
-                    isSmallScreen
-                      ? null
-                      : item.id > 5
-                      ? null
-                      : {
-                          x: 5,
-                          transition: { duration: 0.3 },
-                        }
-                  }
-                  whileTap={isSmallScreen ? { y: 2 } : { x: -2 }}
-                  initial={{ x: 0 }}
-                  animate={"show"}
-                  exit={"exit"}
-                  key={index}
-                  className={"item item" + index}
-                  onClick={
-                    isVisible === undefined
-                      ? () => {
-                          setIsVisible(item.id);
-                        }
-                      : () => {
-                          scroll();
-                          setIsVisible(item.id);
-                        }
-                  }
-                  style={
-                    isSmallScreen
-                      ? isVisible === undefined
+          <div key={0 + "-educationListings"} className="educationListings">
+            {educationDatas.map((item, index) => (
+              <motion.div layout key={index}>
+                <AnimatePresence>
+                  <motion.li
+                    layout
+                    variants={variantsResponsive}
+                    whileHover={
+                      isSmallScreen
+                        ? null
+                        : item.id > 5
                         ? null
                         : {
-                            display:
-                              educationDatas[isVisible].id === index
-                                ? "none"
-                                : "block",
+                            x: 5,
+                            transition: { duration: 0.3 },
                           }
-                      : null
-                  }
-                >
-                  <div
-                    className={
-                      isVisible === index
-                        ? "itemTitleClicked itemTitleClicked" + index
-                        : "itemTitle itemTitle" + index
+                    }
+                    whileTap={isSmallScreen ? { y: 2 } : { x: -2 }}
+                    initial={{ x: 0 }}
+                    animate={"show"}
+                    exit={"exit"}
+                    key={index + "-item"}
+                    className={"item item" + index}
+                    onClick={
+                      isVisible === undefined
+                        ? () => {
+                            setIsVisible(item.id);
+                          }
+                        : () => {
+                            scroll();
+                            setIsVisible(item.id);
+                          }
+                    }
+                    style={
+                      isSmallScreen
+                        ? isVisible === undefined
+                          ? null
+                          : {
+                              display:
+                                educationDatas[isVisible].id === index
+                                  ? "none"
+                                  : "block",
+                            }
+                        : null
                     }
                   >
-                    <p className="itemTitleIcon">{item.icon}</p>
-                    <p className="itemTitleText">{item.title}</p>
-                    {index === 4 ? (
-                      <p className="EducationHighScore">🔥</p>
-                    ) : null}
-                    {index === 5 ? (
-                      <p className="EducationHighScore">🔥</p>
-                    ) : null}
-                    <div className="openCloseIconContainer">
-                      {item.id > 5 ? (
-                        <p className="lockedIcon">🔒</p>
-                      ) : (
-                        <>
-                          {item.school === undefined ? null : (
-                            <span className="school">{item.school}</span>
-                          )}
-                          <ArrowForwardIosIcon
-                            fontSize="1rem"
-                            className="EducationArrow"
-                          />
-                        </>
-                      )}
+                    <div
+                      className={
+                        isVisible === index
+                          ? "itemTitleClicked itemTitleClicked" + index
+                          : "itemTitle itemTitle" + index
+                      }
+                    >
+                      <p className="itemTitleIcon">{item.icon}</p>
+                      <p className="itemTitleText">{item.title}</p>
+                      {index === 4 ? (
+                        <p className="EducationHighScore">🔥</p>
+                      ) : null}
+                      {index === 5 ? (
+                        <p className="EducationHighScore">🔥</p>
+                      ) : null}
+                      <div className="openCloseIconContainer">
+                        {item.id > 5 ? (
+                          <p className="lockedIcon">🔒</p>
+                        ) : (
+                          <>
+                            {item.school === undefined ? null : (
+                              <span className="school">{item.school}</span>
+                            )}
+                            <ArrowForwardIosIcon
+                              fontSize="1rem"
+                              className="EducationArrow"
+                            />
+                          </>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  {item.id > 5 ? <div className="locked"></div> : null}
-                </motion.li>
-              </AnimatePresence>
-
-              {isVisible === undefined ? null : (
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    className="itemContentContainer-Responsive"
-                    key={educationDatas[isVisible].id}
-                    variants={isSmallScreen ? variantsResponsive : variants}
-                    animate={"show"}
-                    initial={"hide"}
-                    exit={"exit"}
-                    style={{
-                      display:
-                        educationDatas[isVisible].id === index
-                          ? "block"
-                          : "none",
-                    }}
-                  >
-                    <ul className="itemContentList-Responsive">
-                      <ul
-                        className={
-                          "itemContentTitleList-Responsive itemContentTitleList-Responsive" +
-                          educationDatas[isVisible].id
-                        }
-                      >
-                        <h1
-                          className="itemContentTitleItem-Responsive"
-                          id={
-                            educationDatas[isVisible].id === index
-                              ? "isVisible"
-                              : null
-                          }
-                        >
-                          {educationDatas[isVisible].title}{" "}
-                          {educationDatas[isVisible].id > 5 ? "🔒" : null}
-                        </h1>
-                        <p className="itemTitleIcon-Responsive">
-                          {educationDatas[isVisible].avatar}
-                        </p>
-                      </ul>
-                      <ul className="itemContentItem-Responsive">
-                        <ul className="itemContentItemList-Responsive">
-                          {educationDatas[isVisible].date === "" ? null : (
-                            <li className="itemContentItemListContent">
-                              <CalendarMonthIcon className="EducationDatasIcon" />
-                              <p>{educationDatas[isVisible].date}</p>
-                            </li>
-                          )}
-                          {educationDatas[isVisible].location === "" ? null : (
-                            <li className="itemContentItemListContent">
-                              <LocationOnIcon className="EducationDatasIcon" />
-                              <p>{educationDatas[isVisible].location}</p>
-                            </li>
-                          )}
-                          {educationDatas[isVisible].institute === "" ? null : (
-                            <li className="itemContentItemListContent">
-                              <LocationCityIcon className="EducationDatasIcon" />
-                              <p>{educationDatas[isVisible].institute}</p>
-                            </li>
-                          )}
-                            <li className="itemContentItemListContentTools">
-                              <AutoFixHighIcon fontSize="none" className="EducationDatasToolIcon" />
-                              <ul className="toolList">
-                                {educationDatas[isVisible].graphicTools.map(
-                                  (item, index) => (
-                                    <li key={index} className="GraphicTool">
-                                      {item}
-                                    </li>
-                                  )
-                                )}
-                                {educationDatas[isVisible].codingTools.map(
-                                  (item, index) => (
-                                    <li key={index} className="CodingTool">
-                                      {item}
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </li>
-                          {educationDatas[isVisible].content === "" ? null : (
-                            <li className="descriptionContainer">
-                              <p className="descriptionTitle">Description:</p>
-                              <p className="description">
-                                {educationDatas[isVisible].content}
-                              </p>
-                            </li>
-                          )}
-                        </ul>
-                      </ul>
-                    </ul>
-                  </motion.div>
+                    {item.id > 5 ? <div className="locked"></div> : null}
+                  </motion.li>
                 </AnimatePresence>
-              )}
-            </div>
-          ))}
+
+                <AnimatePresence mode="wait">
+                  {isVisible === undefined ? null : (
+                    <motion.div
+                      className="itemContentContainer-Responsive"
+                      key={educationDatas[isVisible].id}
+                      variants={isSmallScreen ? variantsResponsive : variants}
+                      animate={"show"}
+                      initial={"hide"}
+                      exit={"exit"}
+                      style={{
+                        display:
+                          educationDatas[isVisible].id === index
+                            ? "block"
+                            : "none",
+                        borderRadius:
+                          educationDatas[isVisible].id === 0
+                            ? "15px 15px 0px 0px"
+                            : educationDatas[isVisible].id === 7
+                            ? "0px 0px 15px 15px"
+                            : null,
+                      }}
+                    >
+                      <AnimatePresence>
+                        <motion.ul
+                          layout
+                          key={0 + "-itemContentList-Responsive"}
+                          className="itemContentList-Responsive"
+                        >
+                          <motion.div
+                            layout
+                            key={0 + "-itemContentTitleList-Responsive"}
+                            className={
+                              "itemContentTitleList-Responsive itemContentTitleList-Responsive" +
+                              educationDatas[isVisible].id
+                            }
+                          >
+                            <h1
+                              className="itemContentTitleItem-Responsive"
+                              id={
+                                educationDatas[isVisible].id === index
+                                  ? "isVisible"
+                                  : null
+                              }
+                            >
+                              {educationDatas[isVisible].title}{" "}
+                              {educationDatas[isVisible].id > 5 ? "🔒" : null}
+                            </h1>
+                            <p className="itemTitleIcon-Responsive">
+                              {educationDatas[isVisible].avatar}
+                            </p>
+                          </motion.div>
+                          <motion.ul
+                            className="itemContentItem-Responsive"
+                            layout
+                            key={0 + "-itemContentItem-Responsive"}
+                          >
+                            <motion.ul
+                              layout
+                              key={0 + "-itemContentItemList-Responsive"}
+                              className="itemContentItemList-Responsive"
+                            >
+                              {educationDatas[isVisible].date === "" ? null : (
+                                <li className="itemContentItemListContent">
+                                  <CalendarMonthIcon className="EducationDatasIcon" />
+                                  <p>{educationDatas[isVisible].date}</p>
+                                </li>
+                              )}
+                              {educationDatas[isVisible].location ===
+                              "" ? null : (
+                                <li className="itemContentItemListContent">
+                                  <LocationOnIcon className="EducationDatasIcon" />
+                                  <p>{educationDatas[isVisible].location}</p>
+                                </li>
+                              )}
+                              {educationDatas[isVisible].institute ===
+                              "" ? null : (
+                                <li className="itemContentItemListContent">
+                                  <LocationCityIcon className="EducationDatasIcon" />
+                                  <p>{educationDatas[isVisible].institute}</p>
+                                </li>
+                              )}
+                              <li className="itemContentItemListContentTools">
+                                <AutoFixHighIcon
+                                  fontSize="none"
+                                  className="EducationDatasToolIcon"
+                                />
+                                <ul className="toolList">
+                                  {educationDatas[isVisible].graphicTools.map(
+                                    (item, index) => (
+                                      <li key={index + "-GraphicTool"} className="GraphicTool">
+                                        {item}
+                                      </li>
+                                    )
+                                  )}
+                                  {educationDatas[isVisible].codingTools.map(
+                                    (item, index) => (
+                                      <li key={index + "-CodingTool"} className="CodingTool">
+                                        {item}
+                                      </li>
+                                    )
+                                  )}
+                                </ul>
+                              </li>
+                              {educationDatas[isVisible].content ===
+                              "" ? null : (
+                                <li className="descriptionContainer">
+                                  <p className="descriptionTitle">
+                                    Description:
+                                  </p>
+                                  <p className="description">
+                                    {educationDatas[isVisible].content}
+                                  </p>
+                                </li>
+                              )}
+                            </motion.ul>
+                          </motion.ul>
+                        </motion.ul>
+                      </AnimatePresence>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
+            ))}
+          </div>
         </ul>
         {isVisible === undefined ? (
           <motion.div
+          key={0 + "messageContainer"}
             className="messageContainer"
             initial={{ opacity: 0, x: 500 }}
             whileInView={{
@@ -332,26 +369,29 @@ function AboutMeEducation() {
                           <p>{educationDatas[isVisible].institute}</p>
                         </li>
                       )}
-                        <li className="itemContentItemListContentTools">
-                        <AutoFixHighIcon fontSize="none" className="EducationDatasToolIcon" />
-                          <ul className="toolList">
-                            {educationDatas[isVisible].graphicTools.map(
-                              (item, index) => (
-                                <li key={index} className="GraphicTool">
-                                  {item}
-                                </li>
-                              )
-                            )}
-                            {educationDatas[isVisible].codingTools.map(
-                              (item, index) => (
-                                <li key={index} className="CodingTool">
-                                  {item}
-                                </li>
-                              )
-                            )}
-                          </ul>
-                        </li>
-                      
+                      <li className="itemContentItemListContentTools">
+                        <AutoFixHighIcon
+                          fontSize="none"
+                          className="EducationDatasToolIcon"
+                        />
+                        <ul className="toolList">
+                          {educationDatas[isVisible].graphicTools.map(
+                            (item, index) => (
+                              <li key={index} className="GraphicTool">
+                                {item}
+                              </li>
+                            )
+                          )}
+                          {educationDatas[isVisible].codingTools.map(
+                            (item, index) => (
+                              <li key={index} className="CodingTool">
+                                {item}
+                              </li>
+                            )
+                          )}
+                        </ul>
+                      </li>
+
                       {educationDatas[isVisible].content === "" ? null : (
                         <li className="descriptionContainer">
                           <p className="descriptionTitle">Description:</p>
@@ -367,8 +407,8 @@ function AboutMeEducation() {
             </motion.div>
           </AnimatePresence>
         )}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 

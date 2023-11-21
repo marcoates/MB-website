@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Faq.css";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 function Faq() {
   const [isShown, setIsShown] = useState();
@@ -35,30 +35,35 @@ function Faq() {
 
   return (
     <>
-      <div className="FaqContainer">
-        <div className="title">
+      <motion.div layout className="FaqContainer" key={0 + "-FaqContainer"}>
+        <div key={0 + "-title"} className="title">
           <h1 className="FaqTitleIcon">?</h1>
           FAQ
         </div>
-        <motion.ul className="FaqList">
+        <motion.ul layout key={0 + "-FaqList"} className="FaqList">
           <AnimatePresence>
-            <LayoutGroup>
-              {faqs.map((item, index) => (
-                <motion.li
-                  className={isShown === index ? "FaqItemClicked" : "FaqItem"}
-                  key={index}
-                  onClick={() => setIsShown(index === isShown ? null : index)}
-                  transition={{ duration: 0.3 }}
+            {faqs.map((item, index) => (
+              <motion.li
+                className={isShown === index ? "FaqItemClicked" : "FaqItem"}
+                key={index + "-FaqItem"}
+                onClick={() => setIsShown(index === isShown ? null : index)}
+                transition={{ duration: 0.3 }}
+              >
+                <motion.div
+                  layout
+                  key={index + "-FaqTitle"}
+                  className="FaqTitle"
                 >
-                  <div className="FaqTitle">
-                    {item.title}{" "}
-                    <ArrowBackIosIcon
-                      fontSize="1rem"
-                      className={
-                        isShown === index ? "IconOpenOpen" : "IconOpenClose"
-                      }
-                    />
-                  </div>
+                  {item.title}{" "}
+                  <ArrowBackIosIcon
+                    fontSize="1rem"
+                    className={
+                      isShown === index ? "IconOpenOpen" : "IconOpenClose"
+                    }
+                  />
+                </motion.div>
+
+                <AnimatePresence>
                   <motion.div
                     className={
                       isShown === item.id ? "FaqContentShow" : "FaqContentHide"
@@ -66,16 +71,17 @@ function Faq() {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 50 }}
-                    key={index}
+                    transition={{delay: 0.15}}
+                    key={index + "-FaqContent"}
                   >
                     {item.content}
                   </motion.div>
-                </motion.li>
-              ))}
-            </LayoutGroup>
+                </AnimatePresence>
+              </motion.li>
+            ))}
           </AnimatePresence>
         </motion.ul>
-      </div>
+      </motion.div>
     </>
   );
 }

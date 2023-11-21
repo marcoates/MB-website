@@ -24,6 +24,13 @@
   border-radius: 10px;
 }
 
+.educationListings {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px var(--lightGray);
+}
+
 .item {
   display: flex;
   flex-direction: row;
@@ -301,7 +308,7 @@
   border-radius: 5px;
 }
 
-.itemContentItemListContent p{
+.itemContentItemListContent p {
   color: var(--gray);
   padding: 5px 10px;
   background-color: white;
@@ -438,7 +445,7 @@
 }
 
 .EducationHighScore {
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -452,62 +459,69 @@
 }
 
 @media only screen and (max-width: 1000px) {
-
   .container {
     padding: 50px 25px 50px 25px;
   }
 
-.itemContentList-Responsive {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  display: block;
-  padding: 0px 25px;
-}
+  .itemContentContainer-Responsive {
+    display: block;
+    background-color: white;
+  }
 
-.itemContentItem-Responsive {
-  border-radius: 0px;
-}
+  .itemContentList-Responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    display: block;
+    padding: 0px 25px;
+  }
 
-.itemContentItemList-Responsive {
-  display: flex;
-  gap: 25px;
-  flex-wrap: wrap;
-  padding: 0px 0px 50px 0px;
-}
+  .container .itemContentList-Responsive:nth-of-type(1) {
+    border-radius: 15px 15px 0px 0px;
+  }
 
-.itemContentTitleList-Responsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 25px 0px 25px 0px;
-  color: var(--white);
-}
+  .itemContentItem-Responsive {
+    border-radius: 0px;
+  }
 
-.itemContentTitleItem-Responsive {
-  scroll-margin-top: 100px;
-  border-radius: 0px;
-  display: flex;
-  padding: 10px;
-  color: var(--gray);
-  text-shadow: 2px 2px var(--lightRed);
-}
+  .itemContentItemList-Responsive {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 0px 0px 50px 0px;
+  }
 
-.itemTitleIcon-Responsive {
-  font-size: 3rem;
-  padding: 0px 5px;
-  border-radius: 50%;
-  transition: 0.3s;
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .itemContentTitleList-Responsive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px 25px 0px;
+    color: var(--white);
+  }
 
-.school {
-  display: none;
-}
+  .itemContentTitleItem-Responsive {
+    scroll-margin-top: 100px;
+    border-radius: 0px;
+    display: flex;
+    padding: 10px;
+    color: var(--gray);
+    text-shadow: 2px 2px var(--lightRed);
+  }
+
+  .itemTitleIcon-Responsive {
+    font-size: 3rem;
+    padding: 0px 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .school {
+    display: none;
+  }
 
   .listsContainer {
     display: flex;
@@ -536,10 +550,6 @@
     justify-content: center;
   }
 
-  .itemContentContainer-Resposive {
-    display: block;
-  }
-
   .EducationArrow {
     transform: rotate(90deg);
   }
@@ -557,7 +567,7 @@
     background-color: var(--red);
     font-weight: 300;
   }
-  
+
   .CodingTool {
     color: white;
     padding: 5px 10px;
@@ -565,5 +575,4 @@
     background-color: var(--gray);
     font-weight: 300;
   }
-
 }

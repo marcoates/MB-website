@@ -1,6 +1,117 @@
 import { Link } from "react-router-dom";
 
 export const projects = [
+  {
+
+    id: 17,
+    url: "product-display-rendering",
+    title: "Product Display Rendering",
+    location: "Milano, Italy",
+    tag: [
+      "Branding",
+      "Illustration",
+  ],
+    client: "European Aerosols",
+    avatar: [require("../assets/MONTANA_Rendering-1.png")],
+    images: [
+      require("../assets/Can-Rendering.png"),
+      require("../assets/Montana-Can.jpg"),
+      require("../assets/MONTANA_Rendering-1.png"),
+      require("../assets/MONTANA_Rendering-2.png"),
+      require("../assets/MONTANA-CAN-RACK-1METER-00.jpg"),
+    ],
+    graphicToolsUsed: [
+      "Adobe Illustrator",
+    ],
+    codingToolsUsed: [
+    ],
+    // toolsUsed: [
+    //   {
+    //     name: "Procreate",
+    //     icon: require("../assets/Procreate-icon.png"),
+    //   },
+    //   {
+    //     name: "Adobe Illustrator",
+    //     icon: require("../assets/Adobe_Illustrator_CC_icon.svg").default,
+    //   },
+    // ],
+    description: [
+      "In this project I had to create a Rendering that shows how these Montana Cans (a brand of European Aerosols) products would display in the client shop.",
+      <br key={0}/>,
+      <br key={1}/>,
+      "The essence of these renderings lies in their ability to visualize display projects within a shop context, complete with associated merchandise and marketing materials.",
+      <br key={2}/>,
+      <br key={3}/>,
+      "The graphical representations are meticulously designed to present products as they would appear in an actual retail setting or exhibition. This approach allows for an effective and realistic way of presenting projects to clients.",
+      "While maintaining a keen eye on detail, the renderings are crafted to emphasize key aspects such as product colors and the overall coherence of the display, ensuring that the focus remains on the most crucial elements of the project.",
+      <br key={6}/>,
+      <br key={7}/>,
+      "If you look at the images above you can see a common Montana Cans display which my collaborators gave me to have an idea of how they are usually displayed (for example they prefer to display them with no cap). I created the rendering based on the client racks, the same that they will provide to display the cans. So the final graphic can have 100% fidelity to the real product.",
+      <br key={8}/>,
+      <br key={9}/>,
+      "This balance of realism and strategic focus makes these renderings an invaluable tool for businesses looking to preview and refine their shop layouts and product presentations.",
+    ],
+  },
+
+  {
+
+    id: 16,
+    url: "jat-job-applications-tracker",
+    title: "JAT: Job Applications Tracker",
+    location: "Milano, Italy",
+    tag: [
+      "Branding",
+      "UI",
+      "UX",
+      "Web Development",
+  ],
+    client: "",
+    avatar: [require("../assets/JAT-Website-2.png")],
+    images: [
+      require("../assets/JAT_logo&claim.svg").default,
+      require("../assets/JAT_logo_B&W-Positive.svg").default,
+      require("../assets/JAT_logo_B&W-Negative.svg").default,
+      require("../assets/JAT-Website.png"),
+      require("../assets/JAT-Website-1.png"),
+      require("../assets/JAT_Pattern.png"),
+    ],
+    graphicToolsUsed: [
+      "Adobe Illustrator",
+    ],
+    codingToolsUsed: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React"
+    ],
+    // toolsUsed: [
+    //   {
+    //     name: "Procreate",
+    //     icon: require("../assets/Procreate-icon.png"),
+    //   },
+    //   {
+    //     name: "Adobe Illustrator",
+    //     icon: require("../assets/Adobe_Illustrator_CC_icon.svg").default,
+    //   },
+    // ],
+    description: [
+      "JAT, short for Job Application Tracker, is a project born out of a personal journey and a universal need.",
+      <br key={0}/>,
+      <br key={1}/>,
+      "While navigating the complex process of job applications, I realized the widespread demand for an organized system to track sent CVs and manage job-seeking efforts. This insight led to the creation of JAT, a web application where design meets functionality.",
+      <br key={2}/>,
+      <br key={3}/>,
+      "I dedicated time to crafting not just a name but also a distinct logo, encapsulating the essence of JAT. The logo shows a magnifying glass with a tick in the middle to symbolize the idea of seeking with certain success and achievement, the green color gives also a secure atmosphere to the graphics, together with the black which maintains a bit of formalization to stick to the Job concept. Developed using React, this project showcases my expertise in UI/UX design, ensuring users enjoy a seamless, effective experience marked by simplicity and aesthetic appeal.",
+      <br key={4}/>,
+      <br key={5}/>,
+      "Please note, this version of JAT is a demo, functioning without a backend or database, designed to illustrate the potential of this concept in aiding job seekers in their career journey.",
+      <br key={6}/>,
+      <br key={7}/>,
+      <Link to="https://marcoates.github.io/JAT-Job-Application-Tracker/" target="_blank" key={0}>
+        <b>Try JAT: Job Application Tracker now!</b>
+      </Link>,
+    ],
+  },
 
   {
     id: 15,

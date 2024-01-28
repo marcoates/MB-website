@@ -16,7 +16,7 @@ function InstagramFeed() {
       const newValue =
         direction === "right" ? prevVisible + 1 : prevVisible - 1;
 
-      return newValue > 7 ? 0 : newValue < 0 ? 7 : newValue;
+      return newValue > 8 ? 0 : newValue < 0 ? 8 : newValue;
     });
   }
 

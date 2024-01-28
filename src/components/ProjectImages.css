@@ -71,6 +71,185 @@
   }
 }
 
+/* Product Display Rendering id 17 */
+
+.projectImagesItem17:first-child {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  box-shadow: none;
+}
+
+.projectImagesItem17:nth-child(2) {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  box-shadow: none;
+}
+
+.projectImagesItem17:nth-child(3) {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  box-shadow: none;
+}
+
+.projectImagesItem17:nth-child(4) {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  box-shadow: none;
+}
+
+.projectImagesItem17:nth-child(5) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .projectImagesItem17:first-child {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem17:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem17:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem17:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem17:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+}
+
+/* JAT: Job Applications Tracker id 16 */
+
+.projectImagesItem16:first-child {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  box-shadow: none;
+}
+
+.projectImagesItem16:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  box-shadow: none;
+}
+
+.projectImagesItem16:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.projectImagesItem16:nth-child(4) {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.projectImagesItem16:nth-child(5) {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.projectImagesItem16:nth-child(6) {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .projectImagesItem16:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem16:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem16:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .projectImagesItem16:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  
+  .projectImagesItem16:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+  
+  .projectImagesItem16:nth-child(6) {
+    max-height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+}
+
 /* ABKC American Bully Kennel Club: Pitbull Mascots Illustrations id 15 */
 
 .projectImagesItem15:first-child {

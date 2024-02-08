@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9248f7d5.css",
-    "main.js": "/static/js/main.496e3aa9.js",
+    "main.css": "/static/css/main.b2a1ea7c.css",
+    "main.js": "/static/js/main.4380f433.js",
+    "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
+    "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
+    "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
+    "static/media/YSBR_Dripping-B_W_Flag_Mockup.png": "/static/media/YSBR_Dripping-B_W_Flag_Mockup.ea1bffd6bf9e053bd174.png",
     "static/media/MONTANA_Rendering-2.png": "/static/media/MONTANA_Rendering-2.68f7c187bab9bbbd6db4.png",
     "static/media/MONTANA_Rendering-1.png": "/static/media/MONTANA_Rendering-1.95e78f42624253cb367c.png",
     "static/media/Laptop-Run.gif": "/static/media/Laptop-Run.e5c07688240a9f0fe86d.gif",
     "static/media/Meditation.gif": "/static/media/Meditation.07db29e8a5ff9fb519b8.gif",
     "static/media/At-the-desk.gif": "/static/media/At-the-desk.b87e03b71f349f984b7f.gif",
+    "static/media/Rendering-Mockup-3.png": "/static/media/Rendering-Mockup-3.62edb988fbea79b87c96.png",
     "static/media/Cruel.png": "/static/media/Cruel.7f2b40ffd2f2c701d0b7.png",
     "static/media/About-Me.gif": "/static/media/About-Me.3fe55c988fd142f3b35e.gif",
     "static/media/Skull&Roses.png": "/static/media/Skull&Roses.a131a8dc1b53b70ee59f.png",
@@ -29,6 +34,7 @@
     "static/media/DRV-Mockup-1.jpeg": "/static/media/DRV-Mockup-1.d66556c0cfaee535cc31.jpeg",
     "static/media/Il-Ritocco-Muri_Mockup.png": "/static/media/Il-Ritocco-Muri_Mockup.60be97ace1e8ceb52e94.png",
     "static/media/Urmet-Iuvs-Plus_Logo.png": "/static/media/Urmet-Iuvs-Plus_Logo.546582deec8dfa9dc7cc.png",
+    "static/media/YSBR_Dripping-B_W_Flag_Rendering.png": "/static/media/YSBR_Dripping-B_W_Flag_Rendering.758d93110c8ed2e4415a.png",
     "static/media/Gladiator-Pit.png": "/static/media/Gladiator-Pit.ff7fa0a051e2bec56191.png",
     "static/media/Tattoed-Pit-mug-mockup.png": "/static/media/Tattoed-Pit-mug-mockup.4cef5da2de5928efe0db.png",
     "static/media/Pixxa-Challenge_Rules-Flyer.png": "/static/media/Pixxa-Challenge_Rules-Flyer.e7e5459c45effbf5b7bb.png",
@@ -85,6 +91,7 @@
     "static/media/Dupli-Color-Product-Catalog_Mockup-3.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-3.77e593d82afad9700961.jpeg",
     "static/media/Dupli-Color-Product-Catalog_Mockup-2.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-2.916c0aa2d1fa105125b7.jpeg",
     "static/media/Settimo-Tricot-Club_Logo.png": "/static/media/Settimo-Tricot-Club_Logo.a4d91429b24355ee0f7b.png",
+    "static/media/YSBR_Dripping-B:W:Flag.png": "/static/media/YSBR_Dripping-B:W:Flag.ba8b4762541d2a425c02.png",
     "static/media/DRV_Logo.png": "/static/media/DRV_Logo.7761a9d159130dfdfe64.png",
     "static/media/JAT_Pattern.png": "/static/media/JAT_Pattern.2ecc0d44e89cb8280e2c.png",
     "static/media/Breis-Logo_Positive.png": "/static/media/Breis-Logo_Positive.12a1de324f87ab657870.png",
@@ -122,11 +129,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.9248f7d5.css.map": "/static/css/main.9248f7d5.css.map",
-    "main.496e3aa9.js.map": "/static/js/main.496e3aa9.js.map"
+    "main.b2a1ea7c.css.map": "/static/css/main.b2a1ea7c.css.map",
+    "main.4380f433.js.map": "/static/js/main.4380f433.js.map"
   },
   "entrypoints": [
-    "static/css/main.9248f7d5.css",
-    "static/js/main.496e3aa9.js"
+    "static/css/main.b2a1ea7c.css",
+    "static/js/main.4380f433.js"
   ]
 }

@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2a1ea7c.css",
-    "main.js": "/static/js/main.04a402b9.js",
+    "main.css": "/static/css/main.06498703.css",
+    "main.js": "/static/js/main.22771055.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
     "static/media/YSBR_Dripping-B_W_Flag_Mockup.png": "/static/media/YSBR_Dripping-B_W_Flag_Mockup.9099361fe7e5ede1e9e3.png",
     "static/media/MONTANA_Rendering-2.png": "/static/media/MONTANA_Rendering-2.68f7c187bab9bbbd6db4.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-05.png": "/static/media/YSBR_Alien-Surfer_Mockup-05.8f356587062e22ff0993.png",
     "static/media/MONTANA_Rendering-1.png": "/static/media/MONTANA_Rendering-1.95e78f42624253cb367c.png",
     "static/media/Laptop-Run.gif": "/static/media/Laptop-Run.e5c07688240a9f0fe86d.gif",
     "static/media/Meditation.gif": "/static/media/Meditation.07db29e8a5ff9fb519b8.gif",
     "static/media/At-the-desk.gif": "/static/media/At-the-desk.b87e03b71f349f984b7f.gif",
+    "static/media/YSBR_Alien-Surfer_Mockup-04.png": "/static/media/YSBR_Alien-Surfer_Mockup-04.a35607c9a58087028090.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-07.png": "/static/media/YSBR_Alien-Surfer_Mockup-07.c192d72ec21aa5deba6f.png",
     "static/media/Rendering-Mockup-3.png": "/static/media/Rendering-Mockup-3.62edb988fbea79b87c96.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-01.png": "/static/media/YSBR_Alien-Surfer_Mockup-01.4646a685e46f3be402da.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-02.png": "/static/media/YSBR_Alien-Surfer_Mockup-02.5e643b5c9b25cfffe51d.png",
     "static/media/Cruel.png": "/static/media/Cruel.7f2b40ffd2f2c701d0b7.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-03.png": "/static/media/YSBR_Alien-Surfer_Mockup-03.8d5493d8d25987d2bb6a.png",
     "static/media/About-Me.gif": "/static/media/About-Me.3fe55c988fd142f3b35e.gif",
     "static/media/Skull&Roses.png": "/static/media/Skull&Roses.a131a8dc1b53b70ee59f.png",
     "static/media/Can-Rendering.png": "/static/media/Can-Rendering.f6b37fe315ef9750359f.png",
@@ -21,6 +27,8 @@
     "static/media/Il-Coprimacchie_Label.jpeg": "/static/media/Il-Coprimacchie_Label.be0ec5872929059fedd1.jpeg",
     "static/media/Wardrope.png": "/static/media/Wardrope.454360ab318ccfb8def3.png",
     "static/media/Panther&Roses.png": "/static/media/Panther&Roses.5e3107376a61fb7df55e.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-06.png": "/static/media/YSBR_Alien-Surfer_Mockup-06.3fffbdfe0c6dc9d6e227.png",
+    "static/media/YSBR_Alien-Surfer_Mockup-08.png": "/static/media/YSBR_Alien-Surfer_Mockup-08.c0fa1d1b73e8af674d71.png",
     "static/media/All-Season_Rendering.png": "/static/media/All-Season_Rendering.3058e0cf990bae429001.png",
     "static/media/PigMan.png": "/static/media/PigMan.cdc51d799b8db899cb5a.png",
     "static/media/English.gif": "/static/media/English.e2fc99d8d5abe317cc71.gif",
@@ -129,11 +137,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.b2a1ea7c.css.map": "/static/css/main.b2a1ea7c.css.map",
-    "main.04a402b9.js.map": "/static/js/main.04a402b9.js.map"
+    "main.06498703.css.map": "/static/css/main.06498703.css.map",
+    "main.22771055.js.map": "/static/js/main.22771055.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2a1ea7c.css",
-    "static/js/main.04a402b9.js"
+    "static/css/main.06498703.css",
+    "static/js/main.22771055.js"
   ]
 }

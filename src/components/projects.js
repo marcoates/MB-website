@@ -22,7 +22,7 @@ export const projects = [
     graphicToolsUsed: ["Procerate", "Adobe Illustrator"],
     codingToolsUsed: [],
     description: [
-      "I had the exhilarating opportunity to design a flag for YSBR, a brand celebrated for its dynamic outdoor sports events.",
+      "I had the exhilarating opportunity to design an illustration for YSBR merchandise, they are a brand which organizes dynamic outdoor sports events.",
       <br key={0} />,
       <br key={1} />,
       <Link to="https://www.instagram.com/ysbrfam/" target="_blank" key={0}>

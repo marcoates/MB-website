@@ -92,7 +92,125 @@
   }
 }
 
-/* Product Display Rendering id 18 */
+/* YSBR: Alien Surfer Illustration id 19 */
+
+.projectImagesItem19:first-child {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.projectImagesItem19:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.projectImagesItem19:nth-child(3) {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.projectImagesItem19:nth-child(4) {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.projectImagesItem19:nth-child(5) {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.projectImagesItem19:nth-child(6) {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.projectImagesItem19:nth-child(7) {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.projectImagesItem19:nth-child(8) {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .projectImagesItem19:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 10;
+  }
+  
+  .projectImagesItem19:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .projectImagesItem19:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  .projectImagesItem19:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  
+  .projectImagesItem19:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  
+  .projectImagesItem19:nth-child(6) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start:6;
+    grid-row-end: 7;
+  }
+  
+  .projectImagesItem19:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 9;
+  }
+  
+  .projectImagesItem19:nth-child(8) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+}
+
+/* YSBR: YesBro Flag id 18 */
 
 .projectImagesItem18:first-child {
   grid-column-start: 1;

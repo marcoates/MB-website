@@ -2,6 +2,44 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
+    id: 19,
+    url: "ysbr-alien-surfer-illustration",
+    title: "YSBR: Alien Surfer Illustration",
+    location: "Milano, Italy",
+    tag: ["Branding", "Illustration"],
+    client: "YSBR",
+    avatar: [require("../assets/YSBR_Alien-Surfer_Mockup-08.png")],
+    images: [
+      require("../assets/YSBR_Alien-Surfer_Mockup-01.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-02.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-03.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-04.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-05.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-06.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-07.png"),
+      require("../assets/YSBR_Alien-Surfer_Mockup-08.png"),
+    ],
+    graphicToolsUsed: ["Procerate", "Adobe Illustrator"],
+    codingToolsUsed: [],
+    description: [
+      "I had the exhilarating opportunity to design a flag for YSBR, a brand celebrated for its dynamic outdoor sports events.",
+      <br key={0} />,
+      <br key={1} />,
+      <Link to="https://www.instagram.com/ysbrfam/" target="_blank" key={0}>
+        Visit YSBR Instagram page!
+      </Link>,
+      <br key={2} />,
+      <br key={3} />,
+      "This project showcases an imaginative illustration, where an alien is depicted surfing the waves, uniquely propelled by a UFO instead of the traditional kite surf.",
+      <br key={4} />,
+      <br key={5} />,
+      "The design is rendered in a bi-color scheme (client request), making it versatile and easily adaptable to various color palettes.",
+      <br key={6} />,
+      <br key={7} />,
+      "Crafted with textiles in mind, this illustration is perfect for application on t-shirts and jumpers, offering a distinctive and playful addition to any wardrobe."
+    ],
+  },
+  {
     id: 18,
     url: "ysbr-yesbro-flag",
     title: "YSBR: YesBro Flag",
@@ -26,7 +64,7 @@ export const projects = [
       </Link>,
       <br key={2} />,
       <br key={3} />,
-      " My focus was on making a design that stands out, blending YSBR's ideas with a black and white graphic (which was a request from the client) used in the negative version to pop up more through the snow (they mainly do ski events and parties).",
+      "My focus was on making a design that stands out, blending YSBR's ideas with a black and white graphic (which was a request from the client) used in the negative version to pop up more through the snow (they mainly do ski events and parties).",
       <br key={4} />,
       <br key={5} />,
       "After perfecting the design, I prepared the print files, following precise printer guidelines to ensure quality. You can see the final product above here! I hope that you like it!",

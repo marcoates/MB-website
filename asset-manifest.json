@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.06498703.css",
-    "main.js": "/static/js/main.0a1dcba9.js",
+    "main.css": "/static/css/main.2559b11f.css",
+    "main.js": "/static/js/main.b9649b2a.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
+    "static/media/Ruco_AD_Mockup.png": "/static/media/Ruco_AD_Mockup.e33c2ced096c9f38b285.png",
     "static/media/YSBR_Dripping-B_W_Flag_Mockup.png": "/static/media/YSBR_Dripping-B_W_Flag_Mockup.9099361fe7e5ede1e9e3.png",
+    "static/media/Ruco_AD_Video.mov": "/static/media/Ruco_AD_Video.916900c8e1d64cc8bc7b.mov",
     "static/media/MONTANA_Rendering-2.png": "/static/media/MONTANA_Rendering-2.68f7c187bab9bbbd6db4.png",
     "static/media/YSBR_Alien-Surfer_Mockup-05.png": "/static/media/YSBR_Alien-Surfer_Mockup-05.8f356587062e22ff0993.png",
     "static/media/MONTANA_Rendering-1.png": "/static/media/MONTANA_Rendering-1.95e78f42624253cb367c.png",
@@ -16,9 +18,11 @@
     "static/media/YSBR_Alien-Surfer_Mockup-07.png": "/static/media/YSBR_Alien-Surfer_Mockup-07.c192d72ec21aa5deba6f.png",
     "static/media/Rendering-Mockup-3.png": "/static/media/Rendering-Mockup-3.62edb988fbea79b87c96.png",
     "static/media/YSBR_Alien-Surfer_Mockup-01.png": "/static/media/YSBR_Alien-Surfer_Mockup-01.4646a685e46f3be402da.png",
+    "static/media/Ruco_AD_Links.png": "/static/media/Ruco_AD_Links.47e2e17eb3a54380f8c5.png",
     "static/media/YSBR_Alien-Surfer_Mockup-02.png": "/static/media/YSBR_Alien-Surfer_Mockup-02.5e643b5c9b25cfffe51d.png",
     "static/media/Cruel.png": "/static/media/Cruel.7f2b40ffd2f2c701d0b7.png",
     "static/media/YSBR_Alien-Surfer_Mockup-03.png": "/static/media/YSBR_Alien-Surfer_Mockup-03.8d5493d8d25987d2bb6a.png",
+    "static/media/Ruco_AD_Graphic.png": "/static/media/Ruco_AD_Graphic.c135bc794ba77562ba85.png",
     "static/media/About-Me.gif": "/static/media/About-Me.3fe55c988fd142f3b35e.gif",
     "static/media/Skull&Roses.png": "/static/media/Skull&Roses.a131a8dc1b53b70ee59f.png",
     "static/media/Can-Rendering.png": "/static/media/Can-Rendering.f6b37fe315ef9750359f.png",
@@ -137,11 +141,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.06498703.css.map": "/static/css/main.06498703.css.map",
-    "main.0a1dcba9.js.map": "/static/js/main.0a1dcba9.js.map"
+    "main.2559b11f.css.map": "/static/css/main.2559b11f.css.map",
+    "main.b9649b2a.js.map": "/static/js/main.b9649b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.06498703.css",
-    "static/js/main.0a1dcba9.js"
+    "static/css/main.2559b11f.css",
+    "static/js/main.b9649b2a.js"
   ]
 }

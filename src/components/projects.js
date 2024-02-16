@@ -2,6 +2,32 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
+    id: 20,
+    url: "european-aerosols-magazine-advert",
+    title: "European Aerosols: Magazine Advert",
+    location: "Milano, Italy",
+    tag: ["Branding"],
+    client: "European Aerosols",
+    avatar: [require("../assets/Ruco_AD_Mockup.png")],
+    images: [
+      require("../assets/Ruco_AD_Links.png"),
+      require("../assets/Ruco_AD_Graphic.png"),
+      require("../assets/Ruco_AD_Mockup.png"),
+    ],
+    videos: [require("../assets/Ruco_AD_Video.mov")],
+    graphicToolsUsed: ["Adobe Photoshop", "Adobe InDesign"],
+    codingToolsUsed: [],
+    description: [
+      "This project involved creating a compelling graphic for an advertisement highlighting the partnership between the European Aerosols Switzerland Department and their client, Ruco.",
+      <br key={0} />,
+      <br key={1} />,
+      "The challenge was to depict the aerosol products in a realistic usage scenario without the aid of 3D rendering tools. Utilizing Adobe Photoshop and advanced photo retouching skills, I meticulously cut around the edges of each product image, adjusting their sizes, lighting, and coloring to seamlessly integrate them into a still life background.",
+      <br key={2} />,
+      <br key={3} />,
+      "This task required a keen eye for detail and a deep understanding of visual composition to achieve a lifelike representation using solely 2D manipulations. The result was a visually stunning advertisement that effectively communicated the partnership's essence and the practical elegance of the aerosol products.",
+    ],
+  },
+  {
     id: 19,
     url: "ysbr-alien-surfer-illustration",
     title: "YSBR: Alien Surfer Illustration",
@@ -114,7 +140,7 @@ export const projects = [
     title: "JAT: Job Applications Tracker",
     location: "Milano, Italy",
     tag: ["Branding", "UI", "UX", "Web Development"],
-    client: "",
+    client: "JAT",
     avatar: [require("../assets/JAT-Website-2.png")],
     images: [
       require("../assets/JAT_logo&claim.svg").default,

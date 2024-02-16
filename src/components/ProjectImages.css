@@ -92,6 +92,70 @@
   }
 }
 
+/* European Aerosols: Magazine Advert id 20 */
+
+.projectImagesItem20:first-child {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  box-shadow: none;
+}
+
+.projectImagesItem20:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.projectImagesItem20:nth-child(3) {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.projectVideoItem20 {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .projectImagesItem20:first-child {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    box-shadow: none;
+  }
+  
+  .projectImagesItem20:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .projectImagesItem20:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .projectVideoItem20 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+}
+
 /* YSBR: Alien Surfer Illustration id 19 */
 
 .projectImagesItem19:first-child {

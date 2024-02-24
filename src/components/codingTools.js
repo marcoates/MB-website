@@ -8,7 +8,7 @@ export const codingTools = [
           src={require("../assets/HTML5_logo_and_wordmark.svg").default}
         ></img>
       ),
-      rate: "50%",
+      rate: "75%",
     },
     {
       name: "CSS",
@@ -19,7 +19,7 @@ export const codingTools = [
           src={require("../assets/CSS3_logo_and_wordmark.png")}
         ></img>
       ),
-      rate: "65%",
+      rate: "75%",
     },
     {
       name: "Javascript",
@@ -30,7 +30,7 @@ export const codingTools = [
           src={require("../assets/Js.svg").default}
         ></img>
       ),
-      rate: "65%",
+      rate: "75%",
     },
     {
       name: "React",
@@ -41,7 +41,7 @@ export const codingTools = [
           src={require("../assets/React-icon.svg").default}
         ></img>
       ),
-      rate: "65%",
+      rate: "75%",
     },
     {
       name: "NodeJS",

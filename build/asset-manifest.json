@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2559b11f.css",
-    "main.js": "/static/js/main.b9649b2a.js",
+    "main.css": "/static/css/main.53fc0412.css",
+    "main.js": "/static/js/main.277b1194.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
     "static/media/Ruco_AD_Mockup.png": "/static/media/Ruco_AD_Mockup.e33c2ced096c9f38b285.png",
     "static/media/YSBR_Dripping-B_W_Flag_Mockup.png": "/static/media/YSBR_Dripping-B_W_Flag_Mockup.9099361fe7e5ede1e9e3.png",
     "static/media/Ruco_AD_Video.mov": "/static/media/Ruco_AD_Video.916900c8e1d64cc8bc7b.mov",
+    "static/media/YSBR_Detonate_Mockup-01.png": "/static/media/YSBR_Detonate_Mockup-01.24882ed05f23f2c9ba8d.png",
+    "static/media/YSBR_Detonate_Mockup-03.jpg": "/static/media/YSBR_Detonate_Mockup-03.d3640e6d418b83369970.jpg",
     "static/media/MONTANA_Rendering-2.png": "/static/media/MONTANA_Rendering-2.68f7c187bab9bbbd6db4.png",
     "static/media/YSBR_Alien-Surfer_Mockup-05.png": "/static/media/YSBR_Alien-Surfer_Mockup-05.8f356587062e22ff0993.png",
     "static/media/MONTANA_Rendering-1.png": "/static/media/MONTANA_Rendering-1.95e78f42624253cb367c.png",
@@ -24,11 +26,13 @@
     "static/media/YSBR_Alien-Surfer_Mockup-03.png": "/static/media/YSBR_Alien-Surfer_Mockup-03.8d5493d8d25987d2bb6a.png",
     "static/media/Ruco_AD_Graphic.png": "/static/media/Ruco_AD_Graphic.c135bc794ba77562ba85.png",
     "static/media/About-Me.gif": "/static/media/About-Me.3fe55c988fd142f3b35e.gif",
+    "static/media/YSBR_Detonately_1.png": "/static/media/YSBR_Detonately_1.f5da72c22618b5908d02.png",
     "static/media/Skull&Roses.png": "/static/media/Skull&Roses.a131a8dc1b53b70ee59f.png",
     "static/media/Can-Rendering.png": "/static/media/Can-Rendering.f6b37fe315ef9750359f.png",
     "static/media/Diablo.png": "/static/media/Diablo.9f95339fb3aed758538b.png",
     "static/media/All-Season_Crowner.png": "/static/media/All-Season_Crowner.e859721fb1fc6a2b8422.png",
     "static/media/Il-Coprimacchie_Label.jpeg": "/static/media/Il-Coprimacchie_Label.be0ec5872929059fedd1.jpeg",
+    "static/media/YSBR_Detonately.png": "/static/media/YSBR_Detonately.b7d78a0f029a6b564003.png",
     "static/media/Wardrope.png": "/static/media/Wardrope.454360ab318ccfb8def3.png",
     "static/media/Panther&Roses.png": "/static/media/Panther&Roses.5e3107376a61fb7df55e.png",
     "static/media/YSBR_Alien-Surfer_Mockup-06.png": "/static/media/YSBR_Alien-Surfer_Mockup-06.3fffbdfe0c6dc9d6e227.png",
@@ -48,6 +52,7 @@
     "static/media/Urmet-Iuvs-Plus_Logo.png": "/static/media/Urmet-Iuvs-Plus_Logo.546582deec8dfa9dc7cc.png",
     "static/media/YSBR_Dripping-B_W_Flag_Rendering.png": "/static/media/YSBR_Dripping-B_W_Flag_Rendering.758d93110c8ed2e4415a.png",
     "static/media/Gladiator-Pit.png": "/static/media/Gladiator-Pit.ff7fa0a051e2bec56191.png",
+    "static/media/YSBR_Detonate_Mockup-02.jpg": "/static/media/YSBR_Detonate_Mockup-02.7c90e4b157e0ce71214d.jpg",
     "static/media/Tattoed-Pit-mug-mockup.png": "/static/media/Tattoed-Pit-mug-mockup.4cef5da2de5928efe0db.png",
     "static/media/Pixxa-Challenge_Rules-Flyer.png": "/static/media/Pixxa-Challenge_Rules-Flyer.e7e5459c45effbf5b7bb.png",
     "static/media/Pixxa-Challenge_Board_Photo-1.jpeg": "/static/media/Pixxa-Challenge_Board_Photo-1.3de6fb8c645486bb8d6a.jpeg",
@@ -55,9 +60,11 @@
     "static/media/Pixxa-Journey_Board.png": "/static/media/Pixxa-Journey_Board.f4c02aee6cb76ba68f86.png",
     "static/media/Montana-Can.jpg": "/static/media/Montana-Can.6cbb2b4f6b3400a38a00.jpg",
     "static/media/MONTANA-CAN-RACK-1METER-00.jpg": "/static/media/MONTANA-CAN-RACK-1METER-00.295f318758822fa956c4.jpg",
+    "static/media/YSBR_Detonate_Mockup-04.jpg": "/static/media/YSBR_Detonate_Mockup-04.5ee69eeb51bade43ac73.jpg",
     "static/media/Tattoed-Pit.png": "/static/media/Tattoed-Pit.8f1acb5b200d2a3df3fb.png",
     "static/media/Dupli-Color-Product-Catalog_Mockup-1.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-1.029aa040e1a98b328b52.jpeg",
     "static/media/All-Season-Flyer-Mockup-1.jpeg": "/static/media/All-Season-Flyer-Mockup-1.732a53c2753b27642fba.jpeg",
+    "static/media/YSBR_Detonate_Mockup-05.jpg": "/static/media/YSBR_Detonate_Mockup-05.32c2876f8623f82b507f.jpg",
     "static/media/Alpha.JPG": "/static/media/Alpha.ef5311df75e5baad751b.JPG",
     "static/media/JAT-Website.png": "/static/media/JAT-Website.7ddf6ba82358c02cdbb7.png",
     "static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.jpeg": "/static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.ac223206866e4ab96eb6.jpeg",
@@ -86,6 +93,7 @@
     "static/media/Pixxa-Journey_Board_Photo-2.jpeg": "/static/media/Pixxa-Journey_Board_Photo-2.fad82250bc97dae8a64d.jpeg",
     "static/media/Express_Logo.png": "/static/media/Express_Logo.b9bf40fc00f4b13557f6.png",
     "static/media/Zampa-Store-Graphic-Design-Projects_Business-Card-3.jpeg": "/static/media/Zampa-Store-Graphic-Design-Projects_Business-Card-3.de04bc49a792f7ab091f.jpeg",
+    "static/media/YSBR_Detonate_Mockup-06.jpg": "/static/media/YSBR_Detonate_Mockup-06.8719eacec26569932f58.jpg",
     "static/media/Zampa-Store-Graphic-Design-Projects_Business-Card-2.jpeg": "/static/media/Zampa-Store-Graphic-Design-Projects_Business-Card-2.3720e4425e554bc743ec.jpeg",
     "static/media/DRV-Photo-1.jpeg": "/static/media/DRV-Photo-1.9cd140d7e7fb7fd9d14f.jpeg",
     "static/media/Tattoed-Pit-photo-2.jpeg": "/static/media/Tattoed-Pit-photo-2.4d4dd0ecd89b530b4dda.jpeg",
@@ -141,11 +149,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.2559b11f.css.map": "/static/css/main.2559b11f.css.map",
-    "main.b9649b2a.js.map": "/static/js/main.b9649b2a.js.map"
+    "main.53fc0412.css.map": "/static/css/main.53fc0412.css.map",
+    "main.277b1194.js.map": "/static/js/main.277b1194.js.map"
   },
   "entrypoints": [
-    "static/css/main.2559b11f.css",
-    "static/js/main.b9649b2a.js"
+    "static/css/main.53fc0412.css",
+    "static/js/main.277b1194.js"
   ]
 }

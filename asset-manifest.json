@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53fc0412.css",
-    "main.js": "/static/js/main.277b1194.js",
+    "main.js": "/static/js/main.cffde2bb.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
@@ -9,7 +9,6 @@
     "static/media/YSBR_Dripping-B_W_Flag_Mockup.png": "/static/media/YSBR_Dripping-B_W_Flag_Mockup.9099361fe7e5ede1e9e3.png",
     "static/media/Ruco_AD_Video.mov": "/static/media/Ruco_AD_Video.916900c8e1d64cc8bc7b.mov",
     "static/media/YSBR_Detonate_Mockup-01.png": "/static/media/YSBR_Detonate_Mockup-01.24882ed05f23f2c9ba8d.png",
-    "static/media/YSBR_Detonate_Mockup-03.jpg": "/static/media/YSBR_Detonate_Mockup-03.d3640e6d418b83369970.jpg",
     "static/media/MONTANA_Rendering-2.png": "/static/media/MONTANA_Rendering-2.68f7c187bab9bbbd6db4.png",
     "static/media/YSBR_Alien-Surfer_Mockup-05.png": "/static/media/YSBR_Alien-Surfer_Mockup-05.8f356587062e22ff0993.png",
     "static/media/MONTANA_Rendering-1.png": "/static/media/MONTANA_Rendering-1.95e78f42624253cb367c.png",
@@ -21,18 +20,17 @@
     "static/media/Rendering-Mockup-3.png": "/static/media/Rendering-Mockup-3.62edb988fbea79b87c96.png",
     "static/media/YSBR_Alien-Surfer_Mockup-01.png": "/static/media/YSBR_Alien-Surfer_Mockup-01.4646a685e46f3be402da.png",
     "static/media/Ruco_AD_Links.png": "/static/media/Ruco_AD_Links.47e2e17eb3a54380f8c5.png",
+    "static/media/YSBR_Detonate_Mockup-03.jpg": "/static/media/YSBR_Detonate_Mockup-03.1a7b29d65ef6659c35a1.jpg",
     "static/media/YSBR_Alien-Surfer_Mockup-02.png": "/static/media/YSBR_Alien-Surfer_Mockup-02.5e643b5c9b25cfffe51d.png",
     "static/media/Cruel.png": "/static/media/Cruel.7f2b40ffd2f2c701d0b7.png",
     "static/media/YSBR_Alien-Surfer_Mockup-03.png": "/static/media/YSBR_Alien-Surfer_Mockup-03.8d5493d8d25987d2bb6a.png",
     "static/media/Ruco_AD_Graphic.png": "/static/media/Ruco_AD_Graphic.c135bc794ba77562ba85.png",
     "static/media/About-Me.gif": "/static/media/About-Me.3fe55c988fd142f3b35e.gif",
-    "static/media/YSBR_Detonately_1.png": "/static/media/YSBR_Detonately_1.f5da72c22618b5908d02.png",
     "static/media/Skull&Roses.png": "/static/media/Skull&Roses.a131a8dc1b53b70ee59f.png",
     "static/media/Can-Rendering.png": "/static/media/Can-Rendering.f6b37fe315ef9750359f.png",
     "static/media/Diablo.png": "/static/media/Diablo.9f95339fb3aed758538b.png",
     "static/media/All-Season_Crowner.png": "/static/media/All-Season_Crowner.e859721fb1fc6a2b8422.png",
     "static/media/Il-Coprimacchie_Label.jpeg": "/static/media/Il-Coprimacchie_Label.be0ec5872929059fedd1.jpeg",
-    "static/media/YSBR_Detonately.png": "/static/media/YSBR_Detonately.b7d78a0f029a6b564003.png",
     "static/media/Wardrope.png": "/static/media/Wardrope.454360ab318ccfb8def3.png",
     "static/media/Panther&Roses.png": "/static/media/Panther&Roses.5e3107376a61fb7df55e.png",
     "static/media/YSBR_Alien-Surfer_Mockup-06.png": "/static/media/YSBR_Alien-Surfer_Mockup-06.3fffbdfe0c6dc9d6e227.png",
@@ -70,6 +68,7 @@
     "static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.jpeg": "/static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.ac223206866e4ab96eb6.jpeg",
     "static/media/DRV-Photo-3.jpeg": "/static/media/DRV-Photo-3.4fa09eda865e0a96a0fb.jpeg",
     "static/media/Breis_Youtube.png": "/static/media/Breis_Youtube.511c935c12cb51c778f3.png",
+    "static/media/YSBR_Detonately_1.png": "/static/media/YSBR_Detonately_1.924f3098994b571e4f1d.png",
     "static/media/CBD-Packaging-llustrations_Mockup-Single-Doctor-Seed.jpeg": "/static/media/CBD-Packaging-llustrations_Mockup-Single-Doctor-Seed.2c6ff27afdb2b44a44b8.jpeg",
     "static/media/All-Season-Flyer-Mockup-2.jpeg": "/static/media/All-Season-Flyer-Mockup-2.52fff62b552b41752cbc.jpeg",
     "static/media/CBD-Packaging-llustrations_Mockup-Single-Lemon.jpeg": "/static/media/CBD-Packaging-llustrations_Mockup-Single-Lemon.35427a091c51e8de908d.jpeg",
@@ -82,6 +81,7 @@
     "static/media/Settimo-Tricot-Club_Mockup-2.jpg": "/static/media/Settimo-Tricot-Club_Mockup-2.7d24f3d24767ce551ae0.jpg",
     "static/media/Pixxa-Challenge_Board.png": "/static/media/Pixxa-Challenge_Board.574cc5252860faa0b18d.png",
     "static/media/All-Season-Flyer-Mockup-3.jpeg": "/static/media/All-Season-Flyer-Mockup-3.05b190e9f73127343bbb.jpeg",
+    "static/media/YSBR_Detonately.png": "/static/media/YSBR_Detonately.87b96fb869dc1e0b35aa.png",
     "static/media/Pixxa-Challenge_Board_Photo-2.jpeg": "/static/media/Pixxa-Challenge_Board_Photo-2.85075a5ff97cc1c3453a.jpeg",
     "static/media/CBD-Packaging-llustrations_Mockup-Single-Back.jpeg": "/static/media/CBD-Packaging-llustrations_Mockup-Single-Back.429eb716cdcd83d5804e.jpeg",
     "static/media/Pixxa-Journey_Board_Photo-3.jpeg": "/static/media/Pixxa-Journey_Board_Photo-3.26f6a7bf026d22a328d7.jpeg",
@@ -150,10 +150,10 @@
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.53fc0412.css.map": "/static/css/main.53fc0412.css.map",
-    "main.277b1194.js.map": "/static/js/main.277b1194.js.map"
+    "main.cffde2bb.js.map": "/static/js/main.cffde2bb.js.map"
   },
   "entrypoints": [
     "static/css/main.53fc0412.css",
-    "static/js/main.277b1194.js"
+    "static/js/main.cffde2bb.js"
   ]
 }

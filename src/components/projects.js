@@ -336,6 +336,7 @@ export const projects = [
       "Adobe Illustrator",
       "Adobe InDesign",
       "Adobe Photoshop",
+      "Blender"
     ],
     codingToolsUsed: [],
     description: [

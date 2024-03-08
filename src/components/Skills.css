@@ -61,11 +61,11 @@
   border-radius: 50%;
 }
 
-.skillsWrapper3{
+.skillsWrapper4{
   background-color: var(--lightGray);
 }
 
-.skillsWrapper4{
+.skillsWrapper5{
   background-color: var(--lightGray);
 }
 
@@ -90,7 +90,7 @@
   box-shadow: 0px 1px 0 var(--lightGray);
 }
 
-.circularSkills3::before{
+.circularSkills4::before{
   content: "";
   position: absolute;
   height: 110px;
@@ -100,7 +100,7 @@
   box-shadow: 0px 1px 0 var(--lightGray);
 }
 
-.circularSkills4::before{
+.circularSkills5::before{
   content: "";
   position: absolute;
   height: 110px;
@@ -140,11 +140,11 @@
   top: 0;
 }
 
-.ballOne3 {
+.ballOne4 {
   background-color: var(--gray);
 }
 
-.ballOne4 {
+.ballOne5 {
   background-color: var(--gray);
 
 }
@@ -158,11 +158,11 @@
   top: 0;
 }
 
-.ballTwo3 {
+.ballTwo4 {
   background-color: var(--gray);
 }
 
-.ballTwo4 {
+.ballTwo5 {
   background-color: var(--gray);
 }
 

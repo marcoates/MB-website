@@ -320,13 +320,16 @@ export const projects = [
     url: "dupli-color-il-copri-macchie-product-label",
     title: "Dupli-Color Il Copri Macchie: Product Label",
     location: "Milano, Italy",
-    tag: ["Branding"],
+    tag: ["Branding", "3D"],
     client: "European Aerosols",
-    avatar: [require("../assets/Il-Coprimacchie_Mockup.jpg")],
+    avatar: [require("../assets/Il-Coprimacchie_Rendering-1.jpg")],
     logoImages: [],
     images: [
       require("../assets/Il-Coprimacchie_Mockup.jpg"),
       require("../assets/Il-Coprimacchie_Label.jpeg"),
+      require("../assets/Il-Coprimacchie_Rendering-1.jpg"),
+      require("../assets/Il-Coprimacchie_Rendering-2.jpg"),
+      require("../assets/Il-Coprimacchie_Rendering-3.jpg"),
     ],
     biggerImages: [],
     graphicToolsUsed: [
@@ -343,6 +346,9 @@ export const projects = [
       <br key={2} />,
       <br key={3} />,
       "Relevant images were also used on the label to complement the information provided together with the design that puts all the answers customers may need directly on the facing of the products.",
+      <br key={2} />,
+      <br key={3} />,
+      "Along with the label design I decided to create ", <b>3D rendering of the product</b>, " to provide an additional helpful resource for seeing the product design work in realistic environments and perspectives.",
     ],
   },
 

@@ -20,11 +20,16 @@ const skills = [
   },
   {
     id: 3,
+    title: "3D",
+    score: 45,
+  },
+  {
+    id: 4,
     title: "Front-End",
     score: 75,
   },
   {
-    id: 4,
+    id: 5,
     title: "Back-End",
     score: 25,
   },
@@ -56,7 +61,7 @@ function Skills() {
 
             progressValueElement.textContent = progressStartValue + "%";
 
-            i < 3 ? 
+            i < 4 ? 
             circularSkillsElement.style.background = `conic-gradient( #fe5353, ${
               progressStartValue * 3.6
             }deg, transparent 0deg)`

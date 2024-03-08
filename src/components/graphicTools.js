@@ -8,7 +8,7 @@ export const graphicTools = [
           src={require("../assets/Adobe_Illustrator_CC_icon.svg").default}
         ></img>
       ),
-      rate: "85%",
+      rate: "90%",
     },
     {
       name: "Adobe InDesign",
@@ -19,7 +19,7 @@ export const graphicTools = [
           src={require("../assets/Adobe_InDesign_CC_icon.svg").default}
         ></img>
       ),
-      rate: "80%",
+      rate: "90%",
     },
     {
       name: "Adobe Photoshop",
@@ -30,7 +30,7 @@ export const graphicTools = [
           src={require("../assets/Adobe_Photoshop_CC_icon.svg").default}
         ></img>
       ),
-      rate: "75%",
+      rate: "90%",
     },
     {
       name: "Adobe After Effects",
@@ -41,7 +41,7 @@ export const graphicTools = [
           src={require("../assets/Adobe_After_Effects_CC_icon.svg").default}
         ></img>
       ),
-      rate: "45%",
+      rate: "65%",
     },
     {
       name: "Procreate",
@@ -52,7 +52,7 @@ export const graphicTools = [
           src={require("../assets/Procreate-icon.png")}
         ></img>
       ),
-      rate: "75%",
+      rate: "90%",
     },
     {
       name: "Sketch",
@@ -63,7 +63,7 @@ export const graphicTools = [
           src={require("../assets/Sketch_Logo.svg").default}
         ></img>
       ),
-      rate: "45%",
+      rate: "75%",
     },
     {
       name: "Wordpress",
@@ -86,5 +86,10 @@ export const graphicTools = [
         ></img>
       ),
       rate: "75%",
+    },
+    {
+      name: "Blender",
+      icon: "",
+      rate: "45%",
     },
   ];

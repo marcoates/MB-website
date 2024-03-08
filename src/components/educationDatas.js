@@ -152,11 +152,11 @@ export const educationDatas = [
         src={require("../assets/Education-Icon_5.svg").default}
       />
     ),
-    date: "2016 - 2023",
+    date: "2016 - Now",
     location: "Milan, Italy",
     school: "Working Experience",
     institute: "",
-    graphicTools: ["Procreate", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Sketch", "WordPress", "Elementor"],
+    graphicTools: ["Blender", "Procreate", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Sketch", "WordPress", "Elementor"],
     codingTools: ["HTML", "CSS"],
     content: [
       "After honing my skills in London, I returned to Italy eager to make an impact.",
@@ -165,7 +165,7 @@ export const educationDatas = [
       "My proficiency in English proved invaluable, enhancing my role and enriching my professional journey, and was just a matter of time for my expertise to found a home in the esteemed corridors of European Aerosols, where I became their trusted Product Designer. Working closely with international teams, including Area Managers and Marketing figures, I contributed significantly to projects spanning South Europe.",
       <br key={2} />,
       <br key={3} />,
-      "While working full-time as a Product Designer I never stop studying and learning new skills, I built my first website in Wordpress and Elementor, I started learning animation and I started practicing coding, adding a bit of Javascript and customization to my website.",
+      "While working full-time as a Product Designer I never stop studying and learning new skills, I built my first website in Wordpress and Elementor, I started learning animation and I started practicing coding, adding a bit of Javascript and customization to my website. I recently started practicing 3D also, discovering a fantastic world that involves me using Blender.",
     ],
   },
 

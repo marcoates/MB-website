@@ -138,9 +138,11 @@ export const workDatas = [
     graphicTools: "",
     codingTools: "",
     content:[
-      "Passionate Freelance Graphic Designer turned aspiring Web Developer. With a background in Graphic Design, I've honed my creativity and eye for detail.",
+      "Driven by a fervent zeal for design, I transitioned from a seasoned Freelance Graphic Designer to an aspiring Web Developer. My foundation in Graphic Design has sharpened my artistic flair and meticulous attention to detail.",
       <br key={0} />, <br key={1} />,
-      "Now, I'm diving headfirst into the world of Web Development, equipped with newfound Front-End skills and tools. I thrive on challenges and constant growth, refusing to settle. My journey is fueled by the desire to lead and excel in every space I explore. Let's innovate and create together!"
+      "Currently, I'm plunging into the dynamic realm of Web Development, armed with a repertoire of cutting-edge Front-End capabilities. My appetite for challenges and unwavering commitment to growth propel me forward; I'm determined to excel and lead in every new arena I venture into.",
+      <br key={2} />, <br key={3} />,
+      "Beyond my current pursuits, I'm continuously enhancing my Visual Tools Skills. Recently, I've embarked on a journey into the 3D world with Blender, and I'm captivated by its potential—it's quickly becoming a new passion of mine. Together, let's push boundaries and craft innovative solutions!",
     ]
   },
 ];

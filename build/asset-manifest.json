@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12a384e0.css",
-    "main.js": "/static/js/main.9bb5d3a9.js",
+    "main.js": "/static/js/main.f8b4a838.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
@@ -104,6 +104,7 @@
     "static/media/Breis-Logo_Negative.jpg": "/static/media/Breis-Logo_Negative.4dbad4a2caa98f5efca8.jpg",
     "static/media/Zampa-Store-Graphic-Design-Projects_Flyer-1.jpeg": "/static/media/Zampa-Store-Graphic-Design-Projects_Flyer-1.086bd0561ba2212db19e.jpeg",
     "static/media/Settimo-Tricot-Club_Mockup-1.jpg": "/static/media/Settimo-Tricot-Club_Mockup-1.775a1d28562e4b90dbf2.jpg",
+    "static/media/Gelosia.JPG": "/static/media/Gelosia.1d838dff8295ba9d9b4a.JPG",
     "static/media/Gladiator-Pit-photo-1.jpeg": "/static/media/Gladiator-Pit-photo-1.675e8a4b566f17d3d267.jpeg",
     "static/media/Il-Coprimacchie_Rendering-3.jpg": "/static/media/Il-Coprimacchie_Rendering-3.3e542ca7d882835415fb.jpg",
     "static/media/DRV-Mockup-2.png": "/static/media/DRV-Mockup-2.b6d26bf7c1ee03fbf221.png",
@@ -153,10 +154,10 @@
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.12a384e0.css.map": "/static/css/main.12a384e0.css.map",
-    "main.9bb5d3a9.js.map": "/static/js/main.9bb5d3a9.js.map"
+    "main.f8b4a838.js.map": "/static/js/main.f8b4a838.js.map"
   },
   "entrypoints": [
     "static/css/main.12a384e0.css",
-    "static/js/main.9bb5d3a9.js"
+    "static/js/main.f8b4a838.js"
   ]
 }

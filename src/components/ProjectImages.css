@@ -92,7 +92,7 @@
   }
 }
 
-/* European Aerosols: Magazine Advert id 21 */
+/* YSBR: Detonately Illustration id 21 */
 
 .projectImagesItem21:first-child {
   grid-column-start: 2;
@@ -1005,87 +1005,123 @@
   }
 }
 
-/* Zampa Store: Graphic Design Projects id 9 */
+/* Paola and Filippo: Animated Wedding Invitation id 9 */
 
-.projectImagesItem9:first-child {
-  grid-row-start: 1;
+.projectImagesItem9:nth-child(1) {
   grid-column-start: 2;
   grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+
 }
 
 .projectImagesItem9:nth-child(2) {
-  grid-row-start: 1;
   grid-column-start: 4;
   grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;  
 }
 
 .projectImagesItem9:nth-child(3) {
-  grid-row-start: 1;
   grid-column-start: 6;
   grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;  
 }
 
 .projectImagesItem9:nth-child(4) {
-  grid-row-start: 2;
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: white;  
 }
 
 .projectImagesItem9:nth-child(5) {
-  grid-row-start: 3;
-  grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: white;
+}
+.projectImagesItem9:nth-child(6) {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
-.projectImagesItem9:nth-child(6) {
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 5;
+.projectImagesItem9:nth-child(7) {
+  grid-column-start: 2;
   grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  opacity: 1;
 }
+
+.projectImagesItem9:nth-child(7):hover {
+  opacity: 0.75;
+}
+
 
 @media only screen and (max-width: 900px) {
-  .projectImagesItem9:first-child {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 9;
-  }
 
-  .projectImagesItem9:nth-child(2) {
+  .projectImagesItem9:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 9;
+  
   }
-
+  
+  .projectImagesItem9:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+  }
+  
   .projectImagesItem9:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 9;
+    
   }
-
+  
   .projectImagesItem9:nth-child(4) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+  }
+  
+  .projectImagesItem9:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 9;
-  }
-
-  .projectImagesItem9:nth-child(5) {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 1;
-    grid-column-end: 9;
   }
 
   .projectImagesItem9:nth-child(6) {
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .projectImagesItem9:nth-child(7) {
     grid-column-start: 1;
     grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
+
 }
 
 /* DRV: Logo id 8 */

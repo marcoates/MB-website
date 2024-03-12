@@ -3,6 +3,7 @@ import { projects } from "../components/projects";
 import "./ProjectImages.css";
 import YoutubeEmbed from "./YoutubeEmbed";
 import { useMediaQuery } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function ProjectImages(props) {
   const isSmallScreen = useMediaQuery("(max-width:1000px)");
@@ -15,20 +16,69 @@ function ProjectImages(props) {
           // Conditional rendering based on the project name
           if (props.name === "urmet-iuvs-plus-app") {
             return (
-              <div className={"projectImagesItemSafari projectImagesItemSafari" + item.id} key={index}>
-                <YoutubeEmbed key={item.id}/>
+              <div
+                className={
+                  "projectImagesItemSafari projectImagesItemSafari" + item.id
+                }
+                key={index}
+              >
+                <YoutubeEmbed name={props.name} key={item.id} />
               </div>
+            );
+          } else if (
+            props.name === "paola-and-filippo-animated-wedding-invitation"
+          ) {
+            return (
+              item.images.map((img, i) => (
+                
+               i === 6 ?  
+               <Link to="https://www.youtube.com/watch?v=6792wYmTENc&ab_channel=AmessageforYoubyPaola%26Filippo" target="_blank"
+                    className={"projectImagesItem projectImagesItem" + item.id}>
+               <div
+                    key={i}
+                    id="imageMod"
+                  >
+                    <img
+                      alt="proj-img"
+                      src={img}
+                      className={"projectImages projectImages" + item.id}
+                    ></img>
+                  </div>
+                  </Link>
+                  :
+                  <div
+                    key={i}
+                    className={"projectImagesItem projectImagesItem" + item.id}
+                    id="imageMod"
+                  >
+                    <img
+                      alt="proj-img"
+                      src={img}
+                      className={"projectImages projectImages" + item.id}
+                    ></img>
+                  </div>
+                ))
             );
           } else if (props.name === "todolist-app-web-application") {
             return item.images.map((img, i) => (
               <div
-                key={i} 
-                className={isSmallScreen ? "projectImagesItemSafari projectImagesItemSafari" + item.id : "projectImagesItem projectImagesItem" + item.id}
-                id="imageMod">
+                key={i}
+                className={
+                  isSmallScreen
+                    ? "projectImagesItemSafari projectImagesItemSafari" +
+                      item.id
+                    : "projectImagesItem projectImagesItem" + item.id
+                }
+                id="imageMod"
+              >
                 <img
-                  alt="proj-logo-img"
+                  alt="proj-img"
                   src={img}
-                  className={isSmallScreen ? "projectImagesSafari projectImagesSafari" + item.id : "projectImages projectImages" + item.id}
+                  className={
+                    isSmallScreen
+                      ? "projectImagesSafari projectImagesSafari" + item.id
+                      : "projectImages projectImages" + item.id
+                  }
                 ></img>
               </div>
             ));
@@ -37,27 +87,37 @@ function ProjectImages(props) {
               <>
                 {item.images.map((img, i) => (
                   <div
-                    key={i} 
+                    key={i}
                     className={"projectImagesItem projectImagesItem" + item.id}
-                    id="imageMod">
+                    id="imageMod"
+                  >
                     <img
-                      alt="proj-logo-img"
+                      alt="proj-img"
                       src={img}
                       className={"projectImages projectImages" + item.id}
                     ></img>
                   </div>
                 ))}
                 {/* Render videos if any */}
-                {item.videos && item.videos.map((videoSrc, vi) => (
-                  <div key={vi} className={"projectVideoItem projectVideoItem" + item.id}>
-                    <video 
-                    className={"projectVideos projectVideos" + item.id}
-                    autoPlay loop muted playsInline key={vi}>
-                      <source src={videoSrc} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                ))}
+                {item.videos &&
+                  item.videos.map((videoSrc, vi) => (
+                    <div
+                      key={vi}
+                      className={"projectVideoItem projectVideoItem" + item.id}
+                    >
+                      <video
+                        className={"projectVideos projectVideos" + item.id}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        key={vi}
+                      >
+                        <source src={videoSrc} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  ))}
               </>
             );
           }
@@ -67,7 +127,6 @@ function ProjectImages(props) {
       })}
     </div>
   );
-  
 }
 
 export default ProjectImages;

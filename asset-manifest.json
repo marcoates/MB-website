@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ecfcdcf.css",
-    "main.js": "/static/js/main.2b6d4efc.js",
+    "main.js": "/static/js/main.1a47c8f3.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
@@ -126,6 +126,7 @@
     "static/media/Patten_Tavola disegno 1.svg": "/static/media/Patten_Tavola disegno 1.137f61d2ea3fcce26451.svg",
     "static/media/CSS3_logo_and_wordmark.png": "/static/media/CSS3_logo_and_wordmark.b766121ee818b7aebe49.png",
     "static/media/JAT_logo&claim.svg": "/static/media/JAT_logo&claim.1440c7ce1c8256c9b1df0bc0c9d96ff6.svg",
+    "static/media/Avid_Logo.png": "/static/media/Avid_Logo.9801a0188b14b7ad3f58.png",
     "static/media/MongoDB_Logo.svg": "/static/media/MongoDB_Logo.52300335cb1653f2a8fa072873a6cc17.svg",
     "static/media/Node.js_logo.svg": "/static/media/Node.js_logo.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
     "static/media/Education-Icon_2.svg": "/static/media/Education-Icon_2.abecc0adb4ba23ed60b8643fee1f09ea.svg",
@@ -156,10 +157,10 @@
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.2ecfcdcf.css.map": "/static/css/main.2ecfcdcf.css.map",
-    "main.2b6d4efc.js.map": "/static/js/main.2b6d4efc.js.map"
+    "main.1a47c8f3.js.map": "/static/js/main.1a47c8f3.js.map"
   },
   "entrypoints": [
     "static/css/main.2ecfcdcf.css",
-    "static/js/main.2b6d4efc.js"
+    "static/js/main.1a47c8f3.js"
   ]
 }

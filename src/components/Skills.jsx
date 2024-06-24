@@ -26,12 +26,12 @@ const skills = [
   {
     id: 4,
     title: "Front-End",
-    score: 75,
+    score: 85,
   },
   {
     id: 5,
     title: "Back-End",
-    score: 25,
+    score: 30,
   },
 ];
 

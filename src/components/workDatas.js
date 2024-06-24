@@ -129,6 +129,35 @@ export const workDatas = [
   },
   {
     id: 6,
+    client: "Avid Technology",
+    title: "Junior Software Developer",
+    icon: require("../assets/Avid_Logo.png"),
+    position: "Avid Technology",
+    date: "2024 - Now",
+    location: "Milan, Italy",
+    graphicTools: [
+      "Figma"
+    ],
+    codingTools: [
+      "HTML",
+      "CSS",
+      "React",
+      "Vue",
+      "NodeJS",
+      "Javascript",
+      "Python",
+      "Ansible",
+      "Docker",
+      "Tailwind",
+    ],
+    content:[
+      "As a Junior Software Developer, I focus on implementing innovative software and websites with a full-stack perspective, ensuring each project benefits from a unique blend of technical proficiency and design finesse.",
+      <br key={0} />, <br key={1} />,
+      "Part of a dynamic development team, my role is pivotal in creating digital solutions that resonate globally, enhancing the brand's digital footprint with functionality and visual appeal.",
+      ]
+  },
+  {
+    id: 7,
     client: "",
     title: "Freelance",
     icon: require("../assets/Stondato.png"),

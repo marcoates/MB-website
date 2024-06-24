@@ -78,7 +78,7 @@ function AboutMeIntro() {
             >
               <div className="aboutMeIntro-Box2-ListItemIcon">🔮</div>
               <div className="aboutMeIntro-Box2-ListItemText3">
-                Now Front-End Developer!
+                Now Software Developer!
               </div>
             </motion.li>
           </ul>

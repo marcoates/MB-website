@@ -41,7 +41,12 @@ export const graphicTools = [
           src={require("../assets/Adobe_After_Effects_CC_icon.svg").default}
         ></img>
       ),
-      rate: "65%",
+      rate: "75%",
+    },
+    {
+      name: "Powerpoint",
+      icon: "",
+      rate: "90%",
     },
     {
       name: "Procreate",
@@ -64,6 +69,17 @@ export const graphicTools = [
         ></img>
       ),
       rate: "75%",
+    },
+    {
+      name: "Figma",
+      icon: (
+        <img
+          alt="tool-icon-img"
+          className="AboutMeSkillsAndTools-toolIcon1"
+          src={require("../assets/Sketch_Logo.svg").default}
+        ></img>
+      ),
+      rate: "50%",
     },
     {
       name: "Wordpress",

@@ -340,7 +340,7 @@ function AboutMeWork() {
             : workDatas.map((item, index) => (
                 <motion.li
                   whileHover={
-                    item.id > 5
+                    item.id > 7
                       ? null
                       : {
                           x: 5,

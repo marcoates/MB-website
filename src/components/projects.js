@@ -44,7 +44,7 @@ export const projects = [
     location: "Milano, Italy",
     tag: ["Branding"],
     client: "European Aerosols",
-    avatar: [require("../assets/Ruco_AD_Mockup.png")],
+    avatar: [require("../assets/Ruco_AD_Avatar.jpg")],
     images: [
       require("../assets/Ruco_AD_Links.png"),
       require("../assets/Ruco_AD_Graphic.png"),
@@ -139,7 +139,7 @@ export const projects = [
     location: "Milano, Italy",
     tag: ["Branding", "Illustration"],
     client: "European Aerosols",
-    avatar: [require("../assets/Rendering-Mockup-1.png")],
+    avatar: [require("../assets/Rendering-Avatar.jpg")],
     images: [
       require("../assets/Can-Rendering.png"),
       require("../assets/Montana-Can.jpg"),
@@ -272,7 +272,7 @@ export const projects = [
       "Through harmonious graphic elements, our design ensures that important features and benefits are emphasized, guiding your attention to the most vital aspects. Prepare to witness the transformation of your walls unfold before your eyes.",
     ],
   },
-
+  /*
   {
     id: 13,
     url: "todolist-app-web-application",
@@ -314,29 +314,25 @@ export const projects = [
       "Overall, this project highlights my proficiency in full-stack development, encompassing frontend design, server setup using JavaScript, Node.js, and Express, integration with MongoDB Atlas and Mongoose for data storage, deployment via Cyclic, and the use of a GitHub repository for version control. The ToDoList web app empowers users to efficiently manage tasks through dynamic task groups, providing a flexible and organized task management system.",
     ],
   },
-
+  */
   {
     id: 12,
     url: "dupli-color-il-copri-macchie-product-label",
     title: "Dupli-Color Il Copri Macchie: Product Label",
     location: "Milano, Italy",
-    tag: ["Branding", "3D"],
+    tag: ["Branding"],
     client: "European Aerosols",
-    avatar: [require("../assets/Il-Coprimacchie_Rendering-1.jpg")],
+    avatar: [require("../assets/Il-Coprimacchie_Mockup.jpg")],
     logoImages: [],
     images: [
       require("../assets/Il-Coprimacchie_Mockup.jpg"),
       require("../assets/Il-Coprimacchie_Label.jpeg"),
-      require("../assets/Il-Coprimacchie_Rendering-1.jpg"),
-      require("../assets/Il-Coprimacchie_Rendering-2.jpg"),
-      require("../assets/Il-Coprimacchie_Rendering-3.jpg"),
     ],
     biggerImages: [],
     graphicToolsUsed: [
       "Adobe Illustrator",
       "Adobe InDesign",
       "Adobe Photoshop",
-      "Blender"
     ],
     codingToolsUsed: [],
     description: [
@@ -347,9 +343,6 @@ export const projects = [
       <br key={2} />,
       <br key={3} />,
       "Relevant images were also used on the label to complement the information provided together with the design that puts all the answers customers may need directly on the facing of the products.",
-      <br key={2} />,
-      <br key={3} />,
-      "Along with the label design I decided to create ", <b>3D rendering of the product</b>, " to provide an additional helpful resource for seeing the product design work in realistic environments and perspectives.",
     ],
   },
 
@@ -380,69 +373,6 @@ export const projects = [
     ],
   },
 
-  {
-    id: 10,
-    url: "green-magic-cbd-packaging-illustrations",
-    title: "Green Magic: CBD Packaging Illustrations",
-    location: "Milano, Italy",
-    tag: ["Branding", "Illustration"],
-    client: "Green Magic",
-    avatar: [
-      require("../assets/CBD-Packaging-llustrations_Multiple_Mockup.jpeg"),
-    ],
-    images: [
-      require("../assets/CBD-Packaging-llustrations_Multiple_Mockup.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Lemon.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Strawberry.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Gorilla.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Doctor-Seed.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Trinciato.jpeg"),
-      require("../assets/CBD-Packaging-llustrations_Mockup-Single-Back.jpeg"),
-    ],
-    graphicToolsUsed: ["Procreate", "Adobe Illustrator"],
-    codingToolsUsed: [],
-    description: [
-      "In this project I created a pack of illustrations for my friend Italo, who owns Green Magic, a farm in Milan specializing in CBD products.",
-      <br key={0} />,
-      <br key={1} />,
-      "He wanted a set of illustrations for his product packaging that would be fun, cartoonish, and memorable, so I used bold lines and flat colors to create a composition that would evoke a lighthearted and playful mood.",
-      <br key={2} />,
-      <br key={3} />,
-      "I’m thrilled to say that Italo was delighted with the final result, and he even plans to use the cool mockups I created for his upcoming ecommerce. It’s always great to see a happy client, and I’m proud to have created something that will help Green Magic stand out in the crowded CBD market.",
-    ],
-  },
-  {
-    id: 9,
-    url: "paola-and-filippo-animated-wedding-invitation",
-    title: "Paola and Filippo: Animated Wedding Invitation",
-    location: "Milano, Italy",
-    tag: ["Illustration", "Animation"],
-    client: "Paola & Filippo",
-    avatar: [require("../assets/Paola&Filippo_Invitation_Avatar.png")],
-    images: [
-      require("../assets/Paola&Filippo_Postman_3-4_Walking.gif"),
-      require("../assets/Paola&Filippo_Postman_3-4_Putting-Letter.gif"),
-      require("../assets/Paola&Filippo_Postman_3-4_Surprised.gif"),
-      require("../assets/Paola&Filippo_Post-Box_Rotation.gif"),
-      require("../assets/Paola&Filippo_Post-Box_Rotation 2.gif"),
-      require("../assets/Paola&Filippo_Invitation-Title-Animation.gif"),
-      require("../assets/Paola&Filippo_Youtube-Frame.jpg"),
-    ],
-    graphicToolsUsed: ["Adobe Illustrator", "Adobe After Effects"],
-    codingToolsUsed: [],
-    description: [
-      "I had the immense pleasure of working on a truly special project which was not just a task; it was an opportunity to create something meaningful and engaging for a very important event. The objective was to craft a little corto, or short film, that would capture the essence of Paola and Filippo's upcoming wedding and invite their guests in a unique and memorable way.",
-      <br key={0} />,
-      <br key={1} />,
-      "Due to the tight timeline and in alignment with the client's requests, we decided to keep the graphic design simple and minimal. This approach not only met the project's deadlines but also highlighted the beauty in simplicity, allowing the story of Paola and Filippo to shine through. The animation was created with the aim of engaging the invited guests, giving them a glimpse of the love and joy that the wedding day would bring.",
-      <br key={2} />,
-      <br key={3} />,
-      "I am very happy with the outcome of this project. It was a delightful challenge to balance the clients' requests with the need for a straightforward and minimalistic design, all while working within a strict timeframe. The final animation is something I'm proud of, and I believe it achieves the goal of engaging and exciting guests for the upcoming celebration.",
-      <br key={4} />,
-      <br key={5} />,
-      "I hope you will like it as much as I enjoyed creating it!",
-    ],
-  },
   {
     id: 8,
     url: "drv-logo",

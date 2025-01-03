@@ -2,42 +2,6 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
-    id: 21,
-    url: "ysbr-detonately-illustration",
-    title: "YSBR: Detonately Illustration",
-    location: "Milano, Italy",
-    tag: ["Branding", "Illustration"],
-    client: "YSBR",
-    avatar: [require("../assets/YSBR_Detonate_Mockup-03.jpg")],
-    images: [
-      require("../assets/YSBR_Detonately.png"),
-      require("../assets/YSBR_Detonately_1.png"),
-      require("../assets/YSBR_Detonate_Mockup-01.png"),
-      require("../assets/YSBR_Detonate_Mockup-02.jpg"),
-      require("../assets/YSBR_Detonate_Mockup-03.jpg"),
-      require("../assets/YSBR_Detonate_Mockup-04.jpg"),
-      require("../assets/YSBR_Detonate_Mockup-05.jpg"),
-      require("../assets/YSBR_Detonate_Mockup-06.jpg"),
-    ],
-    graphicToolsUsed: ["Procreate", "Adobe Illustrator"],
-    codingToolsUsed: [],
-    description: [
-      "I had the pleasure of designing an illustration for YSBR, a dynamic brand known for organizing outdoor sports events and parties, with a focus on winter sports. This project allowed me to delve into a creative endeavor that blends street style with a hint of gothic lettering, culminating in a unique fusion of aesthetics.",
-      <br key={0} />,
-      <br key={1} />,
-      "The illustration is characterized by a bi-color scheme, a specific request from the client, ensuring its versatility and adaptability to a wide range of color palettes. This design decision makes the artwork particularly suitable for merchandise, intended to stand out on t-shirts and jumpers. The choice of colors and the imaginative theme offer a distinctive and playful addition to any wardrobe, perfectly aligning with YSBR's brand ethos of dynamic and exhilarating experiences.",
-      <br key={2} />,
-      <br key={3} />,
-      "For a closer look at YSBR's activities and the vibrant community they've built, feel free to visit the ",
-      <Link to="https://www.instagram.com/ysbrfam/" target="_blank" key={0}>
-        YSBR Instagram Page!
-      </Link>,
-      <br key={4} />,
-      <br key={5} />,
-      "This portfolio piece showcases my ability to merge different styles into a cohesive and eye-catching design, tailored for applications in textiles and merchandise. It represents a creative challenge that I embraced wholeheartedly, resulting in a piece that I am truly proud of.",
-    ],
-  },
-  {
     id: 20,
     url: "european-aerosols-magazine-advert",
     title: "European Aerosols: Magazine Advert",

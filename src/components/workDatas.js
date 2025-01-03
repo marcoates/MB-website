@@ -141,17 +141,19 @@ export const workDatas = [
     codingTools: [
       "HTML",
       "CSS",
+      "Javascript",
       "React",
       "Vue",
       "NodeJS",
-      "Javascript",
       "Python",
       "Ansible",
       "Docker",
+      "Kubernetes",
       "Tailwind",
+      "Linux",
     ],
     content:[
-      "As a Junior Software Developer, I focus on implementing innovative software and websites with a full-stack perspective, ensuring each project benefits from a unique blend of technical proficiency and design finesse.",
+      "As a Junior Software Developer at Avid Technology, I focus on implementing innovative software and websites with a full-stack perspective, ensuring each project benefits from a unique blend of technical proficiency and design finesse.",
       <br key={0} />, <br key={1} />,
       "Part of a dynamic development team, my role is pivotal in creating digital solutions that resonate globally, enhancing the brand's digital footprint with functionality and visual appeal.",
       ]

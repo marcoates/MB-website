@@ -188,10 +188,10 @@ export const educationDatas = [
     ),
     date: "2023 - Now",
     location: "Milan, Italy",
-    school: "Online Courses",
+    school: "Self taught",
     institute: "",
     graphicTools: [],
-    codingTools: ["HTML", "CSS", "Javascript", "React", "NodeJS", "Express", "MongoDB", "Git"],
+    codingTools: ["HTML", "CSS", "Javascript", "React", "Vue", "NodeJS", "Express", "Next.js", "MongoDB", "Git"],
     content: [
       "From childhood creativity to the discovery of coding, my journey is a fusion of design and tech. After years in the design realm, my curiosity led me to the world of coding.",
       <br key={0} />,

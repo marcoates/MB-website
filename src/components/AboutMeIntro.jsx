@@ -59,7 +59,7 @@ function AboutMeIntro() {
             >
               <div className="aboutMeIntro-Box2-ListItemIcon">💻</div>
               <div className="aboutMeIntro-Box2-ListItemText2">
-                I'm a Graphic Designer.
+                I'm a Graphic Designer...
               </div>
             </motion.li>
             <motion.li
@@ -78,7 +78,7 @@ function AboutMeIntro() {
             >
               <div className="aboutMeIntro-Box2-ListItemIcon">🔮</div>
               <div className="aboutMeIntro-Box2-ListItemText3">
-                Now Software Developer!
+                And Software Developer!
               </div>
             </motion.li>
           </ul>

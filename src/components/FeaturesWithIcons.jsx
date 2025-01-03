@@ -48,11 +48,11 @@ function FeaturesWithIcons() {
     {
       id: "features3",
       icon: "🔮",
-      title: "WEB DEVELOPMENT",
+      title: "CODING",
       content: [
         "Now Coding too!",
         <br />,
-        "Skilled in front-end web development, I also handle some back-end. Discover more thorugh the About Me Page!",
+        "Skilled in front-end web development, I also handle some back-end. Discover more through the About Me Page!",
       ],
     },
   ];

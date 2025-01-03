@@ -165,7 +165,7 @@ function AboutMeEducation() {
                         )}
                       </div>
                     </div>
-                    {item.id > 5 ? <div className="locked"></div> : null}
+                    {item.id > 5 ? <div className={"locked locked" + item.id}></div> : null}
                   </motion.li>
                 </AnimatePresence>
 

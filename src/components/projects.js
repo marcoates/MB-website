@@ -40,8 +40,6 @@ export const projects = [
       require("../assets/YSBR_Alien-Surfer_Mockup-02.png"),
       require("../assets/YSBR_Alien-Surfer_Mockup-03.png"),
       require("../assets/YSBR_Alien-Surfer_Mockup-04.png"),
-      require("../assets/YSBR_Alien-Surfer_Mockup-05.png"),
-      require("../assets/YSBR_Alien-Surfer_Mockup-06.png"),
       require("../assets/YSBR_Alien-Surfer_Mockup-07.png"),
       require("../assets/YSBR_Alien-Surfer_Mockup-08.png"),
     ],

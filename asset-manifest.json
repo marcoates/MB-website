@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e5426e6.css",
-    "main.js": "/static/js/main.197c58b0.js",
+    "main.css": "/static/css/main.90679748.css",
+    "main.js": "/static/js/main.0e6cc4fa.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
     "static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.mov": "/static/media/YSBR_Dripping-B:W:Flag_Still-Life-Video.1f9fe349247d942de64b.mov",
@@ -57,10 +57,11 @@
     "static/media/Tattoed-Pit.png": "/static/media/Tattoed-Pit.8f1acb5b200d2a3df3fb.png",
     "static/media/Dupli-Color-Product-Catalog_Mockup-1.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-1.029aa040e1a98b328b52.jpeg",
     "static/media/All-Season-Flyer-Mockup-1.jpeg": "/static/media/All-Season-Flyer-Mockup-1.732a53c2753b27642fba.jpeg",
+    "static/media/Breis_Youtube.png": "/static/media/Breis_Youtube.4cb231e2e577b1c590eb.png",
     "static/media/Alpha.JPG": "/static/media/Alpha.ef5311df75e5baad751b.JPG",
     "static/media/JAT-Website.png": "/static/media/JAT-Website.7ddf6ba82358c02cdbb7.png",
     "static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.jpeg": "/static/media/Dupli-Color-Pricing-List-Catalog_Mockup-1.ac223206866e4ab96eb6.jpeg",
-    "static/media/Breis_Youtube.png": "/static/media/Breis_Youtube.511c935c12cb51c778f3.png",
+    "static/media/Ation-Tech-Service-Platform_Homepage.png": "/static/media/Ation-Tech-Service-Platform_Homepage.f64e7d9b4cd84c3f5c83.png",
     "static/media/All-Season-Flyer-Mockup-2.jpeg": "/static/media/All-Season-Flyer-Mockup-2.52fff62b552b41752cbc.jpeg",
     "static/media/JAT-Website-1.png": "/static/media/JAT-Website-1.c34bc006087ac82a9d9a.png",
     "static/media/Settimo-Tricot-Club_Mockup-3.jpg": "/static/media/Settimo-Tricot-Club_Mockup-3.7db3834c0602fdd89b82.jpg",
@@ -86,6 +87,7 @@
     "static/media/DRV-Mockup-2.png": "/static/media/DRV-Mockup-2.b6d26bf7c1ee03fbf221.png",
     "static/media/JAT-Website-2.png": "/static/media/JAT-Website-2.84cc65375bafd41c5707.png",
     "static/media/Dupli-Color-Pricing-List-Catalog_Mockup-2.jpeg": "/static/media/Dupli-Color-Pricing-List-Catalog_Mockup-2.d061005d7c0246148c40.jpeg",
+    "static/media/Ation-Tech-Service-Platform_Video-thumbnail.png": "/static/media/Ation-Tech-Service-Platform_Video-thumbnail.021de6b45554c8faa18c.png",
     "static/media/Dupli-Color-Pricing-List-Catalog_Mockup-3.jpeg": "/static/media/Dupli-Color-Pricing-List-Catalog_Mockup-3.76b3769f01da60d83568.jpeg",
     "static/media/Dupli-Color-Product-Catalog_Mockup-3.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-3.77e593d82afad9700961.jpeg",
     "static/media/Dupli-Color-Product-Catalog_Mockup-2.jpeg": "/static/media/Dupli-Color-Product-Catalog_Mockup-2.916c0aa2d1fa105125b7.jpeg",
@@ -94,11 +96,15 @@
     "static/media/DRV_Logo.png": "/static/media/DRV_Logo.7761a9d159130dfdfe64.png",
     "static/media/JAT_Pattern.png": "/static/media/JAT_Pattern.2ecc0d44e89cb8280e2c.png",
     "static/media/Breis-Logo_Positive.png": "/static/media/Breis-Logo_Positive.12a1de324f87ab657870.png",
+    "static/media/Ation-Tech-Service-Platform_Avatar.png": "/static/media/Ation-Tech-Service-Platform_Avatar.e2dfd3f5f22181580f80.png",
     "static/media/Stondato.png": "/static/media/Stondato.21513c94ea33f4a4d33f.png",
+    "static/media/engFlag.png": "/static/media/engFlag.40f91e273bd887d4807e.png",
     "static/media/2000Network_Logo.png": "/static/media/2000Network_Logo.574f2901f9ac7d99965c.png",
+    "static/media/spainFlag.png": "/static/media/spainFlag.425defe93b03b9c41caf.png",
     "static/media/Patten_Tavola disegno 1.svg": "/static/media/Patten_Tavola disegno 1.137f61d2ea3fcce26451.svg",
     "static/media/CSS3_logo_and_wordmark.png": "/static/media/CSS3_logo_and_wordmark.b766121ee818b7aebe49.png",
     "static/media/JAT_logo&claim.svg": "/static/media/JAT_logo&claim.1440c7ce1c8256c9b1df0bc0c9d96ff6.svg",
+    "static/media/Education-Icon_7.svg": "/static/media/Education-Icon_7.0b72658b3ad9a486b836afc7b7a6b67b.svg",
     "static/media/Avid_Logo.png": "/static/media/Avid_Logo.9801a0188b14b7ad3f58.png",
     "static/media/MongoDB_Logo.svg": "/static/media/MongoDB_Logo.52300335cb1653f2a8fa072873a6cc17.svg",
     "static/media/Node.js_logo.svg": "/static/media/Node.js_logo.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
@@ -106,12 +112,12 @@
     "static/media/JAT_logo_B&W-Negative.svg": "/static/media/JAT_logo_B&W-Negative.9224bf72eb17e74e4565d3e6904ec911.svg",
     "static/media/Education-Icon_1.svg": "/static/media/Education-Icon_1.1e37166ec16db70eef0f379b826052bd.svg",
     "static/media/Git-logo.svg": "/static/media/Git-logo.464bf8f30fbe0824d22db61efde3e44b.svg",
-    "static/media/Education-Icon_8.svg": "/static/media/Education-Icon_8.6fd61875e15429d915b6cfa16433263d.svg",
+    "static/media/Education-Icon_9.svg": "/static/media/Education-Icon_9.6fd61875e15429d915b6cfa16433263d.svg",
     "static/media/JAT_logo_B&W-Positive.svg": "/static/media/JAT_logo_B&W-Positive.64ff0177136b96f2e4c1021f8e0dcc46.svg",
     "static/media/Adobe_Photoshop_CC_icon.svg": "/static/media/Adobe_Photoshop_CC_icon.21b3c1e00213c9613773022511f98503.svg",
     "static/media/Education-Icon_4.svg": "/static/media/Education-Icon_4.9c89072fee108e49ecbea4ce37266793.svg",
     "static/media/Education-Icon_6.svg": "/static/media/Education-Icon_6.eb390b5fb7a73b8ac1b12a3482ae32e5.svg",
-    "static/media/Education-Icon_7.svg": "/static/media/Education-Icon_7.bf6b70f8e2affa24fad97e372ae9364c.svg",
+    "static/media/Education-Icon_8.svg": "/static/media/Education-Icon_8.bf6b70f8e2affa24fad97e372ae9364c.svg",
     "static/media/Education-Icon_5.svg": "/static/media/Education-Icon_5.4028a00762374e446e90c6cf0125b5fd.svg",
     "static/media/Education-Icon_3.svg": "/static/media/Education-Icon_3.9763e8793a0c2840be058b3ce3152670.svg",
     "static/media/Sketch_Logo.svg": "/static/media/Sketch_Logo.99f9ecb07dc0334ba2b7559c56753e82.svg",
@@ -129,11 +135,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.7e5426e6.css.map": "/static/css/main.7e5426e6.css.map",
-    "main.197c58b0.js.map": "/static/js/main.197c58b0.js.map"
+    "main.90679748.css.map": "/static/css/main.90679748.css.map",
+    "main.0e6cc4fa.js.map": "/static/js/main.0e6cc4fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e5426e6.css",
-    "static/js/main.197c58b0.js"
+    "static/css/main.90679748.css",
+    "static/js/main.0e6cc4fa.js"
   ]
 }

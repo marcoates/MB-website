@@ -57,9 +57,9 @@ function AboutMeIntro() {
                 bounce: 0.5,
               }}
             >
-              <div className="aboutMeIntro-Box2-ListItemIcon">💻</div>
+              <div className="aboutMeIntro-Box2-ListItemIcon">🔮</div>
               <div className="aboutMeIntro-Box2-ListItemText2">
-                I'm a Graphic Designer...
+                I'm a Software Developer
               </div>
             </motion.li>
             <motion.li
@@ -76,9 +76,9 @@ function AboutMeIntro() {
                 bounce: 0.5,
               }}
             >
-              <div className="aboutMeIntro-Box2-ListItemIcon">🔮</div>
+              <div className="aboutMeIntro-Box2-ListItemIcon">🎨</div>
               <div className="aboutMeIntro-Box2-ListItemText3">
-                And Software Developer!
+                And I also do Graphic Design
               </div>
             </motion.li>
           </ul>

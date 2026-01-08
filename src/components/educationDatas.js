@@ -131,7 +131,7 @@ export const educationDatas = [
       "As a Graphic Design Intern, I craved more than a stagnant routine. So, I ventured to London, stepping out of my comfort zone.",
       <br key={2} />,
       <br key={3} />,
-      "Here, I honed my English skills, embraced discipline, and became a dedicated athlete. Ambition fueled my mission: to work as a Graphic Designer in the UK. Today, I stand here, having turned aspirations into accomplishments.",
+      "Here, I honed my English skills, embraced discipline, and became a fitness passionate. Ambition fueled my mission: to work as a Graphic Designer in the UK. Today, I stand here, having turned aspirations into accomplishments.",
     ],
   },
 
@@ -186,7 +186,7 @@ export const educationDatas = [
         src={require("../assets/Education-Icon_6.svg").default}
       />
     ),
-    date: "2023 - Now",
+    date: "2023 - 2024",
     location: "Milan, Italy",
     school: "Self taught",
     institute: "",
@@ -202,10 +202,10 @@ export const educationDatas = [
       "The challenges became opportunities, and my thirst for web knowledge grew. Now, I’m certain about my career shift from Design to Coding. My design background serves as a strong foundation, ready to fuel my passion for building innovative websites and apps.",
     ],
   },
-
+ 
   {
     id: 6,
-    title: "Full-Stack Developer",
+    title: "Software Developer",
     icon: (
       <img
         alt="tool-icon-img"
@@ -218,6 +218,40 @@ export const educationDatas = [
         alt="avatar"
         className="ItemAvatar"
         src={require("../assets/Education-Icon_7.svg").default}
+      />
+    ),
+    date: "2024 - Now",
+    location: "Milan, Italy",
+    school: "Working Experience",
+    institute: "",
+    graphicTools: [],
+  codingTools: ["Javascript", "React", "Vue", "Templating", "API", "Golang", "NodeJS", "SQL", "Python", "Linux", "Docker", "Kubernetes", "Ansible", "gRPC/Protobuf" ],
+    content: [
+      "I currently work at Avid Technology Italian division as a Junior Software Developer, where my professional path has fully transitioned into enterprise software development.",
+      <br key={0} />,
+      <br key={1} />,
+      "In this role, I continue to strengthen my UI and UX skills, applying design principles to complex, production-ready applications. At the same time, I'm expanding my technical scope beyond the front end, gaining hands-on experience with back-end development, Linux-based systems, virtual machines, and containerized environments used in professional software infrastructures.",
+      <br key={2} />,
+      <br key={3} />,
+      "This position represents a key stage in my growth as a software developer, bridging user-centered design with system-level thinking and modern development practices.",
+    ],
+  },
+
+  {
+    id: 7,
+    title: "Full-Stack Developer",
+    icon: (
+      <img
+        alt="tool-icon-img"
+        className="educationIcon"
+        src={require("../assets/Education-Icon_8.svg").default}
+      ></img>
+    ),
+    avatar: (
+      <img
+        alt="avatar"
+        className="ItemAvatar"
+        src={require("../assets/Education-Icon_8.svg").default}
       />
     ),
     date: "As soon as possible",
@@ -237,20 +271,20 @@ export const educationDatas = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "God Level",
     icon: (
       <img
         alt="tool-icon-img"
         className="educationIcon"
-        src={require("../assets/Education-Icon_8.svg").default}
+        src={require("../assets/Education-Icon_9.svg").default}
       ></img>
     ),
     avatar: (
       <img
         alt="avatar"
         className="ItemAvatar"
-        src={require("../assets/Education-Icon_8.svg").default}
+        src={require("../assets/Education-Icon_9.svg").default}
       />
     ),
     date: "As soon as possible",
@@ -259,13 +293,13 @@ export const educationDatas = [
     graphicTools: ["🔒"],
     codingTools: ["🔒"],
     content: [
-      "Embarking on my educational journey from the canvas of childhood dreams, I've woven a tapestry of curiosity and innovation.",
+      "Embarking on my educational journey from the canvas of childhood dreams, I've woven a tapestry of curiosity, experimentation, and relentless learning.",
       <br key={0} />,
       <br key={1} />,
-      "I call this step of my educational path 'God Level,' a testament to my relentless pursuit of excellence. While I hold a clear vision of being a Game Developer (gaming graphics are my passion!), I am equally captivated by the infinite possibilities life presents.",
+      "I call this stage of my path 'God Level': a playful name for a very real goal — pushing my skills as far as possible and mastering the world of Software Development, where I’ve discovered a true passion.",
       <br key={2} />,
       <br key={3} />,
-      "With each challenge, I thrive, driven by the joy of mastering diverse fields and bringing creativity to life.",
+      "It’s a field that naturally connects everything I love, from gaming to hardware, problem-solving, and emerging technologies like AI. Every challenge is an opportunity to level up, learn faster, and turn ideas into something real.",
     ],
   },
 ];

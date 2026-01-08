@@ -31,7 +31,7 @@ const skills = [
   {
     id: 5,
     title: "Back-End",
-    score: 30,
+    score: 40,
   },
 ];
 

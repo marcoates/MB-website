@@ -98,7 +98,7 @@ function AboutMeEducation() {
                     whileHover={
                       isSmallScreen
                         ? null
-                        : item.id > 5
+                        : item.id > 6
                         ? null
                         : {
                             x: 5,
@@ -143,14 +143,11 @@ function AboutMeEducation() {
                     >
                       <p className="itemTitleIcon">{item.icon}</p>
                       <p className="itemTitleText">{item.title}</p>
-                      {index === 4 ? (
-                        <p className="EducationHighScore">🔥</p>
-                      ) : null}
-                      {index === 5 ? (
+                      {index > 4 && index < 7 ? (
                         <p className="EducationHighScore">🔥</p>
                       ) : null}
                       <div className="openCloseIconContainer">
-                        {item.id > 5 ? (
+                        {item.id > 6 ? (
                           <p className="lockedIcon">🔒</p>
                         ) : (
                           <>
@@ -165,7 +162,7 @@ function AboutMeEducation() {
                         )}
                       </div>
                     </div>
-                    {item.id > 5 ? <div className={"locked locked" + item.id}></div> : null}
+                    {item.id > 6 ? <div className={"locked locked" + item.id}></div> : null}
                   </motion.li>
                 </AnimatePresence>
 
@@ -214,7 +211,7 @@ function AboutMeEducation() {
                               }
                             >
                               {educationDatas[isVisible].title}{" "}
-                              {educationDatas[isVisible].id > 5 ? "🔒" : null}
+                              {educationDatas[isVisible].id > 6 ? "🔒" : null}
                             </h1>
                             <p className="itemTitleIcon-Responsive">
                               {educationDatas[isVisible].avatar}
@@ -311,7 +308,7 @@ function AboutMeEducation() {
           >
             <h1>👈</h1>
             <p>
-              Select one character to discover a piece of my Education Path!
+              Select one of the listed characters to discover a piece of my Education Path!
             </p>
           </motion.div>
         ) : (
@@ -338,13 +335,11 @@ function AboutMeEducation() {
                   >
                     <h1 className="itemContentTitleItem">
                       {educationDatas[isVisible].title}{" "}
-                      {educationDatas[isVisible].id > 5 ? (
+                      {educationDatas[isVisible].id > 6 ? (
                         <p className="EducationHighScore">🔒</p>
                       ) : null}
-                      {educationDatas[isVisible].id === 4 ? (
-                        <p className="EducationHighScore">🔥</p>
-                      ) : null}
-                      {educationDatas[isVisible].id === 5 ? (
+                      {educationDatas[isVisible].id > 4
+                      && educationDatas[isVisible].id < 7 ? (
                         <p className="EducationHighScore">🔥</p>
                       ) : null}
                     </h1>

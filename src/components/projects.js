@@ -2,6 +2,57 @@ import { Link } from "react-router-dom";
 
 export const projects = [
   {
+    id: 21,
+    url: "ation-tech-service-platform",
+    title: "Ation Tech | Service Platform",
+    location: "Milano, Italy",
+    tag: ["Software Development", "UI", "UX", "Web Development"],
+    client: "Avid Technology",
+    avatar: [require("../assets/Ation-Tech-Service-Platform_Avatar.png")],
+    images: [
+      require("../assets/Ation-Tech-Service-Platform_Homepage.png"),
+    ],
+    videos: [],
+    embeds: [
+      {
+        url: "https://www.linkedin.com/posts/ation-tech_the-future-of-broadcast-automation-activity-7406996601010864128-AE_K?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEbX_oBJgZZ8ssByYK6M98tWHh6wplK1PQ",
+        title: "Ation Tech continues to evolve",
+        subtitle: "Expanding the Ation Service Platform into a broader ecosystem of automation, intelligence, and scalability.",
+        thumbnail: require("../assets/Ation-Tech-Service-Platform_Video-thumbnail.png"),
+      },
+      {
+        url: "https://www.linkedin.com/posts/ation-tech_ation-service-platform-202511-activity-7404467738313846784-_402?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEbX_oBJgZZ8ssByYK6M98tWHh6wplK1PQ",
+        title: "Ation Tech | Service Platform - latest release",
+        subtitle: "The latest release introduces major upgrades designed for modern broadcast infrastructures.",
+        thumbnail: require("../assets/Ation-Tech-Service-Platform_Video-thumbnail.png"),
+      },
+      {
+        url: "https://www.linkedin.com/posts/ation-tech_automation-you-can-trust-activity-7400111232554401792-7DQk?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEbX_oBJgZZ8ssByYK6M98tWHh6wplK1PQ",
+        title: "Reliability and security, the core of Ation Tech.",
+        subtitle: "Every automation routine — from reboots to validation checks — is designed to ensure consistency, transparency, and control.",
+        thumbnail: require("../assets/Ation-Tech-Service-Platform_Video-thumbnail.png"),
+      },
+    ],
+    graphicToolsUsed: ["Figma"],
+    codingToolsUsed: ["HTML", "CSS", "Javascript", "Vue", "Git", "Golang", "PostgreSQL", "Docker", "Linux"],
+    description: [
+      "Visit ", 
+      <Link to="https://ation.it" target="_blank" key={0}> Ation Tech website </Link>, " to learn more about the Ation Service Platform. Or click on the video links up here, to watch some videos about the project on LinkedIn.", 
+      <br key={0} />,
+      <br key={1} />,
+      "This project is developed as part of my full-time role at Avid Technology (Avid Italy Srl), where I work as a Junior Software Developer within a small development team. I contribute to the development of a production-ready enterprise software platform designed to support complex media operations in professional broadcast environments.",
+      <br key={2} />,
+      <br key={3} />,
+      "My primary responsibility is the design and implementation of the front-end, where I take care of both UI and UX, defining interaction flows and translating operational requirements into clear, usable interfaces. Alongside front-end development, I also work on the back end, updating and improving specific API components and ensuring their effective integration with the front-end application. The development is carried out in close collaboration with a senior developer, within a compact team structure that requires a high level of ownership and direct involvement across different areas of the system.",
+      <br key={4} />,
+      <br key={5} />,
+      "Throughout the project, I gain hands-on experience with modern software development practices, working with Linux-based systems, virtual machines, and containerized environments used in professional infrastructures. This experience allows me to grow beyond a purely front-end role, strengthening my understanding of the full application stack while maintaining a strong focus on usability, reliability, and maintainability.",
+      <br key={6} />,
+      <br key={7} />,
+      "All work on this project is carried out as part of my employment at Avid Technology (Avid Italy Srl). All intellectual property and product rights belong to the company.",
+    ],
+  },
+  {
     id: 20,
     url: "european-aerosols-magazine-advert",
     title: "European Aerosols: Magazine Advert",

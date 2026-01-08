@@ -8,7 +8,7 @@ export const codingTools = [
         src={require("../assets/HTML5_logo_and_wordmark.svg").default}
       ></img>
     ),
-    rate: "75%",
+    rate: "90%",
   },
   {
     name: "CSS",
@@ -19,7 +19,7 @@ export const codingTools = [
         src={require("../assets/CSS3_logo_and_wordmark.png")}
       ></img>
     ),
-    rate: "75%",
+    rate: "90%",
   },
   {
     name: "Javascript",
@@ -30,7 +30,7 @@ export const codingTools = [
         src={require("../assets/Js.svg").default}
       ></img>
     ),
-    rate: "75%",
+    rate: "85%",
   },
   {
     name: "React",
@@ -41,7 +41,7 @@ export const codingTools = [
         src={require("../assets/React-icon.svg").default}
       ></img>
     ),
-    rate: "75%",
+    rate: "85%",
   },
   {
     name: "Vue",
@@ -52,7 +52,7 @@ export const codingTools = [
         src={require("../assets/React-icon.svg").default}
       ></img>
     ),
-    rate: "75%",
+    rate: "85%",
   },
   {
     name: "Python",
@@ -63,7 +63,7 @@ export const codingTools = [
         src={require("../assets/React-icon.svg").default}
       ></img>
     ),
-    rate: "30%",
+    rate: "40%",
   },
   {
     name: "Ansible",
@@ -74,7 +74,7 @@ export const codingTools = [
         src={require("../assets/React-icon.svg").default}
       ></img>
     ),
-    rate: "25%",
+    rate: "40%",
   },
   {
     name: "NodeJS",
@@ -85,6 +85,21 @@ export const codingTools = [
         src={require("../assets/Node.js_logo.svg").default}
       ></img>
     ),
+    rate: "40%",
+  },
+  {
+    name: "Golang",
+    icon: "",
+    rate: "35%",
+  },
+  {
+    name: "Docker",
+    icon: "",
+    rate: "25%",
+  },
+  {
+    name: "Kubernetes",
+    icon: "",
     rate: "25%",
   },
   {
@@ -96,7 +111,7 @@ export const codingTools = [
         src={require("../assets/Express_Logo.png")}
       ></img>
     ),
-    rate: "35%",
+    rate: "40%",
   },
   {
     name: "MongoDB",
@@ -107,7 +122,7 @@ export const codingTools = [
         src={require("../assets/MongoDB_Logo.svg").default}
       ></img>
     ),
-    rate: "30%",
+    rate: "35%",
   },
   {
     name: "Git",
@@ -118,6 +133,6 @@ export const codingTools = [
         src={require("../assets/Git-logo.svg").default}
       ></img>
     ),
-    rate: "75%",
+    rate: "85%",
   },
 ];

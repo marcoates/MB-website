@@ -1,8 +1,10 @@
-import React, { useParams } from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
 import { projects } from "../components/projects";
 import ProjectImages from "../components/ProjectImages";
 import ProjectsInfoBar from "../components/ProjectsInfoBar";
-import Portfolio from "../components/Portfolio"
+import Portfolio from "../components/Portfolio";
+import ProjectEmbeds from "../components/ProjectEmbeds";
 
 export function Project() {
 
@@ -18,6 +20,7 @@ export function Project() {
       <div className="projectContainer">
 
         <ProjectImages name={name} />
+        <ProjectEmbeds name={name} />
 
         <h1 className="projectInfoBarTitle">
           {project.title}

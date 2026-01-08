@@ -169,11 +169,11 @@ export const workDatas = [
     graphicTools: "",
     codingTools: "",
     content:[
-      "Driven by a fervent zeal for design, I transitioned from a seasoned Freelance Graphic Designer to an aspiring Web Developer. My foundation in Graphic Design has sharpened my artistic flair and meticulous attention to detail.",
+      "Driven by a fervent zeal for design, I transitioned from a seasoned Freelance Graphic Designer to a Software Developer. My foundation in Graphic Design has sharpened my artistic flair and meticulous attention to detail.",
       <br key={0} />, <br key={1} />,
-      "Currently, I'm plunging into the dynamic realm of Web Development, armed with a repertoire of cutting-edge Front-End capabilities. My appetite for challenges and unwavering commitment to growth propel me forward; I'm determined to excel and lead in every new arena I venture into.",
+      "Currently, I'm plunging into the dynamic realm of Coding, armed with a repertoire of cutting-edge Front-End capabilities. My appetite for challenges and unwavering commitment to growth propel me forward; I'm determined to excel and lead in every new arena I venture into.",
       <br key={2} />, <br key={3} />,
-      "Beyond my current pursuits, I'm continuously enhancing my Visual Tools Skills. Recently, I've embarked on a journey into the 3D world with Blender, and I'm captivated by its potential—it's quickly becoming a new passion of mine. Together, let's push boundaries and craft innovative solutions!",
+      "Beyond my current pursuits, I'm continuously enhancing my skills. Together, let's push boundaries and craft innovative solutions!",
     ]
   },
 ];

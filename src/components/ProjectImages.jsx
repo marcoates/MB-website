@@ -99,10 +99,9 @@ function ProjectImages(props) {
                   </div>
                 ))}
                 {/* Render videos if any */}
-                {item.videos &&
-                  item.videos.map((videoSrc, vi) => (
+                {item.videos?.map((vid, i) => (
                     <div
-                      key={vi}
+                      key={i}
                       className={"projectVideoItem projectVideoItem" + item.id}
                     >
                       <video
@@ -111,18 +110,18 @@ function ProjectImages(props) {
                         loop
                         muted
                         playsInline
-                        key={vi}
+                        key={i}
                       >
-                        <source src={videoSrc} type="video/mp4" />
+                        <source src={vid} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                  ))}
+                  )
+                )}
               </>
             );
           }
         }
-        // If no conditions are met, return null
         return null;
       })}
     </div>

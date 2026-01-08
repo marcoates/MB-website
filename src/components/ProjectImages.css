@@ -96,112 +96,35 @@
 
 .projectImagesItem21:first-child {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 8;
   box-shadow: none;
 }
 
-.projectImagesItem21:nth-child(2) {
-  grid-column-start: 5;
-  grid-column-end: 8;
-}
-
-.projectImagesItem21:nth-child(3) {
+.projectVideoItem21 {
   grid-column-start: 2;
-  grid-column-end: 8;
+  grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-start: 3;
-  box-shadow: none;
+  grid-row-end: 4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.projectImagesItem21:nth-child(4) {
-  grid-column-start: 5;
-  grid-column-end: 8;
-  grid-row-start: 3;
-  grid-row-start: 4;
+.projectVideoItem21 iframe {
+  width: 504px;   /* dimensione fissa richiesta da LinkedIn */
+  height: 600px;  /* abbastanza alta per mostrare tutto il post */
+  border: 0;
+  overflow: hidden;
 }
 
-.projectImagesItem21:nth-child(5) {
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 5;
-  grid-row-start: 6;
-}
-
-.projectImagesItem21:nth-child(6) {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-start: 4;
-}
-
-.projectImagesItem21:nth-child(7) {
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 6;
-  grid-row-start: 7;
-}
-
-.projectImagesItem21:nth-child(8) {
-  grid-column-start: 6;
-  grid-column-end: 8;
-  grid-row-start: 6;
-  grid-row-start: 7;
-}
 
 @media only screen and (max-width: 900px) {
   
   .projectImagesItem21:first-child {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 9;
     box-shadow: none;
-  }
-  
-  .projectImagesItem21:nth-child(2) {
-    grid-column-start: 5;
-    grid-column-end: 9;
-  }
-  
-  .projectImagesItem21:nth-child(3) {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 2;
-    grid-row-start: 3;
-    box-shadow: none;
-  }
-  
-  .projectImagesItem21:nth-child(4) {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-start: 4;
-  }
-  
-  .projectImagesItem21:nth-child(5) {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-start: 6;
-  }
-  
-  .projectImagesItem21:nth-child(6) {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-start: 4;
-  }
-  
-  .projectImagesItem21:nth-child(7) {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-start: 7;
-  }
-  
-  .projectImagesItem21:nth-child(8) {
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-start: 7;
   }
 
 }

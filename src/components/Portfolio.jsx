@@ -60,7 +60,7 @@ function Portfolio() {
       <motion.ul className="imagesBox">
         <AnimatePresence>
           {projectsShown.map((item, index) => (
-            <Link to={"/project/" + convertToSlug(item.title)}
+            <Link to={"/project/" + item.url}
               key={item.id}>
             <motion.li
               layout

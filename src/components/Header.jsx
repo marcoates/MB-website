@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -13,9 +13,11 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 function Header() {
 
   const [click, clickSet] = useState(false);
-  
   const [show, setShow] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const lastScrollYRef = useRef(0);
+  const showRef = useRef(true);
+  const rafIdRef = useRef(null);
 
   const isSmallScreen = useMediaQuery("(max-width:600px)");
 
@@ -59,38 +61,51 @@ function Header() {
   };
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
 
-  const controlNavbar = () => {
-    if (typeof window !== 'undefined') { 
-      if (lastScrollY < 0) {
-        setShow(true);
-      } else if (lastScrollY > window.innerHeight) {
-        setShow(true);
-      }else if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
-        setShow(false);
-        clickSet(false);
-      }else { // if scroll up show the navbar
-        setShow(true);  
-      }
+    const HIDE_OFFSET = 80; // px di scroll prima di poter nascondere
+    const DELTA = 15;        // soglia di movimento per cambiare stato
 
-      // remember current page location to use in the next move
-      setLastScrollY(window.scrollY); 
-    }
-  };
+    const handleScroll = () => {
+      if (rafIdRef.current) return;
 
-    if (typeof window !== 'undefined') {
-      window.addEventListener('scroll', controlNavbar);
+      rafIdRef.current = requestAnimationFrame(() => {
+        const currentY = window.scrollY;
+        const lastY = lastScrollYRef.current;
+        const delta = currentY - lastY;
 
-      // cleanup function
-      return () => {
-        window.removeEventListener('scroll', controlNavbar);
-      };
-    }
-  }, [lastScrollY]);
+        let nextShow = showRef.current;
+
+        if (currentY < HIDE_OFFSET) {
+          nextShow = true;
+        } else if (delta > DELTA) {
+          nextShow = false; // scroll down
+          clickSet(false);
+        } else if (delta < -DELTA) {
+          nextShow = true; // scroll up
+        }
+
+        if (nextShow !== showRef.current) {
+          showRef.current = nextShow;
+          setShow(nextShow);
+        }
+
+        lastScrollYRef.current = currentY;
+        rafIdRef.current = null;
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (rafIdRef.current) cancelAnimationFrame(rafIdRef.current);
+    };
+  }, []);
 
   return (
     <>
-      <header className={ show ? "headerShow" : "headerHide"}>
+      <header className={`header ${show ? "header--show" : "header--hide"}`}>
       <div className="headerContentContainer">
         <img alt="logo" src={require("../assets/Stondato.png")}></img>
 

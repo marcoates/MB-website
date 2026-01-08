@@ -11,7 +11,7 @@ function Faq() {
       id: 0,
       title: "Tell me something about yourself...",
       content:
-        "I am a reserved individual with a deep love for fitness and nature. Beyond my professional pursuits, my passions include sports and music, with a special affinity for football, particularly as a devoted Juventus fan. During my leisure hours, I cherish meaningful conversations and tranquil moments, preferring quiet gatherings to noisy parties, although I do enjoy dancing. While I appreciate good food and the opportunity to travel, I maintain a balanced approach, finding joy in these experiences without becoming overly fixated on them.",
+        "I am a reserved individual with a deep love for fitness and nature. Beyond my professional pursuits, my passions include sports and music, with a special affinity for football, particularly as a devoted Juventus fan. During my leisure hours, I cherish meaningful conversations and tranquil moments, preferring quiet gatherings to noisy parties. While I appreciate good food and the opportunity to travel, I maintain a balanced approach, finding joy in these experiences without becoming overly fixated on them.",
     },
     {
       id: 1,
@@ -29,7 +29,7 @@ function Faq() {
       id: 3,
       title: "Which kind of work environment suits best with you?",
       content:
-        "I champion flexibility, sustainability, and respect within my professional ethos, striving for a harmonious work-life balance that embraces remote work — allowing me the freedom to live and work from any location. Personal growth is paramount; I seek to collaborate with individuals who inspire excellence and offer opportunities for learning and advancement.",
+        "I champion flexibility, sustainability, and respect within my professional ethos, striving for a harmonious work-life balance that embraces remote work, allowing me the freedom to live and work from any location. Personal growth is paramount; I seek to collaborate with individuals who inspire excellence and offer opportunities for learning and advancement.",
     },
   ];
 

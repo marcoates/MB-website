@@ -135,13 +135,18 @@
 }
 
 .itemTitle6 {
-  background-color: var(--gray);
+  background-color: var(--darkGray);
   color: white;
 }
 
 .itemTitle7 {
+  background-color: var(--darkGray);
+  color: white;
+}
+
+.itemTitle8 {
   border-radius: 0 0 10px 10px;
-  background-color: var(--gray);
+  background-color: var(--darkGray);
   color: white;
 }
 
@@ -154,7 +159,6 @@
 }
 
 .itemTitleText {
-  color: white;
   transition: 0.3s;
 }
 
@@ -183,7 +187,7 @@
   padding: 100px;
   align-items: center;
   gap: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--gray);
   justify-content: center;
   overflow: hidden;
@@ -409,16 +413,21 @@
 
 .locked7 {
   opacity: 0.75;
+}
+
+.locked8 {
+  opacity: 0.75;
   border-radius: 0px 0px 10px 10px;
 }
 
 .lockedIcon {
+  padding: 5px;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 2rem;
-  height: 2rem;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.726);
   z-index: 1000;

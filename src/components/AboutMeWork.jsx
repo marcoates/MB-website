@@ -92,7 +92,7 @@ function AboutMeWork() {
               },
             }}
           >
-            <p>Select one Work Experience to discover more about it!</p>
+            <p>Select one of the listed Work Experiences to discover more about it!</p>
             <h1>👉</h1>
           </motion.div>
         ) : (

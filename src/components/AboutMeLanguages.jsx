@@ -18,7 +18,12 @@ function AboutMeLanguages() {
       title: [
         <StarIcon key={0} style={{ color: "var(--red)" }} />,
         <StarIcon key={1} style={{ color: "var(--red)" }} />,
-        <p key={2} className="LanguageName">🇮🇹</p>,
+        <img
+          key={2}
+          className="LanguageFlag"
+          src={require("../assets/italyFlag.png")}
+          alt="Italian flag"
+        />,
         <StarIcon key={3} style={{ color: "var(--red)" }} />,
         <StarIcon key={4} style={{ color: "var(--red)" }} />,
       ],
@@ -30,7 +35,12 @@ function AboutMeLanguages() {
       title: [
         <StarIcon key={0} style={{ color: "var(--red)" }} />,
         <StarIcon key={1} style={{ color: "var(--red)" }} />,
-        <p key={2} className="LanguageName">🇬🇧</p>,
+        <img
+          key={2}
+          className="LanguageFlag"
+          src={require("../assets/engFlag.png")}
+          alt="UK flag"
+        />,
         <StarIcon key={3} style={{ color: "var(--red)" }} />,
         <StarIcon key={4} style={{ color: "var(--lightRed)" }} />,
       ],
@@ -42,7 +52,12 @@ function AboutMeLanguages() {
       title: [
         <StarIcon key={0} style={{ color: "var(--red)" }} />,
         <StarIcon key={1} style={{ color: "var(--lightRed)" }} />,
-        <p key={2} className="LanguageName">🇪🇸</p>,
+        <img
+          key={2}
+          className="LanguageFlag"
+          src={require("../assets/spainFlag.png")}
+          alt="Spanish flag"
+        />,
         <StarIcon key={3} style={{ color: "var(--lightRed)" }} />,
         <StarIcon key={4} style={{ color: "var(--lightRed)" }} />,
       ],

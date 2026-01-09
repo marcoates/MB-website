@@ -209,7 +209,7 @@ function AboutMeWork() {
                   >
                     <div
                       className={
-                        isVisible === index
+                        isVisible === item.id
                           ? "AboutMeWorkitemTitleClicked AboutMeWorkitemTitleClicked" +
                             index
                           : "AboutMeWorkitemTitle AboutMeWorkitemTitle" + index
@@ -250,7 +250,7 @@ function AboutMeWork() {
                       <motion.div
                         layout
                         className="AboutMeWorkitemContentContainer"
-                        key={workDatas[isVisible].id}
+                        key={item.id}
                         variants={isSmallScreen ? variantsResponsive : variants}
                         animate={"show"}
                         initial="hide"
@@ -259,17 +259,17 @@ function AboutMeWork() {
                         <ul className="AboutMeWorkitemContentList">
                           <ul className="AboutMeWorkitemContentTitleList">
                             <h1 className="AboutMeWorkitemContentTitleItem">
-                              {workDatas[isVisible].title}
+                              {item.title}
                             </h1>
                             <img
                               alt="workplace-logo-img"
                               className="AboutMeWorkitemTitleInnerIcon"
-                              src={workDatas[isVisible].icon}
+                              src={item.icon}
                             ></img>
                           </ul>
                           <ul className="AboutMeWorkitemContentItem">
                             <ul className="AboutMeWorkitemContentItemList">
-                              {workDatas[isVisible].date === "" ? null : (
+                              {item.date === "" ? null : (
                                 <li className="itemContentItemListContent">
                                   <CalendarMonthIcon
                                     style={{
@@ -280,10 +280,10 @@ function AboutMeWork() {
                                       backgroundColor: "var(--lightRed)",
                                     }}
                                   />
-                                  <p>{workDatas[isVisible].date}</p>
+                                  <p>{item.date}</p>
                                 </li>
                               )}
-                              {workDatas[isVisible].location === "" ? null : (
+                              {item.location === "" ? null : (
                                 <li className="itemContentItemListContent">
                                   <LocationOnIcon
                                     style={{
@@ -294,38 +294,40 @@ function AboutMeWork() {
                                       backgroundColor: "var(--lightRed)",
                                     }}
                                   />
-                                  <p>{workDatas[isVisible].location}</p>
+                                  <p>{item.location}</p>
                                 </li>
                               )}
-                              <li className="itemContentItemListContentTools">
-                                <AutoFixHighIcon
-                                  fontSize="none"
-                                  className="EducationDatasToolIcon"
-                                />
-                                <ul className="AboutMeWorktoolList">
-                                  {workDatas[isVisible].graphicTools.map(
-                                    (item, index) => (
-                                      <li key={index} className="GraphicTool">
-                                        {item}
-                                      </li>
-                                    )
-                                  )}
-                                  {workDatas[isVisible].codingTools.map(
-                                    (item, index) => (
-                                      <li key={index} className="CodingTool">
-                                        {item}
-                                      </li>
-                                    )
-                                  )}
-                                </ul>
-                              </li>
-                              {workDatas[isVisible].content === "" ? null : (
+                              {Array.isArray(item.graphicTools) && item.graphicTools.length > 0 ? (
+                                <li className="itemContentItemListContentTools">
+                                  <AutoFixHighIcon
+                                    fontSize="none"
+                                    className="EducationDatasToolIcon"
+                                  />
+                                  <ul className="AboutMeWorktoolList">
+                                    {item.graphicTools.map(
+                                      (tool, idx) => (
+                                        <li key={idx} className="GraphicTool">
+                                          {tool}
+                                        </li>
+                                      )
+                                    )}
+                                    {Array.isArray(item.codingTools) && item.codingTools.map(
+                                      (tool, idx) => (
+                                        <li key={idx} className="CodingTool">
+                                          {tool}
+                                        </li>
+                                      )
+                                    )}
+                                  </ul>
+                                </li>
+                              ) : null}
+                              {item.content === "" ? null : (
                                 <li className="AboutMeWorkdescriptionContainer">
                                   <p className="AboutMeWorkdescriptionTitle">
                                     Description:
                                   </p>
                                   <p className="AboutMeWorkdescription">
-                                    {workDatas[isVisible].content}
+                                    {item.content}
                                   </p>
                                 </li>
                               )}

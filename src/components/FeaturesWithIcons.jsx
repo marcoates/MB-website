@@ -14,17 +14,27 @@ function FeaturesWithIcons() {
   const features = [
     {
       id: "features0",
+      icon: "🔮",
+      title: "CODING",
+      content: [
+        "I'm a Software Developer",
+        <br />,
+        "Working mainly on front-end development, while contributing to back-end features. Learn more in the About Me section.",
+      ],
+    },
+    {
+      id: "features1",
       // icon: "👔",
       icon: <DiamondIcon fontSize="medium" sx={{ color: "var(--red)" }} />,
       title: "BRANDING",
       content: [
-        "Do you need a new logo?",
+        "I can also design your logo!",
         <br />,
         "We can figure out together how to boost up your brand image creating a sign that people will remember!",
       ],
     },
     {
-      id: "features1",
+      id: "features2",
       // icon: "✏️",
       icon: <CreateIcon fontSize="medium" sx={{ color: "var(--red)" }} />,
       title: "ILLUSTRATION",
@@ -34,8 +44,8 @@ function FeaturesWithIcons() {
         "Have a look on my style of drawing and just let me turn your ideas into pixels or even vectors!",
       ],
     },
-    {
-      id: "features2",
+    { 
+      id: "features3",
       // icon: "📱",
       icon: <WebIcon fontSize="medium" sx={{ color: "var(--red)" }} />,
       title: "WEB DESIGN",
@@ -43,16 +53,6 @@ function FeaturesWithIcons() {
         "Your new e-commerce?",
         <br />,
         "From blogs, portfolios and corporate to e-commerce, let me know how you want me to help you!",
-      ],
-    },
-    {
-      id: "features3",
-      icon: "🔮",
-      title: "CODING",
-      content: [
-        "Now Coding too!",
-        <br />,
-        "Skilled in front-end web development, I also handle some back-end. Discover more through the About Me Page!",
       ],
     },
   ];
@@ -112,7 +112,7 @@ function FeaturesWithIcons() {
             whileInView={
               isSmallScreen
                 ? { opacity: 1, x: [-10, 10, 0] }
-                : index === 3
+                : index === 0
                 ? {
                   opacity: [0, 1, 1],
                     y: [5, -5, 5],
@@ -142,12 +142,12 @@ function FeaturesWithIcons() {
                     times: [0, 0.5, 1],
                     type: "spring",
                     bounce: 0.5,
-                    delay: index === 3 ? index / 3 : index / 5,
+                    delay: index === 0 ? index / 3 : index / 5,
                     y: {
                       duration: 1.5,
                       ease: "easeInOut",
                       times: [0, 0.5, 1],
-                      repeat: index === 3 ? Infinity : 0
+                      repeat: index === 0 ? Infinity : 0
                     }
                   }
             }

@@ -54,7 +54,7 @@
   gap: 15px;
 }
 
-.titleContainer:nth-of-type(4) {
+.titleContainer:nth-of-type(1) {
   color: white;
   border-radius: 15px;
   background-image: linear-gradient(to bottom, #3c3c3c, #292625);
@@ -62,23 +62,23 @@
   /* box-shadow: 0px 5px 20px #00f7ffad; */
 }
 
-.titleContainer:nth-of-type(4):active p{
+.titleContainer:nth-of-type(1):active p{
   color: white;
 }
 
-.titleContainer:nth-of-type(4):active .FeatureContent .subtitle p{
+.titleContainer:nth-of-type(1):active .FeatureContent .subtitle p{
   color: var(--gray);
 }
 
-.titleContainer:nth-of-type(4) .introSubtitleIcon {
+.titleContainer:nth-of-type(1) .introSubtitleIcon {
   font-size: 1.5rem;
 }
 
-.titleContainer:nth-of-type(4) .FeatureTitletopBar{
+.titleContainer:nth-of-type(1) .FeatureTitletopBar{
   background-image: linear-gradient(to bottom, var(--red), var(--darkRed) );
 }
 
-.titleContainer:nth-of-type(4) .FeatureTitletopBar .servicesTitle{
+.titleContainer:nth-of-type(1) .FeatureTitletopBar .servicesTitle{
   color: white;
 }
 

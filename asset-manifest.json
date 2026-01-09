@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.90679748.css",
+    "main.css": "/static/css/main.fdf1a001.css",
     "main.js": "/static/js/main.0e6cc4fa.js",
     "static/media/Rendering-Mockup-2.png": "/static/media/Rendering-Mockup-2.cd6ba2fc9aff48e24f1d.png",
     "static/media/Rendering-Mockup-1.png": "/static/media/Rendering-Mockup-1.cbf254fc8a5c9be71308.png",
@@ -135,11 +135,11 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/Elementor-Logo-Symbol-Red.svg": "/static/media/Elementor-Logo-Symbol-Red.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.90679748.css.map": "/static/css/main.90679748.css.map",
+    "main.fdf1a001.css.map": "/static/css/main.fdf1a001.css.map",
     "main.0e6cc4fa.js.map": "/static/js/main.0e6cc4fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.90679748.css",
+    "static/css/main.fdf1a001.css",
     "static/js/main.0e6cc4fa.js"
   ]
 }

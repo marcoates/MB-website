@@ -7,11 +7,11 @@ const YoutubeEmbed = ({ embedId }) => (
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/IH4V_e08UhA?si=meuEZOOo_3seCLL6"
+      src={`https://www.youtube-nocookie.com/embed/${embedId}`}
       title="YouTube video player"
-      frameborder="0"
+      frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
+      allowFullScreen
     ></iframe>
   </div>
 );

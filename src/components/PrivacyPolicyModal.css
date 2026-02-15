@@ -1,0 +1,112 @@
+/* ---------------------------------------> PRIVACY POLICY MODAL */
+
+.privacyPopupContainer {
+    max-width: 650px;
+    width: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacyPopupBody {
+    padding: 25px 35px 35px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.privacyLastUpdated {
+    font-size: 0.85rem;
+    color: var(--midGray);
+    margin-bottom: 20px;
+}
+
+.privacySection {
+    margin-bottom: 20px;
+}
+
+.privacySection h2 {
+    font-size: 1.1rem;
+    color: var(--darkGray);
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.privacySection p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: var(--gray);
+}
+
+.privacySection ul {
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.privacySection li {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--gray);
+}
+
+.privacySection a {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+.privacySection a:hover {
+    color: var(--darkRed);
+}
+
+.privacySection code {
+    background-color: var(--lightGray);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+/* Trigger button (used in Footer) */
+.privacyPolicyTrigger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--midGray);
+    font-family: "Dosis", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 200;
+    padding: 0;
+    transition: color 0.3s;
+}
+
+.privacyPolicyTrigger:hover {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+/* Privacy link in contact modal checkbox */
+.privacyLinkButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--red);
+    text-decoration: underline;
+    font-family: "Dosis", sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+}
+
+.privacyLinkButton:hover {
+    color: var(--darkRed);
+}
+
+@media only screen and (max-width: 768px) {
+    .privacyPopupContainer {
+        width: 85%;
+        max-height: 75vh;
+    }
+
+    .privacyPopupBody {
+        padding: 20px;
+    }
+}

@@ -9,6 +9,7 @@ import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useMediaQuery } from "@mui/material";
 import emailjs from "@emailjs/browser";
+import PrivacyPolicyModal from "./PrivacyPolicyModal";
 
 export default function Modal(props) {
   const [popupClick, popupClickSet] = useState(false);
@@ -164,7 +165,14 @@ export default function Modal(props) {
                       <input type="checkbox" style={{height: isSmallScreen && "25px", width: isSmallScreen && "25px"}}></input>
                       <label>
                         I consent to having this website store my submitted
-                        information so they can respond to my inquiry.
+                        information so they can respond to my inquiry. See the{" "}
+                        <PrivacyPolicyModal
+                          trigger={
+                            <button type="button" className="privacyLinkButton">
+                              Privacy Policy
+                            </button>
+                          }
+                        />.
                       </label>
                     </div>
                     <button className="popupSend">SEND</button>

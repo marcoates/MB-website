@@ -5,6 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
+import PrivacyPolicyModal from "./PrivacyPolicyModal";
 // import Faq from "./Faq";
 
 function Footer() {
@@ -42,6 +43,7 @@ function Footer() {
           </ul>
         </div>
         <div className="socialListContainer">
+          <PrivacyPolicyModal />
           <ul className="socialList">
             {socialElements.map((item, index) => (
               <Link to={item.link} target="_blank" key={item.id}>

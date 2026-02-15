@@ -22,7 +22,7 @@ function ProjectImages(props) {
                 }
                 key={index}
               >
-                <YoutubeEmbed name={props.name} key={item.id} />
+                <YoutubeEmbed embedId="IH4V_e08UhA" key={item.id} />
               </div>
             );
           } else if (
